@@ -90,7 +90,7 @@ export default function WorldMap({ pins, continents, base }: Props) {
 
           {/* Continental markers (larger, labeled) */}
           {continents.map(({ slug, map }) => {
-            if (!map.geo_lat || !map.geo_lng) return null;
+            if (map.geo_lat == null || map.geo_lng == null) return null;
             return (
               <Marker
                 key={slug}
@@ -116,7 +116,7 @@ export default function WorldMap({ pins, continents, base }: Props) {
 
           {/* Regional pins */}
           {pins.map(({ slug, map }) => {
-            if (!map.geo_lat || !map.geo_lng) return null;
+            if (map.geo_lat == null || map.geo_lng == null) return null;
             return (
               <Marker
                 key={slug}

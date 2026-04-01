@@ -17,8 +17,9 @@ const earthMaps = Object.entries(data).filter(([, m]) =>
   m.category === 'continental' || m.category === 'regional'
 );
 const globalMaps = earthMaps.filter(([, m]) => m.geo_type === 'global');
-const continentMaps = earthMaps.filter(([, m]) => m.geo_type === 'continent' && m.geo_lat && m.geo_lng).map(([slug, map]) => ({ slug, map }));
-const regionalPins = earthMaps.filter(([, m]) => m.geo_type === 'regional' && m.geo_lat && m.geo_lng).map(([slug, map]) => ({ slug, map }));
+const hasGeo = (m: { geo_lat?: number; geo_lng?: number }) => m.geo_lat != null && m.geo_lng != null;
+const continentMaps = earthMaps.filter(([, m]) => m.geo_type === 'continent' && hasGeo(m)).map(([slug, map]) => ({ slug, map }));
+const regionalPins = earthMaps.filter(([, m]) => m.geo_type === 'regional' && hasGeo(m)).map(([slug, map]) => ({ slug, map }));
 const continentals = earthMaps.filter(([, m]) => m.category === 'continental');
 const regionals = earthMaps.filter(([, m]) => m.category === 'regional');
 ---
