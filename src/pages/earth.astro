@@ -60,7 +60,7 @@ const regionals = earthMaps.filter(([, m]) => m.category === 'regional');
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
     <div class="text-xs uppercase tracking-widest mb-3 font-medium" style="color: var(--text-muted);">{t(lang, 'earth.mapNote')}</div>
     <div class="hidden md:block">
-      <WorldMap client:load pins={regionalPins} continents={continentMaps} base={prefix} />
+      <WorldMap client:load pins={regionalPins} continents={continentMaps} routeBase={prefix} assetBase={base} />
     </div>
     <div class="md:hidden text-sm text-center py-6 rounded-xl border" style="color: var(--text-muted); border-color: var(--border); background: var(--surface);">
       {t(lang, 'earth.mobileNote')}

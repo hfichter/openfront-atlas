@@ -19,7 +19,8 @@ interface MapPin {
 interface Props {
   pins: MapPin[];        // regional maps (geo_type = "regional")
   continents: MapPin[];  // continental maps (geo_type = "continent")
-  base: string;
+  routeBase: string;
+  assetBase: string;
 }
 
 // Rough continent bounding boxes for highlight — keyed by map slug
@@ -38,7 +39,7 @@ const categoryColor: Record<string, string> = {
   regional: '#34d399',
 };
 
-export default function WorldMap({ pins, continents, base }: Props) {
+export default function WorldMap({ pins, continents, routeBase, assetBase }: Props) {
   const [tooltip, setTooltip] = useState<{
     slug: string;
     map: MapEntry;
@@ -61,8 +62,8 @@ export default function WorldMap({ pins, continents, base }: Props) {
   }, []);
 
   const handleClick = useCallback((slug: string) => {
-    window.location.href = `${base}map/${slug}/`;
-  }, [base]);
+    window.location.href = `${routeBase}map/${slug}/`;
+  }, [routeBase]);
 
   return (
     <div className="relative w-full rounded-xl overflow-hidden border" style={{ background: 'var(--surface)', borderColor: 'var(--border)' }}>
@@ -157,7 +158,7 @@ export default function WorldMap({ pins, continents, base }: Props) {
           }}
         >
           <img
-            src={`${base}thumbnails/${tooltip.slug}.webp`}
+            src={`${assetBase}thumbnails/${tooltip.slug}.webp`}
             alt={tooltip.map.display_name}
             className="w-full rounded-lg mb-2 object-cover"
             style={{ aspectRatio: '16/9' }}
