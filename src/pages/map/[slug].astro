@@ -41,7 +41,6 @@ const color = categoryColor[map.category];
 const freqLabel = frequencyLabel(lang, map.playlist_frequency);
 const isEarth = map.category === 'continental' || map.category === 'regional';
 const isArcadeTournament = map.category === 'arcade' || map.category === 'tournament';
-const showNationOverlay = slug === 'europe';
 ---
 
 <BaseLayout
@@ -67,7 +66,7 @@ const showNationOverlay = slug === 'europe';
             style={`aspect-ratio: ${map.width} / ${map.height};`}
           />
 
-          {showNationOverlay && map.nations && map.nations.length > 0 && (
+          {map.nations && map.nations.length > 0 && (
             <div id="nation-overlay" class="nation-overlay" aria-label="Nation spawn locations">
               {map.nations.map((nation) => (
                 <button
@@ -96,7 +95,7 @@ const showNationOverlay = slug === 'europe';
             </div>
           )}
 
-          {showNationOverlay && map.nations && map.nations.length > 0 && (
+          {map.nations && map.nations.length > 0 && (
             <button
               id="toggle-nation-overlay"
               type="button"
