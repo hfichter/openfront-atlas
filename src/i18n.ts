@@ -199,6 +199,9 @@ export const ui = {
     'wmap.nations': 'nations',
     'wmap.players': 'joueurs',
     'wmap.land': 'terre',
+    'wmap.nations_count': 'nations',
+    'wmap.land_pct': 'terre',
+    'wmap.players_count': 'joueurs',
   },
 } as const;
 
