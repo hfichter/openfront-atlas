@@ -68,7 +68,7 @@ const showNationOverlay = slug === 'europe';
           />
 
           {showNationOverlay && map.nations && map.nations.length > 0 && (
-            <div class="nation-overlay" aria-label="Nation locations overlay">
+            <div id="nation-overlay" class="nation-overlay is-hidden" aria-label="Nation locations overlay" aria-hidden="true">
               {map.nations.map((nation) => (
                 <button
                   type="button"
@@ -77,7 +77,13 @@ const showNationOverlay = slug === 'europe';
                   title={nation.name}
                   aria-label={nation.name}
                 >
-                  <span class="nation-dot"></span>
+                  {nation.flag ? (
+                    <span class="nation-flag-wrap">
+                      <img src={`${base}flags/${nation.flag}.svg`} alt="" class="nation-flag" loading="lazy" />
+                    </span>
+                  ) : (
+                    <span class="nation-dot"></span>
+                  )}
                   <span class="nation-label">{nation.name}</span>
                 </button>
               ))}
@@ -113,9 +119,20 @@ const showNationOverlay = slug === 'europe';
           <StatsBar client:load landPct={map.land_pct} waterPct={map.water_pct} />
         </div>
         {showNationOverlay && (
-          <p class="mt-4 text-sm" style="color: var(--text-muted);">
-            Preview: nation spawn locations are overlaid on this map. Hover a marker to see the nation name.
-          </p>
+          <div class="mt-4 flex flex-wrap items-center gap-3">
+            <button
+              type="button"
+              id="toggle-nation-overlay"
+              class="overlay-toggle"
+              aria-pressed="false"
+              aria-controls="nation-overlay"
+            >
+              Show nations
+            </button>
+            <p class="text-sm" style="color: var(--text-muted);">
+              Hover markers to see nation names. Flags are shown when available.
+            </p>
+          </div>
         )}
       </div>
     </div>
@@ -143,6 +160,37 @@ const showNationOverlay = slug === 'europe';
   )}
 </BaseLayout>
 
+{showNationOverlay && (
+  <script is:inline>
+    (() => {
+      const init = () => {
+        const btn = document.getElementById('toggle-nation-overlay');
+        const overlay = document.getElementById('nation-overlay');
+        if (!btn || !overlay) return;
+
+        const setVisible = (visible) => {
+          overlay.classList.toggle('is-hidden', !visible);
+          overlay.setAttribute('aria-hidden', visible ? 'false' : 'true');
+          btn.setAttribute('aria-pressed', visible ? 'true' : 'false');
+          btn.textContent = visible ? 'Hide nations' : 'Show nations';
+        };
+
+        setVisible(false);
+        btn.addEventListener('click', () => {
+          const visible = overlay.classList.contains('is-hidden');
+          setVisible(visible);
+        });
+      };
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init, { once: true });
+      } else {
+        init();
+      }
+    })();
+  </script>
+)}
+
 <style>
 /* Hero thumbnail — display at native aspect ratio, no upscale blur */
 .hero-thumb-wrap {
@@ -167,6 +215,9 @@ const showNationOverlay = slug === 'europe';
   position: absolute;
   inset: 0;
 }
+.nation-overlay.is-hidden {
+  display: none;
+}
 .nation-marker {
   position: absolute;
   transform: translate(-50%, -50%);
@@ -183,6 +234,22 @@ const showNationOverlay = slug === 'europe';
   background: var(--accent-primary);
   border: 2px solid rgba(255,255,255,0.95);
   box-shadow: 0 0 0 4px rgba(119, 224, 255, 0.2), 0 4px 12px rgba(0,0,0,0.28);
+}
+.nation-flag-wrap {
+  display: block;
+  width: 18px;
+  height: 12px;
+  overflow: hidden;
+  border-radius: 3px;
+  border: 1px solid rgba(255,255,255,0.9);
+  background: var(--surface-elevated);
+  box-shadow: 0 0 0 4px rgba(119, 224, 255, 0.16), 0 4px 12px rgba(0,0,0,0.28);
+}
+.nation-flag {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .nation-label {
   position: absolute;
@@ -212,6 +279,30 @@ const showNationOverlay = slug === 'europe';
 }
 .nation-marker:focus-visible .nation-dot {
   box-shadow: 0 0 0 4px rgba(119, 224, 255, 0.3), 0 0 0 7px rgba(119, 224, 255, 0.18), 0 4px 12px rgba(0,0,0,0.28);
+}
+.nation-marker:focus-visible .nation-flag-wrap {
+  box-shadow: 0 0 0 4px rgba(119, 224, 255, 0.24), 0 0 0 7px rgba(119, 224, 255, 0.14), 0 4px 12px rgba(0,0,0,0.28);
+}
+
+.overlay-toggle {
+  border: 1px solid var(--border-strong);
+  background: var(--surface-elevated);
+  color: var(--text-primary);
+  border-radius: 999px;
+  padding: 0.5rem 0.9rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease, color 0.15s ease;
+}
+.overlay-toggle:hover {
+  border-color: var(--accent-primary);
+  color: var(--accent-primary);
+}
+.overlay-toggle[aria-pressed="true"] {
+  background: color-mix(in srgb, var(--accent-primary) 14%, var(--surface-elevated));
+  border-color: color-mix(in srgb, var(--accent-primary) 45%, var(--border-strong));
+  color: var(--accent-primary);
 }
 
 .stat-box { padding: 0.75rem 1rem; border-radius: 0.625rem; border: 1px solid var(--border); background: var(--surface); }
