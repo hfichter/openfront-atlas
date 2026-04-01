@@ -50,15 +50,15 @@ const showNationOverlay = slug === 'europe';
   lang="en"
   currentPath={`/map/${slug}/`}
 >
-  <div class="max-w-5xl mx-auto px-4 sm:px-6 pt-6">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 pt-6">
     <a href={`${base}${isArcadeTournament ? 'arcade' : isEarth ? 'earth' : 'worlds'}/`} class="inline-flex items-center gap-1.5 text-sm transition-colors" style="color: var(--text-muted);" onmouseover="this.style.color='var(--accent-primary)'" onmouseout="this.style.color='var(--text-muted)'">
       {isArcadeTournament ? t(lang, 'back.arcade') : isEarth ? t(lang, 'back.earth') : t(lang, 'back.worlds')}
     </a>
   </div>
 
-  <section class="max-w-5xl mx-auto px-4 sm:px-6 pt-5 pb-10">
-    <div class="grid grid-cols-1 xl:grid-cols-5 gap-8 items-start">
-      <div class="hero-thumb-wrap rounded-2xl overflow-hidden border xl:col-span-3" style="border-color: var(--border-strong); background: var(--surface);">
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 pt-5 pb-10">
+    <div class="grid grid-cols-1 xl:grid-cols-[3fr_2fr] gap-8 items-start">
+      <div class="hero-thumb-wrap rounded-2xl overflow-hidden border" style="border-color: var(--border-strong); background: var(--surface);">
         <div class="hero-map-stage" style={`aspect-ratio: ${map.width} / ${map.height}; position: relative;`}>
           <img
             src={`${base}thumbnails/${slug}.webp`}
@@ -120,7 +120,7 @@ const showNationOverlay = slug === 'europe';
           )}
         </div>
       </div>
-      <div class="xl:col-span-2">
+      <div>
         <div class="flex items-center gap-2 mb-3">
           <span class="px-2.5 py-0.5 rounded-full text-xs font-medium border" style={`color: ${color}; border-color: ${color}44; background: ${color}11;`}>
             {categoryLabel(lang, map.category)}
@@ -152,18 +152,18 @@ const showNationOverlay = slug === 'europe';
   </section>
 
   {map.nations && map.nations.length > 0 && (
-    <section class="max-w-5xl mx-auto px-4 sm:px-6 mb-12">
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 mb-12">
       <h2 class="section-heading">{t(lang, 'map.nations')} <span class="section-count">{map.nations.length}</span></h2>
       <NationsGrid client:visible nations={map.nations} base={base} />
     </section>
   )}
 
   {Content ? (
-    <section class="max-w-5xl mx-auto px-4 sm:px-6 mb-16">
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 mb-16">
       <div class="editorial-content"><Content /></div>
     </section>
   ) : (
-    <section class="max-w-5xl mx-auto px-4 sm:px-6 mb-16">
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 mb-16">
       <div class="rounded-xl border p-8 text-center" style="border-color: var(--border); background: var(--surface);">
         <div class="text-2xl mb-3">🗺️</div>
         <div class="font-semibold mb-2" style="color: var(--text-primary); font-family: 'Space Grotesk', sans-serif;">{t(lang, 'map.comingSoon')}</div>
