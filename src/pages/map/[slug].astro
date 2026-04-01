@@ -57,8 +57,8 @@ const showNationOverlay = slug === 'europe';
   </div>
 
   <section class="max-w-5xl mx-auto px-4 sm:px-6 pt-5 pb-10">
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
-      <div class="hero-thumb-wrap rounded-2xl overflow-hidden border" style="border-color: var(--border-strong); background: var(--surface);">
+    <div class="grid grid-cols-1 xl:grid-cols-5 gap-8 items-start">
+      <div class="hero-thumb-wrap rounded-2xl overflow-hidden border xl:col-span-3" style="border-color: var(--border-strong); background: var(--surface);">
         <div class="hero-map-stage" style={`aspect-ratio: ${map.width} / ${map.height}; position: relative;`}>
           <img
             src={`${base}thumbnails/${slug}.webp`}
@@ -120,7 +120,7 @@ const showNationOverlay = slug === 'europe';
           )}
         </div>
       </div>
-      <div>
+      <div class="xl:col-span-2">
         <div class="flex items-center gap-2 mb-3">
           <span class="px-2.5 py-0.5 rounded-full text-xs font-medium border" style={`color: ${color}; border-color: ${color}44; background: ${color}11;`}>
             {categoryLabel(lang, map.category)}
