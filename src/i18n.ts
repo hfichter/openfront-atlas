@@ -141,7 +141,7 @@ export const ui = {
     'map.britanniaclassic': 'Grande-Bretagne (Classique)',
     'map.europe': 'Europe',
     'map.europeclassic': 'Europe (Classique)',
-    'map.eastas': 'Asie de l\'Est',
+    'map.eastasia': 'Asie de l\'Est',
     'map.falklandislands': 'Îles Malouines',
     'map.faroeislands': 'Îles Féroé',
     'map.fourislands': 'Quatre Îles',
@@ -226,4 +226,13 @@ export function frequencyLabel(lang: Lang, freq: number): string {
 export function categoryLabel(lang: Lang, cat: string): string {
   const key = `cat.${cat}` as UIKey;
   return t(lang, key);
+}
+
+export function mapLabel(lang: Lang, slug: string, fallback?: string, translated?: string): string {
+  if (lang === 'fr') {
+    const key = `map.${slug}`;
+    const fr = (ui.fr as Record<string, string>)[key];
+    if (fr) return fr;
+  }
+  return translated || fallback || slug;
 }

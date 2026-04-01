@@ -3,7 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import WorldMap from '../components/WorldMap';
 import mapsData from '../data/maps_data.json';
 import type { MapsData } from '../types';
-import { t } from '../i18n';
+import { t, mapLabel } from '../i18n';
 import type { Lang } from '../i18n';
 
 export interface Props { lang?: Lang; }
@@ -45,9 +45,9 @@ const regionals = earthMaps.filter(([, m]) => m.category === 'regional');
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
         {globalMaps.map(([slug, map]) => (
           <a href={`${prefix}map/${slug}/`} class="global-card group flex gap-4 rounded-xl border p-4">
-            <img src={`${base}thumbnails/${slug}.webp`} alt={map.translated_name || map.display_name} class="w-32 h-20 object-cover rounded-lg flex-shrink-0" />
+            <img src={`${base}thumbnails/${slug}.webp`} alt={mapLabel(lang, slug, map.display_name, map.translated_name)} class="w-32 h-20 object-cover rounded-lg flex-shrink-0" />
             <div>
-              <div class="font-semibold mb-1" style="color: var(--text-primary); font-family: 'Space Grotesk', sans-serif;">{map.translated_name || map.display_name}</div>
+              <div class="font-semibold mb-1" style="color: var(--text-primary); font-family: 'Space Grotesk', sans-serif;">{mapLabel(lang, slug, map.display_name, map.translated_name)}</div>
               <div class="text-sm" style="color: var(--text-muted);">{map.width}×{map.height} · {map.nation_count} {t(lang, 'map.nations').toLowerCase()} · ~{map.estimated_max_players} {t(lang, 'wmap.players')}</div>
               <div class="mt-2 text-xs" style="color: var(--accent-primary);">{t(lang, 'earth.explore')}</div>
             </div>
@@ -73,11 +73,11 @@ const regionals = earthMaps.filter(([, m]) => m.category === 'regional');
       {continentals.map(([slug, map]) => (
         <a href={`${prefix}map/${slug}/`} class="map-thumb-card group block rounded-xl overflow-hidden border">
           <div class="relative" style="aspect-ratio: 4/3;">
-            <img src={`${base}thumbnails/${slug}.webp`} alt={map.translated_name || map.display_name} class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" loading="lazy" />
+            <img src={`${base}thumbnails/${slug}.webp`} alt={mapLabel(lang, slug, map.display_name, map.translated_name)} class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" loading="lazy" />
             <div class="absolute inset-0" style="background: linear-gradient(to top, rgba(5,9,19,0.7) 0%, transparent 55%);" />
           </div>
           <div class="p-3">
-            <div class="text-xs font-semibold truncate" style="color: var(--text-primary); font-family: 'Space Grotesk', sans-serif;">{map.translated_name || map.display_name}</div>
+            <div class="text-xs font-semibold truncate" style="color: var(--text-primary); font-family: 'Space Grotesk', sans-serif;">{mapLabel(lang, slug, map.display_name, map.translated_name)}</div>
             <div class="text-xs mt-0.5" style="color: var(--text-muted);">{map.nation_count} {t(lang, 'map.nations').toLowerCase()}</div>
           </div>
         </a>
@@ -91,11 +91,11 @@ const regionals = earthMaps.filter(([, m]) => m.category === 'regional');
       {regionals.map(([slug, map]) => (
         <a href={`${prefix}map/${slug}/`} class="map-thumb-card group block rounded-xl overflow-hidden border">
           <div class="relative" style="aspect-ratio: 4/3;">
-            <img src={`${base}thumbnails/${slug}.webp`} alt={map.translated_name || map.display_name} class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" loading="lazy" />
+            <img src={`${base}thumbnails/${slug}.webp`} alt={mapLabel(lang, slug, map.display_name, map.translated_name)} class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" loading="lazy" />
             <div class="absolute inset-0" style="background: linear-gradient(to top, rgba(5,9,19,0.7) 0%, transparent 55%);" />
           </div>
           <div class="p-2.5">
-            <div class="text-xs font-semibold truncate" style="color: var(--text-primary); font-family: 'Space Grotesk', sans-serif;">{map.translated_name || map.display_name}</div>
+            <div class="text-xs font-semibold truncate" style="color: var(--text-primary); font-family: 'Space Grotesk', sans-serif;">{mapLabel(lang, slug, map.display_name, map.translated_name)}</div>
             <div class="text-xs mt-0.5" style="color: var(--text-muted);">{map.nation_count} {t(lang, 'map.nations').toLowerCase()}</div>
           </div>
         </a>

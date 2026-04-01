@@ -1,5 +1,5 @@
 import { useState, useCallback, useEffect } from 'react';
-import { t } from '../i18n';
+import { t, mapLabel } from '../i18n';
 import type { Lang } from '../i18n';
 import {
   ComposableMap,
@@ -131,7 +131,7 @@ export default function WorldMap({ pins, continents, routeBase, assetBase, lang 
                   y={-14}
                   style={{ fill: '#77e0ff', fontSize: 8, fontFamily: 'Space Grotesk, Inter, sans-serif', fontWeight: 600, pointerEvents: 'none' }}
                 >
-                  {map.translated_name || map.display_name}
+                  {mapLabel(lang, slug, map.display_name, map.translated_name)}
                 </text>
               </Marker>
             );
@@ -186,9 +186,7 @@ export default function WorldMap({ pins, continents, routeBase, assetBase, lang 
             style={{ aspectRatio: '16/9' }}
           />
           <div className="font-semibold text-sm mb-1" style={{ color: 'var(--text-primary)', fontFamily: "'Space Grotesk', sans-serif" }}>
-            {lang === 'fr'
-              ? (t(lang, `map.${tooltip.slug}` as any) || tooltip.map.translated_name || tooltip.map.display_name)
-              : (tooltip.map.translated_name || tooltip.map.display_name)}
+            {mapLabel(lang, tooltip.slug, tooltip.map.display_name, tooltip.map.translated_name)}
           </div>
           <div className="grid grid-cols-2 gap-1 text-xs" style={{ color: 'var(--text-muted)' }}>
             <span>{tooltip.map.width}×{tooltip.map.height}</span>
