@@ -1,8 +1,9 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import WorldMap from '../components/WorldMap';
 import mapsData from '../data/maps_data.json';
 import type { MapsData } from '../types';
-import { t } from '../i18n';
+import { t, mapLabel } from '../i18n';
 import type { Lang } from '../i18n';
 
 export interface Props { lang?: Lang; }
@@ -23,9 +24,13 @@ const categoryColor: Record<string, string> = {
   arcade: '#fbbf24', tournament: '#f87171',
 };
 
-const earthCount = allMaps.filter(([,m]) => m.category === 'continental' || m.category === 'regional').length;
+const earthMaps = allMaps.filter(([,m]) => m.category === 'continental' || m.category === 'regional');
+const earthCount = earthMaps.length;
 const worldsCount = allMaps.filter(([,m]) => m.category === 'fantasy').length;
 const arcadeCount = allMaps.filter(([,m]) => m.category === 'arcade' || m.category === 'tournament').length;
+const hasGeo = (m: { geo_lat?: number; geo_lng?: number }) => m.geo_lat != null && m.geo_lng != null;
+const continentMaps = earthMaps.filter(([, m]) => m.geo_type === 'continent' && hasGeo(m)).map(([slug, map]) => ({ slug, map }));
+const regionalPins = earthMaps.filter(([, m]) => m.geo_type === 'regional' && hasGeo(m)).map(([slug, map]) => ({ slug, map }));
 ---
 
 <BaseLayout
@@ -86,6 +91,23 @@ const arcadeCount = allMaps.filter(([,m]) => m.category === 'arcade' || m.catego
     </div>
   </section>
 
+  <!-- Interactive earth map -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
+    <div class="flex items-center justify-between mb-4 gap-4 flex-wrap">
+      <div>
+        <h2 class="text-xl font-bold" style="color: var(--text-primary); font-family: 'Space Grotesk', sans-serif;">{t(lang, 'nav.earthMaps')}</h2>
+        <p class="text-sm mt-1" style="color: var(--text-muted);">{t(lang, 'earth.mapNote')}</p>
+      </div>
+      <a href={`${prefix}earth/`} class="text-sm" style="color: var(--accent-primary);">{t(lang, 'home.browseAll')}</a>
+    </div>
+    <div class="hidden md:block">
+      <WorldMap client:load pins={regionalPins} continents={continentMaps} routeBase={prefix} assetBase={base} lang={lang} />
+    </div>
+    <div class="md:hidden text-sm text-center py-6 rounded-xl border" style="color: var(--text-muted); border-color: var(--border); background: var(--surface);">
+      {t(lang, 'earth.mobileNote')}
+    </div>
+  </section>
+
   <!-- Featured maps -->
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
     <div class="flex items-center justify-between mb-8">
@@ -96,11 +118,11 @@ const arcadeCount = allMaps.filter(([,m]) => m.category === 'arcade' || m.catego
       {featuredMaps.map(({ slug, map }) => (
         <a href={`${prefix}map/${slug}/`} class="featured-card group block rounded-xl overflow-hidden border">
           <div class="relative overflow-hidden" style="aspect-ratio: 4/3;">
-            <img src={`${base}thumbnails/${slug}.webp`} alt={map.translated_name || map.display_name} class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" loading="lazy" />
+            <img src={`${base}thumbnails/${slug}.webp`} alt={mapLabel(lang, slug, map.display_name, map.translated_name)} class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" loading="lazy" />
             <div class="absolute inset-0" style="background: linear-gradient(to top, rgba(5,9,19,0.75) 0%, transparent 55%);" />
           </div>
           <div class="p-2.5">
-            <div class="text-xs font-semibold truncate" style="color: var(--text-primary); font-family: 'Space Grotesk', sans-serif;">{map.translated_name || map.display_name}</div>
+            <div class="text-xs font-semibold truncate" style="color: var(--text-primary); font-family: 'Space Grotesk', sans-serif;">{mapLabel(lang, slug, map.display_name, map.translated_name)}</div>
             <div class="text-xs mt-0.5" style="color: var(--text-muted);">{map.nation_count} {t(lang, 'map.nations').toLowerCase()}</div>
           </div>
         </a>
