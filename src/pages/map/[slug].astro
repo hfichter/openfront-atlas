@@ -57,9 +57,13 @@ const isArcadeTournament = map.category === 'arcade' || map.category === 'tourna
 
   <section class="max-w-5xl mx-auto px-4 sm:px-6 pt-5 pb-10">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
-      <div class="relative rounded-2xl overflow-hidden border" style="border-color: var(--border-strong);">
-        <img src={`${base}thumbnails/${slug}.webp`} alt={map.translated_name || map.display_name} class="w-full object-cover" style="min-height: 240px;" />
-        <div class="absolute inset-0" style="background: linear-gradient(to top, rgba(5,9,19,0.4) 0%, transparent 50%);" />
+      <div class="hero-thumb-wrap rounded-2xl overflow-hidden border" style="border-color: var(--border-strong); background: var(--surface);">
+        <img
+          src={`${base}thumbnails/${slug}.webp`}
+          alt={map.translated_name || map.display_name}
+          class="hero-thumb"
+          style={`aspect-ratio: ${map.width} / ${map.height};`}
+        />
       </div>
       <div>
         <div class="flex items-center gap-2 mb-3">
@@ -115,6 +119,22 @@ const isArcadeTournament = map.category === 'arcade' || map.category === 'tourna
 </BaseLayout>
 
 <style>
+/* Hero thumbnail — display at native aspect ratio, no upscale blur */
+.hero-thumb-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+}
+.hero-thumb {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+
 .stat-box { padding: 0.75rem 1rem; border-radius: 0.625rem; border: 1px solid var(--border); background: var(--surface); }
 .stat-label { font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.25rem; font-weight: 500; }
 .stat-value { font-size: 1rem; font-weight: 600; color: var(--text-primary); font-family: 'Space Grotesk', sans-serif; }
