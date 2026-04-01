@@ -1,0 +1,147 @@
+---
+import '../styles/global.css';
+import { t, pathForLang } from '../i18n';
+import type { Lang } from '../i18n';
+
+export interface Props {
+  title?: string;
+  description?: string;
+  lang?: Lang;
+  currentPath?: string;
+}
+
+const {
+  title = 'OpenFront Atlas',
+  description = 'Interactive map companion for OpenFront.io — explore all 64 battlefields with real geography, history, and strategy.',
+  lang = 'en',
+  currentPath = '/',
+} = Astro.props;
+
+const base = import.meta.env.BASE_URL;
+const enUrl = pathForLang('en', currentPath, base);
+const frUrl = pathForLang('fr', currentPath, base);
+---
+
+<!DOCTYPE html>
+<html lang={lang}>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <link rel="icon" type="image/svg+xml" href={`${base}images/Favicon.svg`} />
+  <link rel="alternate" hreflang="en" href={enUrl} />
+  <link rel="alternate" hreflang="fr" href={frUrl} />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="sticky top-0 z-50 border-b" style="background: rgba(5,9,19,0.92); border-color: var(--border); backdrop-filter: blur(16px);">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-14">
+        <!-- Logo -->
+        <a href={lang === 'fr' ? `${base}fr/` : base} class="flex items-center gap-2.5">
+          <img src={`${base}images/OpenFrontLogo.svg`} alt="OpenFront" class="w-7 h-7 opacity-90" />
+          <span class="text-base font-semibold tracking-tight" style="color: var(--text-primary); font-family: 'Space Grotesk', sans-serif;">
+            OpenFront <span style="color: var(--accent-primary);">Atlas</span>
+          </span>
+        </a>
+
+        <!-- Nav links + lang switcher -->
+        <div class="flex items-center gap-1">
+          <div class="hidden sm:flex items-center gap-1 mr-2">
+            <a href={lang === 'fr' ? `${base}fr/` : base} class="nav-link">{t(lang, 'nav.overview')}</a>
+            <a href={lang === 'fr' ? `${base}fr/earth/` : `${base}earth/`} class="nav-link">{t(lang, 'nav.earthMaps')}</a>
+            <a href={lang === 'fr' ? `${base}fr/worlds/` : `${base}worlds/`} class="nav-link">{t(lang, 'nav.otherWorlds')}</a>
+            <a href={lang === 'fr' ? `${base}fr/arcade/` : `${base}arcade/`} class="nav-link">{t(lang, 'nav.arcade')}</a>
+          </div>
+
+          <!-- Language switcher -->
+          <div class="flex items-center rounded-lg border overflow-hidden" style="border-color: var(--border); background: var(--surface);">
+            <a
+              href={enUrl}
+              class={`lang-btn ${lang === 'en' ? 'lang-active' : ''}`}
+            >EN</a>
+            <span style="width: 1px; background: var(--border); height: 16px; display: inline-block;"></span>
+            <a
+              href={frUrl}
+              class={`lang-btn ${lang === 'fr' ? 'lang-active' : ''}`}
+            >FR</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile nav (small screens) -->
+    <div class="sm:hidden border-t px-4 py-2 flex items-center gap-3 text-xs overflow-x-auto" style="border-color: var(--border);">
+      <a href={lang === 'fr' ? `${base}fr/earth/` : `${base}earth/`} class="mobile-nav-link" style="color: var(--accent-primary);">{t(lang, 'nav.earthMaps')}</a>
+      <a href={lang === 'fr' ? `${base}fr/worlds/` : `${base}worlds/`} class="mobile-nav-link">{t(lang, 'nav.otherWorlds')}</a>
+      <a href={lang === 'fr' ? `${base}fr/arcade/` : `${base}arcade/`} class="mobile-nav-link">{t(lang, 'nav.arcade')}</a>
+    </div>
+  </nav>
+
+  <!-- Page content -->
+  <main>
+    <slot />
+  </main>
+
+  <!-- Footer -->
+  <footer class="mt-24 border-t py-10" style="border-color: var(--border);">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-2">
+        <img src={`${base}images/OpenFrontLogo.svg`} alt="OpenFront" class="w-5 h-5 opacity-60" />
+        <span class="text-sm" style="color: var(--text-muted);">OpenFront Atlas — {t(lang, 'footer.tagline')}</span>
+      </div>
+      <div class="flex items-center gap-4 text-sm" style="color: var(--text-muted);">
+        <a href="https://openfront.io" target="_blank" rel="noopener" class="hover:underline" style="color: var(--accent-primary);">OpenFront.io</a>
+        <span>·</span>
+        <span>64 {t(lang, 'footer.maps')}</span>
+        <span>·</span>
+        <span>{t(lang, 'footer.unofficial')}</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+
+<style>
+.nav-link {
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  transition: color 0.15s, background 0.15s;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.nav-link:hover {
+  color: var(--text-primary);
+  background: rgba(119, 224, 255, 0.06);
+}
+.mobile-nav-link {
+  color: var(--text-secondary);
+  text-decoration: none;
+  white-space: nowrap;
+  padding: 0.25rem 0.5rem;
+}
+.lang-btn {
+  padding: 0.25rem 0.6rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.15s, background 0.15s;
+}
+.lang-btn:hover {
+  color: var(--text-primary);
+  background: rgba(119, 224, 255, 0.06);
+}
+.lang-active {
+  color: var(--accent-primary) !important;
+  background: rgba(119, 224, 255, 0.1) !important;
+}
+</style>

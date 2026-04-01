@@ -1,0 +1,125 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import mapsData from '../data/maps_data.json';
+import type { MapsData } from '../types';
+import { t } from '../i18n';
+import type { Lang } from '../i18n';
+
+export interface Props { lang?: Lang; }
+const { lang = 'en' } = Astro.props;
+
+const data = mapsData as unknown as MapsData;
+const base = import.meta.env.BASE_URL;
+const prefix = lang === 'fr' ? `${base}fr/` : base;
+
+const allMaps = Object.entries(data);
+const totalMaps = allMaps.length;
+
+const featuredSlugs = ['europe', 'world', 'mars', 'northamerica', 'britannia', 'pangaea'];
+const featuredMaps = featuredSlugs.map(s => ({ slug: s, map: data[s] })).filter(x => x.map);
+
+const categoryColor: Record<string, string> = {
+  continental: '#77e0ff', regional: '#34d399', fantasy: '#a78bfa',
+  arcade: '#fbbf24', tournament: '#f87171',
+};
+
+const earthCount = allMaps.filter(([,m]) => m.category === 'continental' || m.category === 'regional').length;
+const worldsCount = allMaps.filter(([,m]) => m.category === 'fantasy').length;
+const arcadeCount = allMaps.filter(([,m]) => m.category === 'arcade' || m.category === 'tournament').length;
+---
+
+<BaseLayout
+  title={lang === 'fr' ? 'OpenFront Atlas — Compagnon de cartes interactif' : 'OpenFront Atlas — Map Intelligence Companion'}
+  lang={lang}
+  currentPath="/"
+>
+  <!-- Hero -->
+  <section class="relative overflow-hidden pt-16 pb-20 px-4">
+    <div class="absolute inset-0 pointer-events-none" style="background: radial-gradient(ellipse at 50% -20%, rgba(119,224,255,0.07) 0%, transparent 60%);" />
+    <div class="max-w-4xl mx-auto text-center relative">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border text-xs mb-6" style="color: var(--accent-primary); border-color: rgba(119,224,255,0.25); background: rgba(119,224,255,0.07);">
+        <span class="w-1.5 h-1.5 rounded-full" style="background: var(--accent-primary);"></span>
+        {totalMaps} {t(lang, 'home.badge')}
+      </div>
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold mb-5 tracking-tight" style="color: var(--text-primary); font-family: 'Space Grotesk', sans-serif; line-height: 1.1;">
+        {t(lang, 'home.heading1')}<br />
+        <span style="color: var(--accent-primary);">{t(lang, 'home.heading2')}</span>
+      </h1>
+      <p class="text-lg mb-10 max-w-2xl mx-auto" style="color: var(--text-secondary); line-height: 1.6;">
+        {t(lang, 'home.subtitle')}
+      </p>
+      <!-- Route cards -->
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-2xl mx-auto">
+        <a href={`${prefix}earth/`} class="route-card">
+          <div class="text-3xl mb-3">🌍</div>
+          <div class="font-semibold mb-1" style="color: #77e0ff; font-family: 'Space Grotesk', sans-serif;">{t(lang, 'nav.earthMaps')}</div>
+          <div class="text-sm" style="color: var(--text-muted);">{earthCount} {t(lang, 'home.badge').split('·')[0].trim()} — {t(lang, 'home.earthDesc')}</div>
+        </a>
+        <a href={`${prefix}worlds/`} class="route-card">
+          <div class="text-3xl mb-3">🪐</div>
+          <div class="font-semibold mb-1" style="color: #a78bfa; font-family: 'Space Grotesk', sans-serif;">{t(lang, 'nav.otherWorlds')}</div>
+          <div class="text-sm" style="color: var(--text-muted);">{worldsCount} — {t(lang, 'home.worldsDesc')}</div>
+        </a>
+        <a href={`${prefix}arcade/`} class="route-card">
+          <div class="text-3xl mb-3">⚡</div>
+          <div class="font-semibold mb-1" style="color: #fbbf24; font-family: 'Space Grotesk', sans-serif;">{t(lang, 'nav.arcade')}</div>
+          <div class="text-sm" style="color: var(--text-muted);">{arcadeCount} — {t(lang, 'home.arcadeDesc')}</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats bar -->
+  <section class="border-y py-6" style="border-color: var(--border);">
+    <div class="max-w-4xl mx-auto px-4 grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
+      {[
+        [totalMaps, t(lang, 'home.totalMaps')],
+        [earthCount, t(lang, 'home.earthMaps')],
+        [worldsCount, t(lang, 'home.otherWorlds')],
+        [arcadeCount, t(lang, 'home.arcadeTournament')],
+      ].map(([n, label]) => (
+        <div>
+          <div class="text-2xl font-bold" style="color: var(--accent-primary); font-family: 'Space Grotesk', sans-serif;">{n}</div>
+          <div class="text-sm" style="color: var(--text-muted);">{label}</div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- Featured maps -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <div class="flex items-center justify-between mb-8">
+      <h2 class="text-xl font-bold" style="color: var(--text-primary); font-family: 'Space Grotesk', sans-serif;">{t(lang, 'home.featured')}</h2>
+      <a href={`${prefix}earth/`} class="text-sm" style="color: var(--accent-primary);">{t(lang, 'home.browseAll')}</a>
+    </div>
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+      {featuredMaps.map(({ slug, map }) => (
+        <a href={`${prefix}map/${slug}/`} class="featured-card group block rounded-xl overflow-hidden border">
+          <div class="relative overflow-hidden" style="aspect-ratio: 4/3;">
+            <img src={`${base}thumbnails/${slug}.webp`} alt={map.translated_name || map.display_name} class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" loading="lazy" />
+            <div class="absolute inset-0" style="background: linear-gradient(to top, rgba(5,9,19,0.75) 0%, transparent 55%);" />
+          </div>
+          <div class="p-2.5">
+            <div class="text-xs font-semibold truncate" style="color: var(--text-primary); font-family: 'Space Grotesk', sans-serif;">{map.translated_name || map.display_name}</div>
+            <div class="text-xs mt-0.5" style="color: var(--text-muted);">{map.nation_count} {t(lang, 'map.nations').toLowerCase()}</div>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+.route-card {
+  display: block; padding: 1.5rem; border-radius: 0.875rem;
+  border: 1px solid var(--border); background: var(--surface-elevated);
+  text-decoration: none; text-align: center;
+  transition: border-color 0.2s, background 0.2s, transform 0.15s;
+}
+.route-card:hover { border-color: rgba(119,224,255,0.25); background: var(--surface-highlight); transform: translateY(-2px); }
+.featured-card {
+  background: var(--surface-elevated); border-color: var(--border);
+  text-decoration: none; transition: border-color 0.2s, box-shadow 0.2s;
+}
+.featured-card:hover { border-color: rgba(119,224,255,0.3); box-shadow: 0 0 16px rgba(119,224,255,0.1); }
+</style>

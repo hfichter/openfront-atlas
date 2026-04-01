@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #050913;
+  --surface: rgba(9, 16, 30, 0.88);
+  --surface-elevated: rgba(13, 22, 39, 0.96);
+  --surface-highlight: rgba(18, 33, 56, 0.96);
+  --border: rgba(126, 145, 173, 0.18);
+  --border-strong: rgba(148, 176, 217, 0.2);
+  --accent-primary: #77e0ff;
+  --accent-secondary: #38bdf8;
+  --accent-green: #34d399;
+  --text-primary: #eef4ff;
+  --text-secondary: #c3d0e7;
+  --text-muted: #8391a9;
+}
+
+html {
+  background-color: var(--bg);
+  color: var(--text-primary);
+  font-family: 'Inter', 'Manrope', system-ui, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg);
+  min-height: 100vh;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(119, 224, 255, 0.2);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(119, 224, 255, 0.4);
+}
+
+/* Glass morphism utility */
+.glass {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  backdrop-filter: blur(12px);
+}
+
+.glass-elevated {
+  background: var(--surface-elevated);
+  border: 1px solid var(--border-strong);
+  backdrop-filter: blur(16px);
+}
+
+/* Pulse animation for map pins */
+@keyframes pin-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(1.15); }
+}
+
+.pin-pulse {
+  animation: pin-pulse 2s ease-in-out infinite;
+}
+
+/* Category badge colors */
+.badge-continental { color: #77e0ff; border-color: rgba(119, 224, 255, 0.3); background: rgba(119, 224, 255, 0.08); }
+.badge-regional    { color: #34d399; border-color: rgba(52, 211, 153, 0.3); background: rgba(52, 211, 153, 0.08); }
+.badge-fantasy     { color: #a78bfa; border-color: rgba(167, 139, 250, 0.3); background: rgba(167, 139, 250, 0.08); }
+.badge-arcade      { color: #fbbf24; border-color: rgba(251, 191, 36, 0.3); background: rgba(251, 191, 36, 0.08); }
+.badge-tournament  { color: #f87171; border-color: rgba(248, 113, 113, 0.3); background: rgba(248, 113, 113, 0.08); }
