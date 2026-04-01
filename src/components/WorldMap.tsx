@@ -186,7 +186,9 @@ export default function WorldMap({ pins, continents, routeBase, assetBase, lang 
             style={{ aspectRatio: '16/9' }}
           />
           <div className="font-semibold text-sm mb-1" style={{ color: 'var(--text-primary)', fontFamily: "'Space Grotesk', sans-serif" }}>
-            {lang === 'fr' ? t(lang, `map.${tooltip.slug}` as any) || tooltip.map.display_name : tooltip.map.translated_name || tooltip.map.display_name}
+            {lang === 'fr'
+              ? (t(lang, `map.${tooltip.slug}` as any) || tooltip.map.translated_name || tooltip.map.display_name)
+              : (tooltip.map.translated_name || tooltip.map.display_name)}
           </div>
           <div className="grid grid-cols-2 gap-1 text-xs" style={{ color: 'var(--text-muted)' }}>
             <span>{tooltip.map.width}×{tooltip.map.height}</span>
@@ -201,11 +203,11 @@ export default function WorldMap({ pins, continents, routeBase, assetBase, lang 
       <div className="absolute bottom-3 left-3 flex items-center gap-4 text-xs" style={{ color: 'var(--text-muted)' }}>
         <div className="flex items-center gap-1.5">
           <div className="w-3 h-3 rounded-full border-2" style={{ borderColor: '#77e0ff', background: 'rgba(119,224,255,0.15)' }} />
-          <span>Continental</span>
+          <span>{t(lang, 'wmap.continental')}</span>
         </div>
         <div className="flex items-center gap-1.5">
           <div className="w-2.5 h-2.5 rounded-full" style={{ background: '#34d399' }} />
-          <span>Regional</span>
+          <span>{t(lang, 'wmap.regional')}</span>
         </div>
       </div>
     </div>
