@@ -47,6 +47,8 @@ export const ui = {
     'map.water': 'Water',
     'map.comingSoon': 'Content coming soon',
     'map.comingSoonDesc': 'Geography, history, and strategy content is being written for this map.',
+    'map.nationsVisible': 'Nations shown',
+    'map.nationsHidden': 'Nations hidden',
     // Categories
     'cat.continental': 'Continental',
     'cat.regional': 'Regional',
@@ -114,6 +116,8 @@ export const ui = {
     'map.water': 'Eau',
     'map.comingSoon': 'Contenu à venir',
     'map.comingSoonDesc': 'La géographie, l\'histoire et la stratégie de cette carte sont en cours de rédaction.',
+    'map.nationsVisible': 'Nations affichées',
+    'map.nationsHidden': 'Nations masquées',
     'cat.continental': 'Continental',
     'cat.regional': 'Régional',
     'cat.fantasy': 'Fantaisie',

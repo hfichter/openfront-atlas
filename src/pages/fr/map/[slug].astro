@@ -61,12 +61,64 @@ const isArcadeTournament = map.category === 'arcade' || map.category === 'tourna
   <section class="max-w-5xl mx-auto px-4 sm:px-6 pt-5 pb-10">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
       <div class="hero-thumb-wrap rounded-2xl overflow-hidden border" style="border-color: var(--border-strong); background: var(--surface);">
-        <img
-          src={`${base}thumbnails/${slug}.webp`}
-          alt={map.translated_name || map.display_name}
-          class="hero-thumb"
-          style={`aspect-ratio: ${map.width} / ${map.height};`}
-        />
+        <div class="hero-map-stage" style={`aspect-ratio: ${map.width} / ${map.height}; position: relative;`}>
+          <img
+            src={`${base}thumbnails/${slug}.webp`}
+            alt={map.translated_name || map.display_name}
+            class="hero-thumb"
+            style={`aspect-ratio: ${map.width} / ${map.height};`}
+          />
+
+          <!-- Nation markers overlay — visible by default -->
+          <div id="nation-overlay" class="nation-overlay" aria-label="Nation spawn locations">
+            {map.nations && map.nations.length > 0 && map.nations.map((nation) => (
+              <button
+                type="button"
+                class="nation-marker"
+                style={`left: ${(nation.x / map.width) * 100}%; top: ${(nation.y / map.height) * 100}%;`}
+                aria-label={nation.name}
+              >
+                {nation.flag ? (
+                  <img
+                    class="nation-flag"
+                    src={`${base}flags/${nation.flag}.svg`}
+                    alt=""
+                    loading="lazy"
+                    onError={(e) => {
+                      const t = e.target as HTMLImageElement;
+                      t.style.display = 'none';
+                      if (t.nextElementSibling) (t.nextElementSibling as HTMLElement).style.display = '';
+                    }}
+                  />
+                ) : null}
+                <span class="nation-dot" style={nation.flag ? 'display:none' : ''}></span>
+                <span class="nation-label">{nation.name}</span>
+              </button>
+            ))}
+          </div>
+
+          <!-- Floating toggle pill -->
+          <button
+            id="toggle-nation-overlay"
+            type="button"
+            class="nation-toggle-btn"
+            aria-label="Afficher / masquer les nations"
+            aria-pressed="true"
+            data-show={t(lang, 'map.nationsVisible')}
+            data-hide={t(lang, 'map.nationsHidden')}
+          >
+            <svg class="nation-toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+              <circle cx="12" cy="12" r="3"/>
+            </svg>
+            <svg class="nation-toggle-icon-off hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94"/>
+              <path d="M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19"/>
+              <line x1="1" y1="1" x2="23" y2="23"/>
+            </svg>
+            <span class="nation-toggle-text">{t(lang, 'map.nationsVisible')}</span>
+          </button>
+        </div>
       </div>
       <div>
         <div class="flex items-center gap-2 mb-3">
@@ -136,4 +188,148 @@ const isArcadeTournament = map.category === 'arcade' || map.category === 'tourna
 .editorial-content :global(ul li) { color: var(--text-secondary); font-size: 0.95rem; padding: 0.35rem 0 0.35rem 1.25rem; position: relative; line-height: 1.6; }
 .editorial-content :global(ul li::before) { content: '·'; position: absolute; left: 0; color: var(--accent-primary); font-weight: 700; }
 .editorial-content :global(strong) { color: var(--text-primary); font-weight: 600; }
+
+/* Nation overlay */
+.is-hidden { display: none; }
+.nation-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.nation-overlay .nation-marker {
+  pointer-events: auto;
+}
+.nation-marker {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.nation-flag {
+  display: block;
+  width: 1.25rem;
+  height: 0.85rem;
+  border-radius: 3px;
+  border: 1.5px solid rgba(255,255,255,0.7);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+  object-fit: cover;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+.nation-dot {
+  display: block;
+  width: 0.65rem;
+  height: 0.65rem;
+  border-radius: 999px;
+  background: var(--accent-primary);
+  border: 1.5px solid rgba(255,255,255,0.85);
+  box-shadow: 0 0 0 3px rgba(119, 224, 255, 0.18), 0 3px 8px rgba(0,0,0,0.25);
+}
+.nation-label {
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 0.5rem);
+  transform: translateX(-50%);
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  background: var(--surface-elevated);
+  color: var(--text-primary);
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  padding: 0.25rem 0.6rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+  transition: opacity 0.12s ease, transform 0.12s ease;
+  z-index: 10;
+}
+.nation-marker:hover .nation-label,
+.nation-marker:focus-visible .nation-label {
+  opacity: 1;
+  transform: translateX(-50%) translateY(-2px);
+}
+.nation-marker:hover .nation-flag,
+.nation-marker:focus-visible .nation-flag {
+  transform: scale(1.18);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+}
+.nation-marker:focus-visible {
+  outline: none;
+}
+.nation-marker:focus-visible .nation-dot {
+  box-shadow: 0 0 0 4px rgba(119, 224, 255, 0.3), 0 0 0 7px rgba(119, 224, 255, 0.15), 0 3px 8px rgba(0,0,0,0.25);
+}
+
+/* Floating toggle pill */
+.nation-toggle-btn {
+  position: absolute;
+  top: 0.65rem;
+  right: 0.65rem;
+  z-index: 20;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.7rem 0.35rem 0.55rem;
+  border-radius: 999px;
+  border: 1px solid var(--border-strong);
+  background: var(--surface);
+  backdrop-filter: blur(12px);
+  color: var(--text-secondary);
+  font-size: 0.72rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+  transition: background 0.15s, color 0.15s, border-color 0.15s, box-shadow 0.15s;
+  white-space: nowrap;
+}
+.nation-toggle-btn:hover {
+  background: var(--surface-elevated);
+  color: var(--text-primary);
+  border-color: var(--accent-primary);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.22);
+}
+.nation-toggle-btn[aria-pressed="false"] {
+  color: var(--text-muted);
+}
+.nation-toggle-btn[aria-pressed="false"]:hover {
+  color: var(--text-primary);
+}
+.nation-toggle-icon {
+  width: 0.9rem;
+  height: 0.9rem;
+  flex-shrink: 0;
+}
+.nation-toggle-icon-off { display: none; }
+.nation-toggle-btn[aria-pressed="false"] .nation-toggle-icon { display: none; }
+.nation-toggle-btn[aria-pressed="false"] .nation-toggle-icon-off { display: block; width: 0.9rem; height: 0.9rem; flex-shrink: 0; }
+
 </style>
+
+<script is:inline>
+(function() {
+  var btn = document.getElementById('toggle-nation-overlay');
+  var overlay = document.getElementById('nation-overlay');
+  if (!btn || !overlay) return;
+
+  function updateToggle(pressed) {
+    btn.setAttribute('aria-pressed', pressed ? 'true' : 'false');
+    var label = btn.querySelector('.nation-toggle-text');
+    if (label) label.textContent = pressed ? btn.dataset.show : btn.dataset.hide;
+    overlay.classList.toggle('is-hidden', !pressed);
+  }
+
+  btn.addEventListener('click', function() {
+    var isPressed = btn.getAttribute('aria-pressed') !== 'false';
+    updateToggle(!isPressed);
+  });
+  btn.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      var isPressed = btn.getAttribute('aria-pressed') !== 'false';
+      updateToggle(!isPressed);
+    }
+  });
+})();
+</script>
