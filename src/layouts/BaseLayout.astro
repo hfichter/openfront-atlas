@@ -103,18 +103,55 @@ const isArcade = normalizedPath === '/arcade/';
 
   <script is:inline>
     (function() {
+      var BASE = document.documentElement.dataset.base ||
+                 (function(){
+                   var s=document.querySelector('link[rel="icon"]');
+                   if(!s) return '/';
+                   var href=s.getAttribute('href')||'/';
+                   return href.replace(/images\/Favicon\.svg$/,'');
+                 })();
+
       function getTheme() {
         return document.documentElement.getAttribute('data-theme') || 'dark';
       }
+
+      function swapThumbnails(theme) {
+        var imgs = document.querySelectorAll('img');
+        imgs.forEach(function(img) {
+          var src = img.src || '';
+          if (src.indexOf('/thumbnails/') !== -1 && src.indexOf('/thumbnails-dark/') === -1) {
+            if (theme === 'dark') {
+              img.src = src.replace('/thumbnails/', '/thumbnails-dark/');
+            }
+          } else if (src.indexOf('/thumbnails-dark/') !== -1) {
+            if (theme === 'light') {
+              img.src = src.replace('/thumbnails-dark/', '/thumbnails/');
+            }
+          }
+        });
+      }
+
       function setTheme(t) {
         document.documentElement.setAttribute('data-theme', t);
         localStorage.setItem('theme', t);
         var icon = document.getElementById('theme-icon');
         if (icon) icon.textContent = t === 'dark' ? '🌙' : '☀️';
+        swapThumbnails(t);
       }
-      // Set initial icon to match current theme
+
+      // Set initial icon
       var icon = document.getElementById('theme-icon');
       if (icon) icon.textContent = getTheme() === 'dark' ? '🌙' : '☀️';
+
+      // Swap thumbnails on initial load if dark
+      if (getTheme() === 'dark') {
+        // Run after images are in DOM
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', function() { swapThumbnails('dark'); });
+        } else {
+          swapThumbnails('dark');
+        }
+      }
 
       var btn = document.getElementById('theme-toggle');
       if (btn) {
