@@ -66,7 +66,7 @@ export default function WorldMap({ pins, continents, routeBase, assetBase }: Pro
   }, [routeBase]);
 
   return (
-    <div className="relative w-full rounded-xl overflow-hidden border" style={{ background: 'var(--surface)', borderColor: 'var(--border)' }}>
+    <div className="relative w-full rounded-xl overflow-hidden border" style={{ background: 'var(--map-ocean)', borderColor: 'var(--border)' }}>
       <ComposableMap
         projection="geoNaturalEarth1"
         projectionConfig={{ scale: 160 }}
@@ -80,9 +80,9 @@ export default function WorldMap({ pins, continents, routeBase, assetBase }: Pro
                   key={geo.rsmKey}
                   geography={geo}
                   style={{
-                    default: { fill: 'rgba(30,45,70,0.7)', stroke: 'rgba(119,224,255,0.08)', strokeWidth: 0.3, outline: 'none' },
-                    hover:   { fill: 'rgba(40,60,90,0.9)', stroke: 'rgba(119,224,255,0.15)', strokeWidth: 0.4, outline: 'none' },
-                    pressed: { fill: 'rgba(40,60,90,0.9)', outline: 'none' },
+                    default: { fill: 'var(--map-land)', stroke: 'var(--map-stroke)', strokeWidth: 0.3, outline: 'none' },
+                    hover:   { fill: 'var(--map-land-hover)', stroke: 'var(--map-stroke-hover)', strokeWidth: 0.4, outline: 'none' },
+                    pressed: { fill: 'var(--map-land-hover)', outline: 'none' },
                   }}
                 />
               ))
@@ -149,8 +149,8 @@ export default function WorldMap({ pins, continents, routeBase, assetBase }: Pro
           style={{
             left: tooltip.x + 14,
             top: tooltip.y - 10,
-            background: 'rgba(9,16,30,0.97)',
-            borderColor: 'rgba(119,224,255,0.25)',
+            background: 'var(--map-tooltip-bg)',
+            borderColor: 'var(--map-tooltip-border)',
             backdropFilter: 'blur(16px)',
             minWidth: 200,
             maxWidth: 240,
