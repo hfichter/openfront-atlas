@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import {
   ComposableMap,
   Geographies,
@@ -46,6 +46,25 @@ export default function WorldMap({ pins, continents, routeBase, assetBase }: Pro
     x: number;
     y: number;
   } | null>(null);
+  const [theme, setTheme] = useState<'light' | 'dark'>(() => {
+    if (typeof document === 'undefined') return 'dark';
+    return document.documentElement.getAttribute('data-theme') === 'light' ? 'light' : 'dark';
+  });
+
+  useEffect(() => {
+    if (typeof document === 'undefined') return;
+
+    const updateTheme = () => {
+      setTheme(document.documentElement.getAttribute('data-theme') === 'light' ? 'light' : 'dark');
+    };
+
+    updateTheme();
+
+    const observer = new MutationObserver(updateTheme);
+    observer.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+
+    return () => observer.disconnect();
+  }, []);
 
   const handleMouseEnter = useCallback((slug: string, map: MapEntry, e: React.MouseEvent) => {
     const rect = (e.currentTarget as SVGElement).closest('.rsm-svg')?.getBoundingClientRect() ??
@@ -158,7 +177,7 @@ export default function WorldMap({ pins, continents, routeBase, assetBase }: Pro
           }}
         >
           <img
-            src={`${assetBase}thumbnails/${tooltip.slug}.webp`}
+            src={`${assetBase}${theme === 'dark' ? 'thumbnails-dark' : 'thumbnails'}/${tooltip.slug}.webp`}
             alt={tooltip.map.display_name}
             className="w-full rounded-lg mb-2 object-cover"
             style={{ aspectRatio: '16/9' }}
