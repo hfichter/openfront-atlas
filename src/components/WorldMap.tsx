@@ -1,4 +1,6 @@
 import { useState, useCallback, useEffect } from 'react';
+import { t } from '../i18n';
+import type { Lang } from '../i18n';
 import {
   ComposableMap,
   Geographies,
@@ -21,6 +23,7 @@ interface Props {
   continents: MapPin[];  // continental maps (geo_type = "continent")
   routeBase: string;
   assetBase: string;
+  lang: Lang;
 }
 
 // Rough continent bounding boxes for highlight — keyed by map slug
@@ -39,7 +42,7 @@ const categoryColor: Record<string, string> = {
   regional: '#34d399',
 };
 
-export default function WorldMap({ pins, continents, routeBase, assetBase }: Props) {
+export default function WorldMap({ pins, continents, routeBase, assetBase, lang }: Props) {
   const [tooltip, setTooltip] = useState<{
     slug: string;
     map: MapEntry;
@@ -183,13 +186,13 @@ export default function WorldMap({ pins, continents, routeBase, assetBase }: Pro
             style={{ aspectRatio: '16/9' }}
           />
           <div className="font-semibold text-sm mb-1" style={{ color: 'var(--text-primary)', fontFamily: "'Space Grotesk', sans-serif" }}>
-            {tooltip.map.translated_name || tooltip.map.display_name}
+            {lang === 'fr' ? t(lang, `map.${tooltip.slug}` as any) || tooltip.map.display_name : tooltip.map.translated_name || tooltip.map.display_name}
           </div>
           <div className="grid grid-cols-2 gap-1 text-xs" style={{ color: 'var(--text-muted)' }}>
             <span>{tooltip.map.width}×{tooltip.map.height}</span>
-            <span>{tooltip.map.nation_count} nations</span>
-            <span>{tooltip.map.land_pct.toFixed(0)}% land</span>
-            <span>~{tooltip.map.estimated_max_players} players</span>
+            <span>{tooltip.map.nation_count} {t(lang, 'wmap.nations_count' as any)}</span>
+            <span>{tooltip.map.land_pct.toFixed(0)}% {t(lang, 'wmap.land_pct' as any)}</span>
+            <span>~{tooltip.map.estimated_max_players} {t(lang, 'wmap.players_count' as any)}</span>
           </div>
         </div>
       )}
