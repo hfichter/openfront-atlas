@@ -1452,8 +1452,8 @@
       }
     ],
     "thumbnail": "thumbnails/betweentwoseas.webp",
-    "geo_lat": 41,
-    "geo_lng": 30,
+    "geo_lat": 42.1796,
+    "geo_lng": 41.7202,
     "geo_type": "regional"
   },
   "blacksea": {
@@ -5406,8 +5406,8 @@
       }
     ],
     "thumbnail": "thumbnails/mena.webp",
-    "geo_lat": 28,
-    "geo_lng": 40,
+    "geo_lat": 26.0431,
+    "geo_lng": 11.8531,
     "geo_type": "regional"
   },
   "milkyway": {
@@ -6309,8 +6309,8 @@
       }
     ],
     "thumbnail": "thumbnails/oceania.webp",
-    "geo_lat": -25,
-    "geo_lng": 140,
+    "geo_lat": -25.5132,
+    "geo_lng": 155.0953,
     "geo_type": "continent"
   },
   "pangaea": {
@@ -7848,8 +7848,8 @@
       }
     ],
     "thumbnail": "thumbnails/twolakes.webp",
-    "geo_lat": 47,
-    "geo_lng": 8,
+    "geo_lat": 41.0,
+    "geo_lng": 20.5,
     "geo_type": "regional"
   },
   "world": {
@@ -8292,8 +8292,8 @@
       }
     ],
     "thumbnail": "thumbnails/yenisei.webp",
-    "geo_lat": 62,
-    "geo_lng": 86,
+    "geo_lat": 70.6064,
+    "geo_lng": 82.849,
     "geo_type": "regional"
   }
 }
