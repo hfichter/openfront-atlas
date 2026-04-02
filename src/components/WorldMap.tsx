@@ -94,7 +94,7 @@ export default function WorldMap({ pins, continents, routeBase, assetBase, lang 
         projectionConfig={{ scale: 160 }}
         style={{ width: '100%', height: 'auto' }}
       >
-        <ZoomableGroup center={[0, 20]} zoom={1}>
+        <ZoomableGroup center={[0, 8]} zoom={1}>
           <Geographies geography={GEO_URL}>
             {({ geographies }) =>
               geographies.map((geo) => (
