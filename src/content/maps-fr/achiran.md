@@ -6,9 +6,9 @@ tagline: "Quatre royaumes, une mer brisée"
 
 ## La Carte
 
-Achiran donne l’impression d’un royaume fantastique oublié, soufflé en éclats par d’anciens cataclysmes. Avec seulement 4 nations réparties sur un champ de bataille de 2000×1700, la carte offre une échelle inhabituellement vaste, presque mythique, pour un si petit nombre de joueurs. Le ratio de 34% de terres signifie que l’essentiel de cet espace est composé d’eau, donc chaque royaume de départ bénéficie d’un peu d’air sans jamais être réellement en sécurité. On est assez proches pour peser sur la partie, assez éloignés pour avoir besoin de navires, et assez isolés pour que chaque premier contact compte vraiment.
+Achiran n’est pas un lieu réel, mais une fusion stylisée inspirée d’**Aran** et d’**Achill** — d’où son nom. D’après le créateur de la carte, ces deux ensembles d’îles ont été réunis parce qu’ils sont tous deux étroitement liés à l’origine d’Halloween comme tradition, et parce qu’ils s’assemblent très bien dans une carte de jeu. Le relief n’a donc pas vocation à être géographiquement fidèle, ce qui explique aussi son classement dans la catégorie « Others » plutôt que comme reconstitution d’un lieu réel.
 
-C’est ce faible nombre de joueurs qui donne à Achiran sa personnalité. Sur les cartes bondées, perdre un voisin ouvre parfois simplement un autre front ; ici, chaque élimination réécrit l’équilibre des forces. Dès qu’un des quatre royaumes tombe, le survivant ne devient pas seulement plus puissant — il représente soudain la moitié de la conversation géopolitique. Achiran est une carte d’expansions réfléchies, de reconnaissance navale tendue et d’énormes bascules de momentum dès qu’un littoral s’effondre.
+Cette approche assumée donne à Achiran une identité très particulière. Avec seulement 4 nations réparties sur un champ de bataille de 2000×1700, la carte paraît étonnamment vaste pour un si petit nombre de joueurs, tandis que ses 34% de terres laissent une grande place à la mer. Chaque royaume dispose d’un peu d’espace, mais personne n’est vraiment isolé : le premier contact compte, les côtes comptent, et dès qu’une des quatre puissances s’effondre, tout l’équilibre de la partie bascule.
 
 ## Le Champ de Bataille
 

@@ -6,9 +6,9 @@ tagline: "Four realms, one shattered sea"
 
 ## The Map
 
-Achiran feels like a forgotten fantasy kingdom blown apart by old cataclysms. With only 4 nations spread across a 2000×1700 battlefield, the map has an unusually spacious, almost mythic scale for such a tiny player count. The 34% land ratio means most of that space is water, so each starting realm begins with breathing room but never with true safety. You are close enough to matter, far enough to need ships, and isolated enough that every first contact feels consequential.
+Achiran is not a real place, but a stylized fusion inspired by **Aran** and **Achill**—hence the name. According to the map creator, the two island groups were combined because they are both closely tied to the origin of Halloween as a tradition, and because they fit together well as a game map. The terrain is intentionally not geographically accurate, which is why the map belongs in the "Others" category rather than functioning as a faithful reconstruction of a real-world region.
 
-That low player count is what gives Achiran its personality. On crowded maps, losing one neighbor can simply open another front; here, every elimination rewrites the balance of power. Once one of the four realms falls, the survivor does not just grow stronger—they become half of the geopolitical conversation. Achiran is a map of deliberate expansions, tense naval probing, and huge momentum swings the instant one coastline collapses.
+That fictionalized approach gives Achiran a distinctive atmosphere. With only 4 nations spread across a 2000×1700 battlefield, the map feels unusually spacious for such a small player count, while the 34% land ratio keeps most of that space open water. Each realm has breathing room, but nobody is ever truly isolated: first contact matters, coastlines matter, and the moment one of the four powers collapses, the entire balance of the match changes.
 
 ## The Battlefield
 
