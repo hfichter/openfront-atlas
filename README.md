@@ -53,6 +53,14 @@ npm run preview   # preview build locally
 
 ---
 
+## Contributing
+
+Contributions are welcome.
+
+If you want to improve map descriptions, translations, data, visuals, or site behavior, please open a **pull request** rather than pushing changes directly.
+
+---
+
 ## Disclaimer
 
 OpenFront Atlas is an **unofficial community project** — not affiliated with or endorsed by the OpenFront.io team.  
