@@ -2,7 +2,7 @@
 
 An interactive atlas of all 64 [OpenFront.io](https://openfront.io) maps — real geography, historical context, and strategy for every battlefield.
 
-🗺️ **Live site:** [hfichter.github.io/openfront-atlas](https://hfichter.github.io/openfront-atlas)
+🗺️ **Live site:** [openfront-atlas.xyz](https://www.openfront-atlas.xyz/)
 
 ---
 
