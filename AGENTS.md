@@ -56,14 +56,6 @@ Each map page is powered by two sources:
    - `## The Battlefield` → `### Terrain Overview`, `### Best Spawns`, `### Avoid`, `### Strategic Insights`
    - `## Fun Facts`
 
-### Content tiers (tracked in `docs/map-status.md`)
-
-| Tier | Lines | Description |
-|------|-------|-------------|
-| **Rich** | 49–53 | Full Geography + History + Strategy + Fun Facts |
-| **Standard** | 37–48 | Most sections present, shorter or fewer subsections |
-| **Concise** | 32–36 | Complete but brief — typical for arcade/tourney maps |
-
 ---
 
 ## Adding a new map
