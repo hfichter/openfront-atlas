@@ -101,7 +101,7 @@ Update `lastUpstreamSync` every time the upstream repo is checked for new maps, 
 
 | Tier | Count |
 |------|-------|
-| rich | 43 |
+| rich | 37 |
 | standard | 11 |
 | concise | 16 |
 | **Total** | **64** |
