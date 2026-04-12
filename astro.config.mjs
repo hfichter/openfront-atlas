@@ -4,8 +4,7 @@ import react from '@astrojs/react';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  site: 'https://hfichter.github.io',
-  base: '/openfront-atlas/',
+  site: 'https://www.openfront-atlas.xyz',
   integrations: [react()],
   vite: {
     plugins: [tailwindcss()],
