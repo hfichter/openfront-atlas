@@ -31,6 +31,12 @@ const arcadeCount = allMaps.filter(([,m]) => m.category === 'arcade' || m.catego
 const hasGeo = (m: { geo_lat?: number; geo_lng?: number }) => m.geo_lat != null && m.geo_lng != null;
 const continentMaps = earthMaps.filter(([, m]) => m.geo_type === 'continent' && hasGeo(m)).map(([slug, map]) => ({ slug, map }));
 const regionalPins = earthMaps.filter(([, m]) => m.geo_type === 'regional' && hasGeo(m)).map(([slug, map]) => ({ slug, map }));
+const heroSubtitleBeforeLink = lang === 'fr'
+  ? 'Un atlas interactif des 64 cartes '
+  : 'An interactive atlas of all 64 ';
+const heroSubtitleAfterLink = lang === 'fr'
+  ? ' — géographie réelle, contexte historique et stratégie pour chaque champ de bataille.'
+  : ' maps — real geography, historical context, and strategy for every battlefield.';
 ---
 
 <BaseLayout
@@ -51,7 +57,9 @@ const regionalPins = earthMaps.filter(([, m]) => m.geo_type === 'regional' && ha
         <span style="color: var(--accent-primary);">{t(lang, 'home.heading2')}</span>
       </h1>
       <p class="text-lg mb-10 max-w-2xl mx-auto" style="color: var(--text-secondary); line-height: 1.6;">
-        {t(lang, 'home.subtitle')}
+        {heroSubtitleBeforeLink}
+        <a href="https://www.openfront.io/" class="hero-inline-link">OpenFront.io</a>
+        {heroSubtitleAfterLink}
       </p>
       <!-- Route cards -->
       <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-2xl mx-auto">
@@ -150,5 +158,16 @@ const regionalPins = earthMaps.filter(([, m]) => m.geo_type === 'regional' && ha
   position: relative;
   z-index: 1;
   background: var(--surface-elevated);
+}
+.hero-inline-link {
+  color: var(--accent-primary);
+  text-decoration: underline;
+  text-decoration-color: rgba(119,224,255,0.45);
+  text-underline-offset: 0.18em;
+  transition: color 0.2s, text-decoration-color 0.2s;
+}
+.hero-inline-link:hover {
+  color: var(--text-primary);
+  text-decoration-color: currentColor;
 }
 </style>
