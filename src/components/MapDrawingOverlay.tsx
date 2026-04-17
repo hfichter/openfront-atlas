@@ -60,6 +60,7 @@ export default function MapDrawingOverlay({
   const [labelInput, setLabelInput] = useState<{ x: number; y: number; text: string } | null>(null);
 
   const stageRef = useRef<HTMLDivElement | null>(null);
+  const toolbarRef = useRef<HTMLDivElement | null>(null);
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const inputRef = useRef<HTMLInputElement | null>(null);
   const activeStrokeRef = useRef<StrokeAction | null>(null);
@@ -117,11 +118,13 @@ export default function MapDrawingOverlay({
   }, [isOpen, close, labelInput]);
 
   // Compute the stage size (contained within viewport minus toolbar), preserving aspect ratio.
+  // The toolbar uses flex-wrap, so its height grows on narrow screens — measure it rather than
+  // assuming a fixed value, otherwise the stage overflows and gets clipped.
   useLayoutEffect(() => {
     if (!isOpen) return;
     const compute = () => {
       const padding = 24;
-      const toolbar = 64;
+      const toolbar = toolbarRef.current?.getBoundingClientRect().height ?? 64;
       const availW = Math.max(200, window.innerWidth - padding * 2);
       const availH = Math.max(200, window.innerHeight - toolbar - padding * 2);
       const ratio = mapWidth / mapHeight;
@@ -135,7 +138,14 @@ export default function MapDrawingOverlay({
     };
     compute();
     window.addEventListener('resize', compute);
-    return () => window.removeEventListener('resize', compute);
+    const ro = typeof ResizeObserver !== 'undefined' && toolbarRef.current
+      ? new ResizeObserver(compute)
+      : null;
+    if (ro && toolbarRef.current) ro.observe(toolbarRef.current);
+    return () => {
+      window.removeEventListener('resize', compute);
+      ro?.disconnect();
+    };
   }, [isOpen, mapWidth, mapHeight]);
 
   const redraw = useCallback(() => {
@@ -386,7 +396,7 @@ export default function MapDrawingOverlay({
           aria-modal="true"
           aria-label={`Drawing on ${mapName}`}
         >
-          <div className="draw-toolbar">
+          <div ref={toolbarRef} className="draw-toolbar">
             <div className="draw-toolbar-group">
               <button
                 type="button"
