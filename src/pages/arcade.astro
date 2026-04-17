@@ -39,12 +39,12 @@ const totalCount = arcadeMaps.length + tournamentMaps.length;
     <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4">
       {arcadeMaps.map(([slug, map]) => (
         <a href={`${prefix}map/${slug}/`} class="arcade-card group block rounded-xl overflow-hidden border">
-          <div class="relative overflow-hidden" style="aspect-ratio: 4/3;">
+          <div class="card-media relative overflow-hidden" style="aspect-ratio: 4/3;">
             <img src={`${base}thumbnails/${slug}.webp`} alt={map.translated_name || map.display_name} class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" loading="lazy" />
             <div class="absolute inset-0" style="background: linear-gradient(to top, rgba(5,9,19,0.7) 0%, transparent 55%);" />
             <span class="absolute top-2 left-2 text-xs px-2 py-0.5 rounded-full border badge-arcade">{t(lang, 'cat.arcade')}</span>
           </div>
-          <div class="p-3">
+          <div class="card-body p-3">
             <div class="font-semibold text-sm mb-1 truncate" style="color: var(--text-primary); font-family: 'Space Grotesk', sans-serif;">{map.translated_name || map.display_name}</div>
             <div class="text-xs" style="color: var(--text-muted);">{map.width}×{map.height} · {map.nation_count} {t(lang, 'map.nations').toLowerCase()} · ~{map.estimated_max_players} {t(lang, 'wmap.players')}</div>
             <div class="text-xs mt-1" style="color: var(--text-muted);">{frequencyLabel(lang, map.playlist_frequency)}</div>
@@ -61,12 +61,12 @@ const totalCount = arcadeMaps.length + tournamentMaps.length;
     <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4">
       {tournamentMaps.map(([slug, map]) => (
         <a href={`${prefix}map/${slug}/`} class="tournament-card group block rounded-xl overflow-hidden border">
-          <div class="relative overflow-hidden" style="aspect-ratio: 4/3;">
+          <div class="card-media relative overflow-hidden" style="aspect-ratio: 4/3;">
             <img src={`${base}thumbnails/${slug}.webp`} alt={map.translated_name || map.display_name} class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" loading="lazy" />
             <div class="absolute inset-0" style="background: linear-gradient(to top, rgba(5,9,19,0.7) 0%, transparent 55%);" />
             <span class="absolute top-2 left-2 text-xs px-2 py-0.5 rounded-full border badge-tournament">{t(lang, 'cat.tournament')}</span>
           </div>
-          <div class="p-3">
+          <div class="card-body p-3">
             <div class="font-semibold text-sm mb-1 truncate" style="color: var(--text-primary); font-family: 'Space Grotesk', sans-serif;">{map.translated_name || map.display_name}</div>
             <div class="text-xs" style="color: var(--text-muted);">{map.nation_count} {t(lang, 'map.nations').toLowerCase()} · ~{map.estimated_max_players} {t(lang, 'wmap.players')} · {t(lang, 'freq.private')}</div>
           </div>
@@ -81,4 +81,12 @@ const totalCount = arcadeMaps.length + tournamentMaps.length;
 .arcade-card:hover { border-color: rgba(251,191,36,0.35); box-shadow: 0 0 18px rgba(251,191,36,0.08); }
 .tournament-card { background: var(--surface-elevated); border-color: var(--border); text-decoration: none; transition: border-color 0.2s, box-shadow 0.2s; }
 .tournament-card:hover { border-color: rgba(248,113,113,0.35); box-shadow: 0 0 18px rgba(248,113,113,0.08); }
+.arcade-card .card-media,
+.tournament-card .card-media { overflow: hidden; }
+.arcade-card .card-body,
+.tournament-card .card-body {
+  position: relative;
+  z-index: 1;
+  background: var(--surface-elevated);
+}
 </style>
