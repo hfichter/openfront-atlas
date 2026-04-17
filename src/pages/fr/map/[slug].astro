@@ -5,7 +5,7 @@ import StatsBar from '../../../components/StatsBar';
 import MapDrawingOverlay from '../../../components/MapDrawingOverlay';
 import mapsData from '../../../data/maps_data.json';
 import type { MapsData, MapEntry, Category } from '../../../types';
-import { t, frequencyLabel, categoryLabel } from '../../../i18n';
+import { t, frequencyLabel, categoryLabel, mapLabel } from '../../../i18n';
 import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -24,6 +24,7 @@ if (!map) return Astro.redirect(`${base}fr/`);
 // Try French content first, fall back to English
 let Content: any = null;
 let tagline: string = '';
+let pageTitle = mapLabel(lang, slug!, map.display_name, map.translated_name);
 try {
   const frContent = await getCollection('maps-fr');
   const enContent = await getCollection('maps');
@@ -34,6 +35,7 @@ try {
     const rendered = await render(entry);
     Content = rendered.Content;
     tagline = entry.data.tagline || '';
+    if (frEntry?.data.title) pageTitle = frEntry.data.title;
   }
 } catch (_) {}
 
@@ -48,8 +50,8 @@ const isArcadeTournament = map.category === 'arcade' || map.category === 'tourna
 ---
 
 <BaseLayout
-  title={`${map.translated_name || map.display_name} — OpenFront Atlas`}
-  description={`${map.translated_name || map.display_name}: ${map.width}×${map.height}, ${map.land_pct.toFixed(0)}% terre, ${map.nation_count} nations.`}
+  title={`${pageTitle} — OpenFront Atlas`}
+  description={`${pageTitle}: ${map.width}×${map.height}, ${map.land_pct.toFixed(0)}% terre, ${map.nation_count} nations.`}
   lang="fr"
   currentPath={`/map/${slug}/`}
 >
@@ -65,7 +67,7 @@ const isArcadeTournament = map.category === 'arcade' || map.category === 'tourna
         <div class="hero-map-stage" style={`aspect-ratio: ${map.width} / ${map.height}; position: relative;`}>
           <img
             src={`${base}thumbnails/${slug}.webp`}
-            alt={map.translated_name || map.display_name}
+            alt={pageTitle}
             class="hero-thumb"
             style={`aspect-ratio: ${map.width} / ${map.height};`}
           />
@@ -129,7 +131,7 @@ const isArcadeTournament = map.category === 'arcade' || map.category === 'tourna
           <span class="text-xs" style="color: var(--text-muted);">{freqLabel}</span>
         </div>
         <h1 class="text-3xl sm:text-4xl font-bold mb-2" style="color: var(--text-primary); font-family: 'Space Grotesk', sans-serif; line-height: 1.15;">
-          {map.translated_name || map.display_name}
+          {pageTitle}
         </h1>
         {tagline && <p class="text-base mb-5" style="color: var(--text-secondary);">{tagline}</p>}
         <div class="grid grid-cols-2 gap-3 mb-5">
@@ -155,7 +157,7 @@ const isArcadeTournament = map.category === 'arcade' || map.category === 'tourna
       <MapDrawingOverlay
         client:load
         slug={slug!}
-        mapName={map.translated_name || map.display_name}
+        mapName={pageTitle}
         mapWidth={map.width}
         mapHeight={map.height}
         thumbnailSrc={`${base}thumbnails/${slug}.webp`}
