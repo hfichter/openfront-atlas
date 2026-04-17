@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import NationsGrid from '../../components/NationsGrid';
 import StatsBar from '../../components/StatsBar';
+import MapDrawingOverlay from '../../components/MapDrawingOverlay';
 import mapsData from '../../data/maps_data.json';
 import type { MapsData, MapEntry, Category } from '../../types';
 import { t, frequencyLabel, categoryLabel } from '../../i18n';
@@ -147,6 +148,21 @@ const isArcadeTournament = map.category === 'arcade' || map.category === 'tourna
           <StatsBar client:load landPct={map.land_pct} waterPct={map.water_pct} />
         </div>
       </div>
+    </div>
+
+    <div class="draw-cta-wrap">
+      <MapDrawingOverlay
+        client:load
+        slug={slug!}
+        mapName={map.translated_name || map.display_name}
+        mapWidth={map.width}
+        mapHeight={map.height}
+        thumbnailSrc={`${base}thumbnails/${slug}.webp`}
+        nations={map.nations}
+        base={base}
+        launchLabel={t(lang, 'map.draw')}
+        clearConfirm={t(lang, 'map.clearConfirm')}
+      />
     </div>
   </section>
 

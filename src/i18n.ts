@@ -49,6 +49,8 @@ export const ui = {
     'map.comingSoonDesc': 'Geography, history, and strategy content is being written for this map.',
     'map.nationsVisible': 'Nations shown',
     'map.nationsHidden': 'Nations hidden',
+    'map.draw': 'Draw on map',
+    'map.clearConfirm': 'Clear all annotations?',
     // Categories
     'cat.continental': 'Continental',
     'cat.regional': 'Regional',
@@ -122,6 +124,8 @@ export const ui = {
     'map.comingSoonDesc': 'La géographie, l\'histoire et la stratégie de cette carte sont en cours de rédaction.',
     'map.nationsVisible': 'Nations affichées',
     'map.nationsHidden': 'Nations masquées',
+    'map.draw': 'Dessiner sur la carte',
+    'map.clearConfirm': 'Effacer toutes les annotations ?',
     // Map names in French — from OpenFront official translations
     'map.africa': 'Afrique',
     'map.amazonriver': 'Fleuve Amazone',
