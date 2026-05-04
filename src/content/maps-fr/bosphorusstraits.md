@@ -8,7 +8,7 @@ tagline: "Les empires s'élèvent là où les continents se frôlent"
 
 Le Bosphore est l'une des voies navigables les plus étroites et les plus décisives de la planète. Ce détroit sinueux relie la mer Noire à la mer de Marmara, qui s'ouvre ensuite par les Dardanelles sur la mer Égée et la Méditerranée. Sur le terrain, il ne s'agit pas d'un large chenal océanique, mais d'un corridor maritime resserré, bordé de rives escarpées, de caps et de berges urbanisées — un lieu où l'Europe et l'Asie se font face à travers quelques centaines de mètres d'eau.
 
-Sur la carte OpenFront, cette géographie se retrouve brutalement comprimée. Avec seulement 1000×612 pixels, Bosphorus Straits est la plus petite carte de géographie réelle du jeu, et pourtant elle regroupe 12 nations avec un solide ratio de 63% de terres. Elle ressemble donc moins à un vaste théâtre naval qu'à une bagarre au couteau autour d'une embouchure : temps de trajet très courts, pression frontalière constante et presque aucun espace mort.
+Sur la carte OpenFront, cette géographie se retrouve brutalement comprimée. Avec seulement 1000×612 pixels, Bosphorus Straits est la plus petite carte de géographie réelle du jeu, et pourtant elle regroupe 22 nations avec un solide ratio de 62,5% de terres. Elle ressemble donc moins à un vaste théâtre naval qu'à une bagarre au couteau autour d'une embouchure : temps de trajet très courts, pression frontalière constante et presque aucun espace mort.
 
 Le relief environnant compte autant que le chenal lui-même. Au nord se trouve l'ouverture vers la mer Noire ; au sud, l'approche de la mer de Marmara et de l'historique Constantinople. Chaque rivage a de l'importance, chaque point de passage est disputé, et même les petites péninsules deviennent des forteresses naturelles tant l'espace pour se replier est réduit.
 
@@ -45,5 +45,5 @@ Cette carte récompense davantage le tempo que la patience. Comme le théâtre e
 
 ## Anecdotes
 - Avec 1000×612, Bosphorus Straits est la plus petite carte de géographie réelle d'OpenFront
-- Son ratio de 63% de terres la rend bien plus dense en terre qu'East Asia (34%) ou les Falkland Islands (29%), alors même qu'elle est centrée sur une voie navigable célèbre
-- Avec 12 nations sur une surface aussi minuscule, elle affiche l'un des ratios départs-par-pixel les plus élevés de toutes les cartes de l'atlas
+- Son ratio de 62,5% de terres la rend bien plus dense en terre qu'East Asia (34%) ou les Falkland Islands (29%), alors même qu'elle est centrée sur une voie navigable célèbre
+- Avec 22 nations sur une surface aussi minuscule, elle affiche l'un des ratios départs-par-pixel les plus élevés de toutes les cartes de l'atlas

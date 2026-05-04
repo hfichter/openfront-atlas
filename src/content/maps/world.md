@@ -19,12 +19,12 @@ Modern humans emerged in sub-Saharan Africa and gradually spread across the glob
 Columbus's crossing of the Atlantic marked the moment when the Eastern and Western hemispheres became permanently entangled. Trade routes, colonial empires, and mass migration reshaped every continent on this map within the following century, drawing the political borders that still loosely define the nations here.
 
 ### 1945 — The World Remade
-Two world wars in thirty years redrew this map more dramatically than any event since. Empires dissolved, new nations emerged, and the bipolar Cold War replaced old European dominance with a superpower standoff. The 61 nations on the World map are a compressed echo of that post-war order.
+Two world wars in thirty years redrew this map more dramatically than any event since. Empires dissolved, new nations emerged, and the bipolar Cold War replaced old European dominance with a superpower standoff. The 72 nations on the World map are a compressed echo of that post-war order.
 
 ## The Battlefield
 
 ### Terrain Overview
-With 61 nations competing across 32.6% land tiles, the World map is simultaneously the most familiar and most contested of all continental maps. Choke geography matters: the Suez region, the Panama isthmus, and the Bering crossing all create natural chokepoints that become critical early in a match. Naval power is indispensable — 67.4% water means island nations and coastal powers can use the ocean as both highway and barrier.
+With 72 nations competing across 32.6% land tiles, the World map is simultaneously the most familiar and most contested of all continental maps. Choke geography matters: the Suez region, the Panama isthmus, and the Bering crossing all create natural chokepoints that become critical early in a match. Naval power is indispensable — 67.4% water means island nations and coastal powers can use the ocean as both highway and barrier.
 
 ### Best Spawns
 - **Scandinavia / Northern Europe** — sheltered northern flank, natural mountain barriers, multiple expansion routes south and east
@@ -40,5 +40,5 @@ The water coverage (67.4%) makes naval investment mandatory for any player hopin
 
 ## Fun Facts
 - World appears 20 times per playlist rotation — more than any other map by a wide margin
-- At 61 nations, it's second only to Giant World Map (97 nations) in population density
+- At 72 nations, it is one of the most populated maps in OpenFront, behind only Giant World Map's 107 nations
 - The map's 32.6% land coverage closely mirrors real Earth's ratio of ~29% land surface

@@ -46,4 +46,4 @@ La question centrale sur Falkland Islands n'est pas de savoir s'il faut investir
 ## Anecdotes
 - Avec 29% de terres, Falkland Islands correspond presque exactement au ratio terrestre de Giant World Map, mais compresse ce déséquilibre dans une petite zone de guerre régionale
 - Son événement historique majeur, la guerre des Falklands de 1982, est l'un des parallèles les plus directs avec la logistique navale d'OpenFront dans le monde réel
-- Malgré ses 12 nations, comme Bosphorus Straits, Falkland Islands procure une sensation totalement différente : manœuvre en haute mer plutôt que goulets claustrophobes
+- Malgré ses 12 nations, Falkland Islands paraît bien plus ouverte que Bosphorus Straits, désormais très encombrée : manœuvre en haute mer plutôt que goulets claustrophobes

@@ -24,7 +24,7 @@ Deux guerres mondiales en trente ans redessinèrent cette carte plus radicalemen
 ## Le Champ de Bataille
 
 ### Aperçu du terrain
-Avec 61 nations en compétition sur 32,6 % de terres, la carte Monde est simultanément la plus familière et la plus disputée de toutes les cartes continentales. La géographie des goulots d'étranglement est cruciale : la région de Suez, l'isthme de Panama et la traversée de Béring créent tous des points de passage critiques en début de partie.
+Avec 72 nations en compétition sur 32,6 % de terres, la carte Monde est simultanément la plus familière et la plus disputée de toutes les cartes continentales. La géographie des goulots d'étranglement est cruciale : la région de Suez, l'isthme de Panama et la traversée de Béring créent tous des points de passage critiques en début de partie.
 
 ### Meilleurs spawns
 - **Scandinavie / Europe du Nord** — flanc nord protégé, barrières montagneuses naturelles, plusieurs voies d'expansion vers le sud et l'est
@@ -40,5 +40,5 @@ La couverture en eau (67,4 %) rend l'investissement naval obligatoire pour tout 
 
 ## Le Saviez-vous ?
 - La carte Monde apparaît 20 fois par rotation de playlist — plus que toute autre carte de loin
-- Avec 61 nations, elle est deuxième uniquement derrière la Carte du Monde Géante (97 nations) en densité de population
+- Avec 72 nations, elle fait partie des cartes les plus peuplées d'OpenFront, derrière seulement les 107 nations de la Carte du Monde Géante
 - La couverture terrestre de 32,6 % de la carte reflète étroitement le ratio réel de la Terre d'environ 29 % de surface terrestre

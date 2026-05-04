@@ -8,7 +8,7 @@ tagline: "An island built on invasion and reinvention"
 
 The British Isles are a geographic accident that shaped world history. Britain and Ireland were joined to the European mainland until around 6500 BCE, when rising post-glacial seas broke the land connection and created the Channel — a narrow strip of water that has defined British strategic thinking ever since. The OpenFront Britannia map (1600×2088) captures the full archipelago: mainland Britain with its Highland-Lowland divide, Ireland to the west, the Orkney and Shetland islands to the north, and the Channel coast visible to the south.
 
-At 35.6% land, water dominates — 64.4% of the map is ocean, emphasizing the island geography that makes this map distinct. Scotland's Highlands create mountain terrain across the northern third. The English Midlands and East Anglia offer flat, agricultural terrain. Wales provides a western mountain barrier. The Thames estuary and London basin anchor the southeast corner.
+At 35.4% land, water dominates — 64.6% of the map is ocean, emphasizing the island geography that makes this map distinct. Scotland's Highlands create mountain terrain across the northern third. The English Midlands and East Anglia offer flat, agricultural terrain. Wales provides a western mountain barrier. The Thames estuary and London basin anchor the southeast corner.
 
 ## The History
 
@@ -39,7 +39,7 @@ The Highland Line — the geological boundary separating the Scottish Highlands 
 - **Far north coastal positions** — minimal neighbors, naval reach required for any significant expansion
 
 ### Strategic Insights
-The Channel coast is strategically vital — whoever controls it can threaten or protect cross-Channel movement and naval trade. Ireland is effectively a separate sub-theatre: if you spawn there, you have time to consolidate the island before committing to the mainland fight. Naval power matters on this map more than most regional maps due to the 64.4% water coverage.
+The Channel coast is strategically vital — whoever controls it can threaten or protect cross-Channel movement and naval trade. Ireland is effectively a separate sub-theatre: if you spawn there, you have time to consolidate the island before committing to the mainland fight. Naval power matters on this map more than most regional maps due to the 64.6% water coverage.
 
 ## Fun Facts
 - Britannia's 1600×2088 aspect ratio is taller than it is wide — one of the few portrait-orientation maps in the game

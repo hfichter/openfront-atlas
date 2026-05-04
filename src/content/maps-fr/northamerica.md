@@ -40,5 +40,5 @@ Le goulot d'étranglement de l'Amérique centrale est l'une des positions strat�
 
 ## Le Saviez-vous ?
 - Avec 2800×1448, l'Amérique du Nord est la carte la plus large du jeu
-- Les 49 nations incluent de massives nations territoriales et de minuscules États insulaires caribéens — la disparité de qualité de position de départ est parmi les plus grandes de toutes les cartes
+- Les 69 nations incluent de massives nations territoriales et de minuscules États insulaires caribéens — la disparité de qualité de position de départ est parmi les plus grandes de toutes les cartes
 - La région des Grands Lacs est l'un des rares endroits du jeu où l'eau douce intérieure crée des goulots d'étranglement navigables

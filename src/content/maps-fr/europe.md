@@ -6,9 +6,9 @@ tagline: "La péninsule la plus disputée du monde"
 
 ## La Géographie
 
-L'Europe dépasse largement sa taille. Couvrant à peine 10 millions de kilomètres carrés, elle compte néanmoins plus d'États souverains reconnus que tout autre continent — un fait que reflètent fidèlement les 49 nations de la carte. Le terrain capture la réalité géographique essentielle : une côte ouest profondément découpée, une dorsale montagneuse centrale (Alpes et Carpates), de larges plaines septentrionales, et la bordure méridionale parsemée d'îles de la Méditerranée.
+L'Europe dépasse largement sa taille. Couvrant à peine 10 millions de kilomètres carrés, elle compte néanmoins plus d'États souverains reconnus que tout autre continent — un fait que reflètent fidèlement les 52 nations de la carte. Le terrain capture la réalité géographique essentielle : une côte ouest profondément découpée, une dorsale montagneuse centrale (Alpes et Carpates), de larges plaines septentrionales, et la bordure méridionale parsemée d'îles de la Méditerranée.
 
-Avec 58,9 % de terres — le ratio le plus élevé parmi les cartes continentales — l'Europe est singulière : peu d'océan, beaucoup de territoires densément peuplés. Le Rhin, le Danube et d'autres corridors fluviaux sont intégrés au terrain, et la côte déchiquetée de la péninsule scandinave offre des positions défensives naturelles au nord. Les péninsules ibérique et italienne s'avancent dans la mer comme des extensions semi-isolées, tentantes à conquérir tôt mais difficiles à défendre sur le long terme.
+Avec 48,3 % de terres, l'Europe est presque également partagée entre sol et eau. Cela rend le continent dense sans permettre d'ignorer les mers qui l'entourent. Le Rhin, le Danube et d'autres corridors fluviaux sont intégrés au terrain, et la côte déchiquetée de la péninsule scandinave offre des positions défensives naturelles au nord. Les péninsules ibérique et italienne s'avancent dans la mer comme des extensions semi-isolées, tentantes à conquérir tôt mais difficiles à défendre sur le long terme.
 
 ## L'Histoire
 
@@ -27,7 +27,7 @@ Deux guerres catastrophiques en trente ans tuèrent des dizaines de millions de 
 ## Le Champ de Bataille
 
 ### Aperçu du terrain
-La densité terrestre de 58,9 % de l'Europe en fait l'une des cartes continentales les plus intensément terrestres. Les Alpes créent une division nette entre l'Europe du Nord et du Sud — contrôler les cols est crucial. La Grande Plaine d'Europe du Nord (de la Pologne à la France) est une autoroute naturelle pour l'expansion rapide, mais aussi un terrain découvert sans barrières naturelles.
+La densité terrestre de 48,3 % de l'Europe en fait une carte équilibrée mais toujours extrêmement dense. Les Alpes créent une division nette entre l'Europe du Nord et du Sud — contrôler les cols est crucial. La Grande Plaine d'Europe du Nord (de la Pologne à la France) est une autoroute naturelle pour l'expansion rapide, mais aussi un terrain découvert sans barrières naturelles.
 
 ### Meilleurs spawns
 - **Scandinavie** — excellente géographie défensive, barrières montagneuses, flancs océaniques ; descendez vers le sud à votre rythme
@@ -39,9 +39,9 @@ La densité terrestre de 58,9 % de l'Europe en fait l'une des cartes continental
 - **Plaines d'Europe de l'Est** — terrain ouvert avec des menaces de toutes directions ; la partie initiale peut s'effondrer rapidement
 
 ### Insights stratégiques
-La couverture en eau de 41,1 % rend le contrôle côtier significatif mais non dominant — c'est avant tout une carte de guerre terrestre. Le transport naval devient utile pour traverser la Méditerranée ou frapper la côte baltique, mais la puissance maritime seule ne suffira pas à l'emporter. Avec une fréquence de playlist de 3, l'Europe apparaît peu souvent, ce qui rend chaque partie mémorable.
+La couverture en eau de 51,7 % rend le contrôle côtier et celui de la Manche plus important qu'avant. Le transport naval devient utile pour traverser la Méditerranée, frapper la côte baltique ou contourner des fronts terrestres bloqués. Avec une fréquence de playlist de 7, l'Europe est désormais une carte courante upstream.
 
 ## Le Saviez-vous ?
-- L'Europe possède le pourcentage de terres le plus élevé (58,9 %) de toutes les cartes continentales — presque l'exact inverse d'Océanie (9,7 % de terres)
-- Avec 49 nations, elle se classe à égalité avec l'Amérique du Nord pour le deuxième plus grand nombre de nations parmi les cartes continentales
+- L'Europe compte désormais 52 nations, ce qui en fait l'un des départs continentaux les plus denses d'OpenFront
+- Sa part actuelle de 48,3 % de terres rend la puissance navale plus importante que dans les anciennes données de l'atlas
 - Le terrain alpin crée certains des plus importants cols montagneux de chasse du jeu, reflétant l'importance historique des passages alpins

@@ -10,7 +10,7 @@ Europe Classic présente le continent dans une forme large et simplifiée qui me
 
 Avec 2000×1000 et 50% de terres, Europe Classic se situe presque exactement à l'équilibre entre terre et eau. Cet équilibre lui donne une sensation très différente de celle de théâtres plus dominés par l'océan comme Britannia Classic ou East Asia. Il y a assez de mer pour ouvrir des flancs et récompenser la planification navale, mais assez de continuité terrestre pour que l'expansion continentale reste la voie naturelle vers la puissance.
 
-Le format classique change aussi le rythme de la carte. Avec 31 nations au lieu des 49 de l'Europe standard, les frontières sont moins étouffantes et les territoires plus vastes, ce qui laisse un peu plus d'air avant le grand empilement continental. L'Europe reste l'Europe — dense, connectée et dangereuse — mais cette version est plus propre, plus rapide à lire et plus indulgente pour les manœuvres de milieu de partie.
+Le format classique change aussi le rythme de la carte. Avec 37 nations au lieu des 52 de l'Europe standard, les frontières sont moins étouffantes et les territoires plus vastes, ce qui laisse un peu plus d'air avant le grand empilement continental. L'Europe reste l'Europe — dense, connectée et dangereuse — mais cette version est plus propre, plus rapide à lire et plus indulgente pour les manœuvres de milieu de partie.
 
 ## L'histoire
 
@@ -44,6 +44,6 @@ Europe Classic est une carte de connectivité. Le continent offre plus de routes
 Europe Classic récompense les joueurs qui s'étendent efficacement sans devenir immédiatement le problème de tout le monde. Comme la carte compte moins de nations que l'Europe standard, les guerres du début peuvent être plus décisives : une conquête d'ouverture réussie crée une base réellement solide. Le vrai défi consiste ensuite à transformer cet avantage local en équilibre continental avant que les puissances voisines ne décident que vous êtes le prochain Napoléon.
 
 ## Anecdotes
-- Europe Classic compte 31 nations, soit bien moins que les 49 de l'Europe standard, ce qui rend les débuts moins chaotiques mais chaque perte plus lourde de conséquences
-- Avec 50% de terres, elle est nettement plus sèche que Britannia Classic (33%) et East Asia (34%), mais moins terrestre que Bosphorus Straits (63%)
+- Europe Classic compte 37 nations, soit moins que les 52 de l'Europe standard, ce qui rend les débuts moins chaotiques mais chaque perte plus lourde de conséquences
+- Avec 50% de terres, elle est nettement plus sèche que Britannia Classic (33%) et East Asia (34%), mais moins terrestre que Bosphorus Straits (62,5%)
 - Le format 2000×1000 de la carte classique en fait l'une des arènes continentales les plus larges de tout l'atlas

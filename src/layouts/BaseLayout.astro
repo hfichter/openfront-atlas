@@ -2,6 +2,7 @@
 import '../styles/global.css';
 import { t, pathForLang } from '../i18n';
 import type { Lang } from '../i18n';
+import mapsData from '../data/maps_data.json';
 
 export interface Props {
   title?: string;
@@ -12,12 +13,13 @@ export interface Props {
 
 const {
   title = 'OpenFront Atlas',
-  description = 'Interactive map companion for OpenFront.io — explore all 64 battlefields with real geography, history, and strategy.',
+  description = 'Interactive map companion for OpenFront.io — explore current battlefields with real geography, history, and strategy.',
   lang = 'en',
   currentPath = '/',
 } = Astro.props;
 
 const base = import.meta.env.BASE_URL;
+const activeMapCount = Object.keys(mapsData).length;
 const enUrl = pathForLang('en', currentPath, base);
 const frUrl = pathForLang('fr', currentPath, base);
 
@@ -26,6 +28,7 @@ const isOverview = normalizedPath === '/';
 const isEarth = normalizedPath === '/earth/';
 const isWorlds = normalizedPath === '/worlds/';
 const isArcade = normalizedPath === '/arcade/';
+const isLegacy = normalizedPath === '/legacy/';
 ---
 
 <!DOCTYPE html>
@@ -73,6 +76,7 @@ const isArcade = normalizedPath === '/arcade/';
             <a href={lang === 'fr' ? `${base}fr/earth/` : `${base}earth/`} class={`nav-link ${isEarth ? 'nav-link-active' : ''}`}>{t(lang, 'nav.earthMaps')}</a>
             <a href={lang === 'fr' ? `${base}fr/worlds/` : `${base}worlds/`} class={`nav-link ${isWorlds ? 'nav-link-active' : ''}`}>{t(lang, 'nav.otherWorlds')}</a>
             <a href={lang === 'fr' ? `${base}fr/arcade/` : `${base}arcade/`} class={`nav-link ${isArcade ? 'nav-link-active' : ''}`}>{t(lang, 'nav.arcade')}</a>
+            <a href={lang === 'fr' ? `${base}fr/legacy/` : `${base}legacy/`} class={`nav-link ${isLegacy ? 'nav-link-active' : ''}`}>{t(lang, 'nav.legacy')}</a>
           </div>
 
           <!-- Language switcher -->
@@ -95,6 +99,7 @@ const isArcade = normalizedPath === '/arcade/';
       <a href={lang === 'fr' ? `${base}fr/earth/` : `${base}earth/`} class={`mobile-nav-link ${isEarth ? 'mobile-nav-link-active' : ''}`}>{t(lang, 'nav.earthMaps')}</a>
       <a href={lang === 'fr' ? `${base}fr/worlds/` : `${base}worlds/`} class={`mobile-nav-link ${isWorlds ? 'mobile-nav-link-active' : ''}`}>{t(lang, 'nav.otherWorlds')}</a>
       <a href={lang === 'fr' ? `${base}fr/arcade/` : `${base}arcade/`} class={`mobile-nav-link ${isArcade ? 'mobile-nav-link-active' : ''}`}>{t(lang, 'nav.arcade')}</a>
+      <a href={lang === 'fr' ? `${base}fr/legacy/` : `${base}legacy/`} class={`mobile-nav-link ${isLegacy ? 'mobile-nav-link-active' : ''}`}>{t(lang, 'nav.legacy')}</a>
     </div>
   </nav>
 
@@ -176,7 +181,7 @@ const isArcade = normalizedPath === '/arcade/';
         <span>·</span>
         <a href="https://github.com/hfichter/openfront-atlas" target="_blank" rel="noopener" class="hover:underline" style="color: var(--text-muted);">GitHub</a>
         <span>·</span>
-        <span>64 {t(lang, 'footer.maps')}</span>
+        <span>{activeMapCount} {t(lang, 'footer.maps')}</span>
         <span>·</span>
         <span>{t(lang, 'footer.unofficial')}</span>
       </div>

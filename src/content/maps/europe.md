@@ -6,9 +6,9 @@ tagline: "The most contested peninsula on Earth"
 
 ## The Geography
 
-Europe punches far above its size. Covering barely 10 million square kilometers, it nonetheless contains more recognized sovereign states than any other continent — a fact the map's 49 nations reflects accurately. The terrain on the OpenFront map captures the key geographical reality: a heavily indented western coastline, a central mountain spine (the Alps and Carpathians), broad northern plains, and the Mediterranean's island-studded southern edge.
+Europe punches far above its size. Covering barely 10 million square kilometers, it nonetheless contains more recognized sovereign states than any other continent — a fact the map's 52 nations reflects accurately. The terrain on the OpenFront map captures the key geographical reality: a heavily indented western coastline, a central mountain spine (the Alps and Carpathians), broad northern plains, and the Mediterranean's island-studded southern edge.
 
-At 58.9% land — the highest ratio among the continental maps — Europe is unusual: relatively little ocean, a lot of closely-packed territory. The Rhine, Danube, and other river corridors are baked into the terrain, and the Scandinavian peninsula's jagged coast creates natural defensive positions in the north. The Iberian and Italian peninsulas jut into the sea as semi-isolated extensions, tempting to grab early but hard to defend long-term.
+At 48.3% land, Europe is almost evenly split between ground and water. That makes the continent crowded without letting players ignore the seas around it. The Rhine, Danube, and other river corridors are baked into the terrain, and the Scandinavian peninsula's jagged coast creates natural defensive positions in the north. The Iberian and Italian peninsulas jut into the sea as semi-isolated extensions, tempting to grab early but hard to defend long-term.
 
 ## The History
 
@@ -27,7 +27,7 @@ Two catastrophic wars in thirty years killed tens of millions and destroyed the 
 ## The Battlefield
 
 ### Terrain Overview
-Europe's 58.9% land density makes it one of the most land-intensive continental maps. The Alps create a hard divide between Northern and Southern Europe — controlling the passes is critical. The wide Northern European Plain (Poland through France) is a natural highway for fast expansion, but also a killing ground with no natural barriers.
+Europe's 48.3% land density makes it balanced but still intensely crowded. The Alps create a hard divide between Northern and Southern Europe — controlling the passes is critical. The wide Northern European Plain (Poland through France) is a natural highway for fast expansion, but also a killing ground with no natural barriers.
 
 ### Best Spawns
 - **Scandinavia** — excellent defensive geography, mountain barriers, ocean flanks; expand south at pace
@@ -39,9 +39,9 @@ Europe's 58.9% land density makes it one of the most land-intensive continental 
 - **Eastern European flatlands** — open terrain with threats from multiple directions; early game can collapse quickly
 
 ### Strategic Insights
-The 41.1% water coverage makes coastal and Channel control meaningful but not dominant — this is primarily a land war map. Naval transport becomes useful for crossing the Mediterranean or striking the Baltic coast, but you won't win through sea power alone. At playlist frequency 3, Europe appears infrequently, making each game feel like an event. The high nation density (49 nations) guarantees early skirmishes and rapid territorial consolidation in the first phases.
+The 51.7% water coverage makes coastal and Channel control more important than before. Naval transport becomes useful for crossing the Mediterranean, striking the Baltic coast, or bypassing landlocked stalemates. At playlist frequency 7, Europe is now a common upstream map, and the high nation density (52 nations) guarantees early skirmishes and rapid territorial consolidation in the first phases.
 
 ## Fun Facts
-- Europe has the highest land percentage (58.9%) of any continental map — it's almost exactly the inverse of Oceania (9.7% land)
-- At 49 nations, it ties North America for second-most nations among continental maps
+- Europe now has 52 nations, making it one of the densest continental starts in OpenFront
+- Its current 48.3% land share makes naval control more relevant than in older atlas data
 - The Alps terrain feature creates some of the game's most pronounced mountain chokepoints, mimicking the historical importance of Alpine passes

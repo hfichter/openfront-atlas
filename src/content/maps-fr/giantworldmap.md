@@ -41,9 +41,9 @@ Giant World Map est un théâtre de macro-stratégie défini par l'échelle, la 
 - **Impasse profondes à l'intérieur des terres** — solide accumulation terrestre, faible capacité de projection à travers les océans lorsque la guerre mondiale s'accélère
 
 ### Aperçus stratégiques
-La plus grosse erreur sur Giant World Map est d'y jouer comme sur une carte normale. Les gains locaux du début comptent, mais le timing global compte davantage : quand ouvrir un second front océanique, quand prendre un canal ou un détroit, quand former des coalitions, et quand abandonner des possessions périphériques pour protéger le cœur. Avec 97 nations — plus que n'importe quelle autre carte — c'est OpenFront dans sa version la plus politique, la plus logistique et la plus épique.
+La plus grosse erreur sur Giant World Map est d'y jouer comme sur une carte normale. Les gains locaux du début comptent, mais le timing global compte davantage : quand ouvrir un second front océanique, quand prendre un canal ou un détroit, quand former des coalitions, et quand abandonner des possessions périphériques pour protéger le cœur. Avec 107 nations — plus que n'importe quelle autre carte — c'est OpenFront dans sa version la plus politique, la plus logistique et la plus épique.
 
 ## Anecdotes
-- Giant World Map est la plus grande carte d'OpenFront avec 4108×1948 et la seule de ce lot à compter 97 nations
+- Giant World Map est la plus grande carte d'OpenFront avec 4108×1948 et la seule de ce lot à compter 107 nations
 - Son ratio de 29% de terres correspond presque parfaitement à l'équilibre terre-eau de la Terre réelle et égale exactement celui de Falkland Islands malgré une échelle totalement différente
 - Plus que n'importe quelle carte régionale, Giant World Map transforme les goulets célèbres en super-armes stratégiques, car les itinéraires alternatifs sont si longs

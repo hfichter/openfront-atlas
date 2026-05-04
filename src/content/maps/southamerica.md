@@ -8,7 +8,7 @@ tagline: "Andes wall, Amazon sea of green"
 
 South America is a continent organized by two colossal systems. Along the entire western edge runs the Andes, the longest continental mountain chain on Earth, forming a narrow but decisive spine from Venezuela to Tierra del Fuego. East of that wall lies the Amazon Basin, a lowland watershed so vast that it feels almost oceanic in scale. Further south, the continent opens into the grasslands of the Pampas and the cold, wind-scoured reaches of Patagonia.
 
-The OpenFront map emphasizes that vertical drama. At 1744×2376, South America is a tall portrait map, so distance north-to-south becomes a strategic problem in its own right. With only 34% land, the continent is heavily broken by coastlines, gulfs, estuaries, and waterways; the land that does exist is stretched into long corridors and separated theaters. Twenty-four nations means the map is busy, but never uniformly crowded.
+The OpenFront map emphasizes that vertical drama. At 1744×2376, South America is a tall portrait map, so distance north-to-south becomes a strategic problem in its own right. With only 34% land, the continent is heavily broken by coastlines, gulfs, estuaries, and waterways; the land that does exist is stretched into long corridors and separated theaters. Twenty-five nations means the map is busy, but never uniformly crowded.
 
 This is a continent of edges. The Pacific coast is compressed beneath the Andes, the Atlantic side is broader and more open, and the Amazon interior acts less like a highway than a huge difficult middle. The player who sees South America as one unified landmass usually loses to the one who understands it as several connected campaigns.
 

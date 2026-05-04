@@ -41,9 +41,9 @@ Giant World Map is a macro-strategy theater defined by scale, distance, and logi
 - **Deep interior dead ends** — strong land buildup, weak ability to project across oceans when the global war accelerates
 
 ### Strategic Insights
-The biggest mistake on Giant World Map is playing it like a normal map. Early local gains matter, but global timing matters more: when to open a second ocean front, when to seize a canal or strait, when to form coalitions, and when to abandon peripheral holdings to protect the core. With 97 nations — more than any other map — this is OpenFront at its most political, most logistical, and most epic.
+The biggest mistake on Giant World Map is playing it like a normal map. Early local gains matter, but global timing matters more: when to open a second ocean front, when to seize a canal or strait, when to form coalitions, and when to abandon peripheral holdings to protect the core. With 107 nations — more than any other map — this is OpenFront at its most political, most logistical, and most epic.
 
 ## Fun Facts
-- Giant World Map is the largest map in OpenFront at 4108×1948 and the only one in this batch with 97 nations
+- Giant World Map is the largest map in OpenFront at 4108×1948 and the only one in this batch with 107 nations
 - Its 29% land ratio almost perfectly matches real Earth's land-water balance and exactly matches Falkland Islands in percentage despite utterly different scale
 - More than any regional map, Giant World Map turns famous chokepoints into strategic superweapons because the alternative routes are so long

@@ -8,7 +8,7 @@ tagline: "Empire rises where continents nearly touch"
 
 The Bosphorus is one of the narrowest and most consequential waterways on Earth. This twisting strait links the Black Sea to the Sea of Marmara, which in turn opens through the Dardanelles into the Aegean and Mediterranean. On the ground, it is not a broad ocean channel but a constricted maritime corridor with steep shores, headlands, and urbanized banks — a place where Europe and Asia face each other across a few hundred meters of water.
 
-On the OpenFront map, that geography becomes brutally compressed. At just 1000×612 pixels, Bosphorus Straits is the smallest real-geography map in the game, yet it still packs in 12 nations and a hefty 63% land ratio. That makes it feel less like a sprawling naval theater and more like a knife fight around a river mouth: short travel times, constant border pressure, and almost no dead space.
+On the OpenFront map, that geography becomes brutally compressed. At just 1000×612 pixels, Bosphorus Straits is the smallest real-geography map in the game, yet it still packs in 22 nations and a hefty 62.5% land ratio. That makes it feel less like a sprawling naval theater and more like a knife fight around a river mouth: short travel times, constant border pressure, and almost no dead space.
 
 The surrounding terrain matters as much as the channel itself. To the north lies the opening toward the Black Sea; to the south, the approach to the Sea of Marmara and historic Constantinople. Every shoreline is meaningful, every crossing point is contested, and even small peninsulas become natural fortresses because there is so little room to retreat.
 
@@ -45,5 +45,5 @@ This map rewards tempo more than patience. Because the theater is so small, earl
 
 ## Fun Facts
 - At 1000×612, Bosphorus Straits is the smallest real-geography map in OpenFront
-- Its 63% land ratio makes it dramatically more land-dense than East Asia (34%) or the Falkland Islands (29%) despite being centered on a famous waterway
-- With 12 nations in such a tiny footprint, it has one of the most crowded starts-per-pixel ratios of any atlas map
+- Its 62.5% land ratio makes it dramatically more land-dense than East Asia (34%) or the Falkland Islands (29%) despite being centered on a famous waterway
+- With 22 nations in such a tiny footprint, it has one of the most crowded starts-per-pixel ratios of any atlas map
