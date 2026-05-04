@@ -4,20 +4,24 @@ import NationsGrid from '../../../components/NationsGrid';
 import StatsBar from '../../../components/StatsBar';
 import MapDrawingOverlay from '../../../components/MapDrawingOverlay';
 import mapsData from '../../../data/maps_data.json';
+import legacyMapsData from '../../../data/legacy_maps_data.json';
 import type { MapsData, MapEntry, Category } from '../../../types';
 import { t, frequencyLabel, categoryLabel, mapLabel } from '../../../i18n';
 import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
   const data = mapsData as unknown as MapsData;
-  return Object.keys(data).map(slug => ({ params: { slug } }));
+  const legacyData = legacyMapsData as unknown as MapsData;
+  return [...Object.keys(data), ...Object.keys(legacyData)].map(slug => ({ params: { slug } }));
 }
 
 const { slug } = Astro.params;
 const data = mapsData as unknown as MapsData;
-const map: MapEntry = data[slug!];
+const legacyData = legacyMapsData as unknown as MapsData;
+const map: MapEntry = data[slug!] || legacyData[slug!];
 const base = import.meta.env.BASE_URL;
 const lang = 'fr' as const;
+const isLegacy = Boolean(legacyData[slug!]);
 
 if (!map) return Astro.redirect(`${base}fr/`);
 
@@ -43,7 +47,7 @@ const categoryColor: Record<Category, string> = {
   continental: '#77e0ff', regional: '#34d399', fantasy: '#a78bfa',
   arcade: '#fbbf24', tournament: '#f87171',
 };
-const color = categoryColor[map.category];
+const color = isLegacy ? '#94a3b8' : categoryColor[map.category];
 const freqLabel = frequencyLabel(lang, map.playlist_frequency);
 const isEarth = map.category === 'continental' || map.category === 'regional';
 const isArcadeTournament = map.category === 'arcade' || map.category === 'tournament';
@@ -56,8 +60,8 @@ const isArcadeTournament = map.category === 'arcade' || map.category === 'tourna
   currentPath={`/map/${slug}/`}
 >
   <div class="max-w-7xl mx-auto px-4 sm:px-6 pt-6">
-    <a href={`${base}fr/${isArcadeTournament ? 'arcade' : isEarth ? 'earth' : 'worlds'}/`} class="inline-flex items-center gap-1.5 text-sm transition-colors" style="color: var(--text-muted);" onmouseover="this.style.color='var(--accent-primary)'" onmouseout="this.style.color='var(--text-muted)'">
-      {isArcadeTournament ? t(lang, 'back.arcade') : isEarth ? t(lang, 'back.earth') : t(lang, 'back.worlds')}
+    <a href={`${base}fr/${isLegacy ? 'legacy' : isArcadeTournament ? 'arcade' : isEarth ? 'earth' : 'worlds'}/`} class="inline-flex items-center gap-1.5 text-sm transition-colors" style="color: var(--text-muted);" onmouseover="this.style.color='var(--accent-primary)'" onmouseout="this.style.color='var(--text-muted)'">
+      {isLegacy ? t(lang, 'back.legacy') : isArcadeTournament ? t(lang, 'back.arcade') : isEarth ? t(lang, 'back.earth') : t(lang, 'back.worlds')}
     </a>
   </div>
 
@@ -126,7 +130,7 @@ const isArcadeTournament = map.category === 'arcade' || map.category === 'tourna
       <div>
         <div class="flex items-center gap-2 mb-3">
           <span class="px-2.5 py-0.5 rounded-full text-xs font-medium border" style={`color: ${color}; border-color: ${color}44; background: ${color}11;`}>
-            {categoryLabel(lang, map.category)}
+            {isLegacy ? t(lang, 'cat.legacy') : categoryLabel(lang, map.category)}
           </span>
           <span class="text-xs" style="color: var(--text-muted);">{freqLabel}</span>
         </div>
@@ -150,6 +154,15 @@ const isArcadeTournament = map.category === 'arcade' || map.category === 'tourna
         <div class="rounded-xl p-4 border" style="background: var(--surface); border-color: var(--border);">
           <StatsBar client:load landPct={map.land_pct} waterPct={map.water_pct} />
         </div>
+        {isLegacy && (
+          <div class="legacy-note">
+            <div class="legacy-note-title">{t(lang, 'cat.legacy')}</div>
+            <div>{map.legacy_note}</div>
+            {map.legacy_replaced_by && data[map.legacy_replaced_by] && (
+              <a href={`${base}fr/map/${map.legacy_replaced_by}/`}>{t(lang, 'legacy.replacedBy')}: {mapLabel(lang, map.legacy_replaced_by, data[map.legacy_replaced_by].display_name, data[map.legacy_replaced_by].translated_name)}</a>
+            )}
+          </div>
+        )}
       </div>
     </div>
 
@@ -206,6 +219,31 @@ const isArcadeTournament = map.category === 'arcade' || map.category === 'tourna
 .editorial-content :global(ul li) { color: var(--text-secondary); font-size: 0.95rem; padding: 0.35rem 0 0.35rem 1.25rem; position: relative; line-height: 1.6; }
 .editorial-content :global(ul li::before) { content: '·'; position: absolute; left: 0; color: var(--accent-primary); font-weight: 700; }
 .editorial-content :global(strong) { color: var(--text-primary); font-weight: 600; }
+.legacy-note {
+  margin-top: 1rem;
+  padding: 0.875rem 1rem;
+  border-radius: 0.625rem;
+  border: 1px solid rgba(148,163,184,0.25);
+  background: rgba(148,163,184,0.08);
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  line-height: 1.55;
+}
+.legacy-note-title {
+  color: var(--text-primary);
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+.legacy-note a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: var(--accent-primary);
+  text-decoration: none;
+}
+.legacy-note a:hover {
+  text-decoration: underline;
+}
 
 /* Nation overlay */
 .is-hidden { display: none; }

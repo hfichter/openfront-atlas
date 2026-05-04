@@ -8,7 +8,7 @@ tagline: "Une île construite sur l'invasion et la réinvention"
 
 Les Îles Britanniques sont un accident géographique qui a façonné l'histoire mondiale. La Grande-Bretagne et l'Irlande étaient reliées au continent européen jusqu'à environ 6500 av. J.-C., quand la montée des mers post-glaciaires rompit la connexion terrestre et créa la Manche — un étroit bras de mer qui a défini la pensée stratégique britannique depuis lors. La carte Britannia (1600×2088) capture l'archipel complet : la Grande-Bretagne continentale avec sa division Highlands-Lowlands, l'Irlande à l'ouest, les Orcades et Shetland au nord, et la côte de la Manche au sud.
 
-Avec 35,6 % de terres, l'eau domine — 64,4 % de la carte est océan, soulignant la géographie insulaire qui rend cette carte distincte. Les Highlands écossaises créent un terrain montagneux sur le tiers nord.
+Avec 35,4 % de terres, l'eau domine — 64,6 % de la carte est océan, soulignant la géographie insulaire qui rend cette carte distincte. Les Highlands écossaises créent un terrain montagneux sur le tiers nord.
 
 ## L'Histoire
 
@@ -36,7 +36,7 @@ La Ligne des Highlands — la frontière géologique séparant les Highlands éc
 - **Positions côtières extrêmes au nord** — voisins minimaux, portée navale requise pour toute expansion significative
 
 ### Insights stratégiques
-La côte de la Manche est stratégiquement vitale — qui la contrôle peut menacer ou protéger les mouvements trans-Manche. L'Irlande est effectivement un sous-théâtre séparé. La puissance navale compte sur cette carte plus que sur la plupart des cartes régionales en raison des 64,4 % de couverture en eau.
+La côte de la Manche est stratégiquement vitale — qui la contrôle peut menacer ou protéger les mouvements trans-Manche. L'Irlande est effectivement un sous-théâtre séparé. La puissance navale compte sur cette carte plus que sur la plupart des cartes régionales en raison des 64,6 % de couverture en eau.
 
 ## Le Saviez-vous ?
 - Le ratio d'aspect 1600×2088 de Britannia est plus haute que large — l'une des rares cartes en orientation portrait du jeu

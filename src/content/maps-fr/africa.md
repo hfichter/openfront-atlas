@@ -39,6 +39,6 @@ La caractéristique définissant le plus le gameplay de l'Afrique est le Sahara 
 Le Sahara agit comme zone tampon naturelle. La richesse côtière du continent récompense l'investissement naval. À une fréquence de playlist de 7, l'Afrique est l'une des cartes continentales les plus communes.
 
 ## Le Saviez-vous ?
-- L'Afrique avec 55,2 % de terres est la troisième carte continentale la plus riche en terres, derrière l'Europe (58,9 %) et l'Asie (45 %)
+- L'Afrique avec 55,2 % de terres est actuellement la carte continentale la plus riche en terres de l'atlas
 - Le couloir étroit du Nil à travers le Sahara est l'une des caractéristiques de terrain les plus frappantes de toutes les cartes OpenFront
 - Avec 110 joueurs estimés maximum, l'Afrique est l'une des cartes continentales à la plus haute capacité

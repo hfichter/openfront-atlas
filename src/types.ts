@@ -28,6 +28,10 @@ export interface MapEntry {
   geo_lat?: number;
   geo_lng?: number;
   geo_type?: GeoType;
+  legacy?: boolean;
+  legacy_removed_sync?: string;
+  legacy_note?: string;
+  legacy_replaced_by?: string;
 }
 
 export type MapsData = Record<string, MapEntry>;

@@ -43,5 +43,5 @@ The Central American chokepoint is one of the most strategically important posit
 
 ## Fun Facts
 - At 2800×1448, North America is the widest map in the game
-- The 49 nations include both massive territorial nations and tiny Caribbean island states — the disparity in starting position quality is among the largest of any map
+- The 69 nations include both massive territorial nations and tiny Caribbean island states — the disparity in starting position quality is among the largest of any map
 - The Great Lakes region is one of only a handful of areas in the game where inland freshwater terrain creates navigable chokepoints

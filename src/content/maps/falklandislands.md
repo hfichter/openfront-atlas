@@ -46,4 +46,4 @@ The central question on Falkland Islands is not whether to invest in fleets, but
 ## Fun Facts
 - At 29% land, Falkland Islands matches Giant World Map's global land ratio almost exactly, but compresses that imbalance into a tiny regional war zone
 - Its defining historical event, the 1982 Falklands War, is one of the most direct real-world parallels to OpenFront's naval logistics gameplay
-- Despite having 12 nations like Bosphorus Straits, Falkland Islands feels completely different: open ocean maneuver instead of claustrophobic chokepoints
+- Despite having 12 nations, Falkland Islands feels far more open than the newly crowded Bosphorus Straits: open ocean maneuver instead of claustrophobic chokepoints

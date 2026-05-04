@@ -42,6 +42,6 @@ Africa's most defining gameplay feature is the Sahara — a vast, difficult-terr
 The Sahara acts as a natural buffer zone — controlling the northern edge is important for blocking cross-continental invasions, but committing troops there is expensive. The continent's coastal perimeter rewards naval investment: the Gulf of Guinea, East African coast, and Cape Horn position all enable coastal raiding and supply disruption. At playlist frequency 7, Africa is one of the more common continental maps.
 
 ## Fun Facts
-- Africa at 55.2% land is the third most land-dense continental map, behind Europe (58.9%) and Asia (45%)
+- Africa at 55.2% land is currently the most land-dense continental map in the atlas
 - The Nile River's narrow corridor through the Sahara is one of the most striking terrain features across all OpenFront maps
-- At 110 estimated max players, Africa is tied with Europe and Oceania as one of the highest-capacity continental maps
+- At 110 estimated max players, Africa remains one of the highest-capacity continental maps
