@@ -1,4 +1,5 @@
 import sharp from 'sharp';
+import { pathToFileURL } from 'node:url';
 
 const WATER_RGB = [14, 11, 30];
 const LAND_SCALE = { r: 0.6, g: 0.625, b: 0.55 };
@@ -26,7 +27,7 @@ function gradeLand(r, g, b) {
   return [clamp(nr), clamp(ng), clamp(nb)];
 }
 
-async function regenerateDarkThumbnail(slug) {
+export async function regenerateDarkThumbnail(slug) {
   const input = `public/thumbnails/${slug}.webp`;
   const output = `public/thumbnails-dark/${slug}.webp`;
 
@@ -58,13 +59,16 @@ async function regenerateDarkThumbnail(slug) {
 }
 
 const slugs = process.argv.slice(2);
+const cliUrl = process.argv[1] ? pathToFileURL(process.argv[1]).href : '';
 
-if (slugs.length === 0) {
-  console.error('Usage: node scripts/regenerate-dark-thumbnails.mjs <slug> [slug...]');
-  process.exit(1);
-}
+if (import.meta.url === cliUrl) {
+  if (slugs.length === 0) {
+    console.error('Usage: node scripts/regenerate-dark-thumbnails.mjs <slug> [slug...]');
+    process.exit(1);
+  }
 
-for (const slug of slugs) {
-  await regenerateDarkThumbnail(slug);
-  console.log(`Regenerated dark thumbnail for ${slug}`);
+  for (const slug of slugs) {
+    await regenerateDarkThumbnail(slug);
+    console.log(`Regenerated dark thumbnail for ${slug}`);
+  }
 }
