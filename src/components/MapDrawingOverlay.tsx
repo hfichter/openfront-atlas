@@ -6,7 +6,7 @@ interface Props {
   mapName: string;
   mapWidth: number;
   mapHeight: number;
-  thumbnailSrc: string;
+  mapSrc: string;
   nations?: Nation[];
   base: string;
   launchLabel?: string;
@@ -44,7 +44,7 @@ export default function MapDrawingOverlay({
   mapName,
   mapWidth,
   mapHeight,
-  thumbnailSrc,
+  mapSrc,
   nations,
   base,
   launchLabel = 'Draw on map',
@@ -71,11 +71,14 @@ export default function MapDrawingOverlay({
   });
 
   const resolvedSrc = useMemo(() => {
-    if (theme === 'dark' && thumbnailSrc.includes('/thumbnails/')) {
-      return thumbnailSrc.replace('/thumbnails/', '/thumbnails-dark/');
+    if (theme === 'dark' && mapSrc.includes('/thumbnails/')) {
+      return mapSrc.replace('/thumbnails/', '/thumbnails-dark/');
     }
-    return thumbnailSrc;
-  }, [thumbnailSrc, theme]);
+    if (theme === 'dark' && mapSrc.includes('/maps/')) {
+      return mapSrc.replace('/maps/', '/maps-dark/');
+    }
+    return mapSrc;
+  }, [mapSrc, theme]);
 
   useEffect(() => {
     if (typeof document === 'undefined') return;

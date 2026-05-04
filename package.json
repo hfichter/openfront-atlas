@@ -9,7 +9,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "sync:map-assets": "node scripts/sync-upstream-map-assets.mjs"
   },
   "dependencies": {
     "@astrojs/react": "^5.0.2",
