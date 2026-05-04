@@ -10,7 +10,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "sync:thumbnails": "node scripts/sync-upstream-thumbnails.mjs"
+    "sync:map-assets": "node scripts/sync-upstream-map-assets.mjs"
   },
   "dependencies": {
     "@astrojs/react": "^5.0.2",

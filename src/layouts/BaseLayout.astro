@@ -122,7 +122,7 @@ const isLegacy = normalizedPath === '/legacy/';
         return document.documentElement.getAttribute('data-theme') || 'dark';
       }
 
-      function swapThumbnails(theme) {
+      function swapImageVariants(theme) {
         var imgs = document.querySelectorAll('img');
         imgs.forEach(function(img) {
           var src = img.src || '';
@@ -134,6 +134,14 @@ const isLegacy = normalizedPath === '/legacy/';
             if (theme === 'light') {
               img.src = src.replace('/thumbnails-dark/', '/thumbnails/');
             }
+          } else if (src.indexOf('/maps/') !== -1 && src.indexOf('/maps-dark/') === -1) {
+            if (theme === 'dark') {
+              img.src = src.replace('/maps/', '/maps-dark/');
+            }
+          } else if (src.indexOf('/maps-dark/') !== -1) {
+            if (theme === 'light') {
+              img.src = src.replace('/maps-dark/', '/maps/');
+            }
           }
         });
       }
@@ -143,20 +151,20 @@ const isLegacy = normalizedPath === '/legacy/';
         localStorage.setItem('theme', t);
         var icon = document.getElementById('theme-icon');
         if (icon) icon.textContent = t === 'dark' ? '🌙' : '☀️';
-        swapThumbnails(t);
+        swapImageVariants(t);
       }
 
       // Set initial icon
       var icon = document.getElementById('theme-icon');
       if (icon) icon.textContent = getTheme() === 'dark' ? '🌙' : '☀️';
 
-      // Swap thumbnails on initial load if dark
+      // Swap map assets on initial load if dark
       if (getTheme() === 'dark') {
         // Run after images are in DOM
         if (document.readyState === 'loading') {
-          document.addEventListener('DOMContentLoaded', function() { swapThumbnails('dark'); });
+          document.addEventListener('DOMContentLoaded', function() { swapImageVariants('dark'); });
         } else {
-          swapThumbnails('dark');
+          swapImageVariants('dark');
         }
       }
 
