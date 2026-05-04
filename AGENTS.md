@@ -25,10 +25,17 @@ src/
   components/            # React + Astro components
   layouts/               # BaseLayout.astro (shared shell)
 public/
-  images/                # Thumbnails, flags, icons
+  thumbnails/            # Small light-mode map previews (copied from upstream published thumbnails)
+  thumbnails-dark/       # Small dark-mode map previews generated from thumbnails/
+  maps/                  # Full-size light-mode map images rendered from upstream map.bin
+  maps-dark/             # Full-size dark-mode map images rendered from upstream map.bin
+  images/                # Site images and icons
+  flags/                 # Nation flags used by map spawn overlays
   CNAME                  # Custom domain (www.openfront-atlas.xyz) — do not delete
 astro.config.mjs         # site + vite config — no base path (custom domain)
 docs/map-status.md       # Map content status + upstream sync log (see below)
+scripts/sync-upstream-map-assets.mjs
+                         # Syncs map preview + full-size raster assets from upstream
 ```
 
 ---
@@ -63,8 +70,9 @@ Each map page is powered by two sources:
 When OpenFront.io adds a new map:
 
 1. **Update `src/data/maps_data.json`** — add the new map's stats entry.
-   Source of truth: [OpenFront.io GitHub repo](https://github.com/openfront/openfront),
-   specifically `GameEngine/src/core/data/MapData.ts` or equivalent.
+   Source of truth: [OpenFront.io GitHub repo](https://github.com/openfrontio/OpenFrontIO),
+   specifically `resources/maps/<slug>/manifest.json`, `src/core/game/Game.ts`,
+   and `src/server/MapPlaylist.ts` or their current equivalents.
 
 2. **Create `src/content/maps/<slug>.md`** — write editorial content.
    Use existing maps as reference. Real-world maps get History sections; fantasy/arcade maps skip it.
@@ -76,6 +84,39 @@ When OpenFront.io adds a new map:
 
 5. **Check the category nav** — `earth.astro`, `worlds.astro`, `arcade.astro` filter by `category` field.
    Valid categories: `continental`, `regional`, `fantasy`, `arcade`.
+
+6. **Sync map raster assets with the correct upstream sources** — see the asset rules below.
+
+---
+
+## Map raster asset rules
+
+OpenFront has generator input images and published display assets. Do **not** confuse them.
+
+- **Do not use** upstream `map-generator/assets/maps/<slug>/image.png` for atlas display images.
+  Those files are generator inputs, not final map art. Some encode land as blue or grayscale because
+  only the blue channel is meaningful to the OpenFront map generator.
+- **Small preview thumbnails** in `public/thumbnails/<slug>.webp` must come from upstream
+  `resources/maps/<slug>/thumbnail.webp`.
+- **Full-size map images** in `public/maps/<slug>.webp` and `public/maps-dark/<slug>.webp`
+  must be rendered from upstream `resources/maps/<slug>/map.bin` plus
+  `resources/maps/<slug>/manifest.json`. The packed `map.bin` contains final terrain type,
+  shoreline, and elevation data after upstream cleanup.
+- Use the local helper:
+
+```bash
+npm run sync:map-assets -- /path/to/OpenFrontIO
+```
+
+This syncs `public/thumbnails/`, `public/thumbnails-dark/`, `public/maps/`, and
+`public/maps-dark/` for all active slugs in `src/data/maps_data.json`.
+
+After syncing map rasters, verify:
+
+- Every active map has light and dark assets in both `public/thumbnails*` and `public/maps*`.
+- `public/maps/<slug>.webp` dimensions match `width` × `height` in `src/data/maps_data.json`.
+- Reported or newly added maps look correct in both light and dark modes; land should not appear
+  as source-image blue or neutral grayscale unless that is intentionally part of the final terrain.
 
 ---
 
