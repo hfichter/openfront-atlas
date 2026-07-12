@@ -29,6 +29,7 @@
   --map-stroke-hover: rgba(119, 224, 255, 0.18);
   --map-tooltip-bg:   rgba(9, 16, 30, 0.97);
   --map-tooltip-border: rgba(119, 224, 255, 0.25);
+  --map-thumbnail-ocean: #0e0b1e;
 
   color-scheme: dark;
 }
@@ -61,6 +62,7 @@
   --map-stroke-hover: rgba(255, 255, 255, 0.95);
   --map-tooltip-bg:   rgba(255, 255, 255, 0.98);
   --map-tooltip-border: rgba(80, 100, 140, 0.18);
+  --map-thumbnail-ocean: #4785b5;
 
   color-scheme: light;
 }
@@ -76,6 +78,11 @@ html {
 body {
   background-color: var(--bg);
   min-height: 100vh;
+}
+
+img[src*="/thumbnails/"],
+img[src*="/thumbnails-dark/"] {
+  background-color: var(--map-thumbnail-ocean);
 }
 
 h1, h2, h3, h4, h5, h6 {
