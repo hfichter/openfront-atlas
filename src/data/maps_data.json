@@ -4366,7 +4366,7 @@
     "water_pct": 54.3,
     "estimated_max_players": 95,
     "playlist_frequency": 8,
-    "nation_count": 70,
+    "nation_count": 76,
     "nations": [
       {
         "name": "Jermaine",
@@ -12771,7 +12771,7 @@
       {
         "name": "Tver",
         "flag": "ru",
-        "x": 2007,
+        "x": 2003,
         "y": 1727
       },
       {
@@ -14107,7 +14107,7 @@
     "water_pct": 38.9,
     "estimated_max_players": 80,
     "playlist_frequency": 3,
-    "nation_count": 0,
+    "nation_count": 28,
     "nations": [],
     "thumbnail": "thumbnails/titan.webp"
   },
@@ -15384,7 +15384,7 @@
     "water_pct": 49.9,
     "estimated_max_players": 80,
     "playlist_frequency": 8,
-    "nation_count": 82,
+    "nation_count": 94,
     "nations": [
       {
         "name": "RMS Lusitania",
