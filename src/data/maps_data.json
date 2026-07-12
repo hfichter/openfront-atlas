@@ -43,7 +43,7 @@
   },
   "aegean": {
     "enum_key": "Aegean",
-    "display_name": "aegean",
+    "display_name": "Aegean",
     "translated_name": "Aegean",
     "category": "regional",
     "width": 1700,
@@ -219,12 +219,12 @@
     "width": 1948,
     "height": 2032,
     "total_pixels": 3958336,
-    "land_tiles": 2183186,
+    "land_tiles": 2183279,
     "land_pct": 55.2,
     "water_pct": 44.8,
     "estimated_max_players": 110,
     "playlist_frequency": 7,
-    "nation_count": 36,
+    "nation_count": 44,
     "nations": [
       {
         "name": "South Africa",
@@ -441,6 +441,54 @@
         "flag": "ga",
         "x": 876,
         "y": 1049
+      },
+      {
+        "name": "Saint Helena",
+        "flag": "sh",
+        "x": 355,
+        "y": 1500
+      },
+      {
+        "name": "Canary Islands",
+        "flag": "ic",
+        "x": 127,
+        "y": 279
+      },
+      {
+        "name": "Cyprus",
+        "flag": "cy",
+        "x": 1428,
+        "y": 90
+      },
+      {
+        "name": "Comoros",
+        "flag": "km",
+        "x": 1707,
+        "y": 1381
+      },
+      {
+        "name": "Mayotte",
+        "flag": "yt",
+        "x": 1758,
+        "y": 1411
+      },
+      {
+        "name": "Ascension Island",
+        "flag": "sh-ac",
+        "x": 117,
+        "y": 1278
+      },
+      {
+        "name": "Equatorial Guinea",
+        "flag": "gq",
+        "x": 756,
+        "y": 964
+      },
+      {
+        "name": "Sao Tome and Principe",
+        "flag": "st",
+        "x": 697,
+        "y": 1053
       }
     ],
     "thumbnail": "thumbnails/africa.webp",
@@ -747,7 +795,7 @@
   },
   "archipelagosea": {
     "enum_key": "ArchipelagoSea",
-    "display_name": "Archipelago Sea",
+    "display_name": "ArchipelagoSea",
     "translated_name": "Archipelago Sea",
     "category": "regional",
     "width": 3100,
@@ -1491,7 +1539,7 @@
   },
   "baikalnukewars": {
     "enum_key": "BaikalNukeWars",
-    "display_name": "Baikal (Nuke Wars)",
+    "display_name": "Baikal Nuke Wars",
     "translated_name": "Baikal (Nuke Wars)",
     "category": "fantasy",
     "width": 2500,
@@ -1575,6 +1623,165 @@
     "geo_lng": -113.5,
     "geo_type": "regional"
   },
+  "balkans": {
+    "enum_key": "Balkans",
+    "display_name": "Balkans",
+    "translated_name": "Balkans",
+    "category": "regional",
+    "width": 2048,
+    "height": 2048,
+    "total_pixels": 4194304,
+    "land_tiles": 2478805,
+    "land_pct": 59.1,
+    "water_pct": 40.9,
+    "estimated_max_players": 125,
+    "playlist_frequency": 6,
+    "nation_count": 23,
+    "nations": [
+      {
+        "name": "Slovenia",
+        "flag": "si",
+        "x": 122,
+        "y": 281
+      },
+      {
+        "name": "Austria",
+        "flag": "at",
+        "x": 106,
+        "y": 41
+      },
+      {
+        "name": "Hungary",
+        "flag": "hu",
+        "x": 606,
+        "y": 124
+      },
+      {
+        "name": "Croatia",
+        "flag": "hr",
+        "x": 307,
+        "y": 431
+      },
+      {
+        "name": "Malta",
+        "flag": "mt",
+        "x": 115,
+        "y": 1895
+      },
+      {
+        "name": "Bosnia and Herzegovina",
+        "flag": "ba",
+        "x": 578,
+        "y": 552
+      },
+      {
+        "name": "Vojvodina",
+        "flag": "Vojvodina",
+        "x": 831,
+        "y": 372
+      },
+      {
+        "name": "Serbia",
+        "flag": "rs",
+        "x": 956,
+        "y": 667
+      },
+      {
+        "name": "Albania",
+        "flag": "al",
+        "x": 783,
+        "y": 1101
+      },
+      {
+        "name": "Montenegro",
+        "flag": "me",
+        "x": 736,
+        "y": 860
+      },
+      {
+        "name": "Italy",
+        "flag": "it",
+        "x": 33,
+        "y": 896
+      },
+      {
+        "name": "Greece",
+        "flag": "gr",
+        "x": 1001,
+        "y": 1390
+      },
+      {
+        "name": "North Macedonia",
+        "flag": "mk",
+        "x": 994,
+        "y": 969
+      },
+      {
+        "name": "Bulgaria",
+        "flag": "bg",
+        "x": 1546,
+        "y": 839
+      },
+      {
+        "name": "Türkiye",
+        "flag": "tr",
+        "x": 1953,
+        "y": 1443
+      },
+      {
+        "name": "Moldova",
+        "flag": "md",
+        "x": 1786,
+        "y": 36
+      },
+      {
+        "name": "Romania",
+        "flag": "ro",
+        "x": 1538,
+        "y": 264
+      },
+      {
+        "name": "Ukraine",
+        "flag": "ua",
+        "x": 2004,
+        "y": 283
+      },
+      {
+        "name": "Kosovo",
+        "flag": "xk",
+        "x": 926,
+        "y": 853
+      },
+      {
+        "name": "Transylvania",
+        "flag": "Transylvania",
+        "x": 1356,
+        "y": 157
+      },
+      {
+        "name": "Republika Srpska",
+        "flag": "Republika Srpska",
+        "x": 730,
+        "y": 666
+      },
+      {
+        "name": "Transnistria",
+        "flag": "Moldavian SSR",
+        "x": 1948,
+        "y": 80
+      },
+      {
+        "name": "Sicily",
+        "flag": "Sicily",
+        "x": 79,
+        "y": 1635
+      }
+    ],
+    "thumbnail": "thumbnails/balkans.webp",
+    "geo_lat": 43.8,
+    "geo_lng": 20.8,
+    "geo_type": "regional"
+  },
   "beringsea": {
     "enum_key": "BeringSea",
     "display_name": "Bering Sea",
@@ -1597,7 +1804,7 @@
         "y": 121
       },
       {
-        "name": "Utqiaġvik",
+        "name": "Utqiagvik",
         "flag": "Alaska",
         "x": 1725,
         "y": 158
@@ -1742,7 +1949,7 @@
   },
   "beringstrait": {
     "enum_key": "BeringStrait",
-    "display_name": "BeringStrait",
+    "display_name": "Bering Strait",
     "translated_name": "Bering Strait",
     "category": "regional",
     "width": 1500,
@@ -1775,7 +1982,7 @@
   },
   "betweentwoseas": {
     "enum_key": "BetweenTwoSeas",
-    "display_name": "BetweenTwoSeas",
+    "display_name": "Between Two Seas",
     "translated_name": "Between Two Seas",
     "category": "regional",
     "width": 1776,
@@ -1886,15 +2093,15 @@
   },
   "blacksea": {
     "enum_key": "BlackSea",
-    "display_name": "BlackSea",
+    "display_name": "Black Sea",
     "translated_name": "Black Sea",
     "category": "regional",
     "width": 1500,
     "height": 1100,
     "total_pixels": 1650000,
-    "land_tiles": 1153632,
-    "land_pct": 69.9,
-    "water_pct": 30.1,
+    "land_tiles": 1165868,
+    "land_pct": 70.7,
+    "water_pct": 29.3,
     "estimated_max_players": 60,
     "playlist_frequency": 6,
     "nation_count": 9,
@@ -2011,7 +2218,7 @@
         "y": 381
       },
       {
-        "name": "Kadıköy",
+        "name": "Kadiköy",
         "flag": "tr",
         "x": 534,
         "y": 425
@@ -2065,31 +2272,31 @@
         "y": 175
       },
       {
-        "name": "Sarıyer",
+        "name": "Sariyer",
         "flag": "tr",
         "x": 459,
         "y": 157
       },
       {
-        "name": "Beşiktaş",
+        "name": "Besiktas",
         "flag": "tr",
         "x": 477,
         "y": 297
       },
       {
-        "name": "Avcılar",
+        "name": "Avcilar",
         "flag": "tr",
         "x": 171,
         "y": 379
       },
       {
-        "name": "Bakırköy",
+        "name": "Bakirköy",
         "flag": "tr",
         "x": 308,
         "y": 412
       },
       {
-        "name": "Başakşehir",
+        "name": "Basaksehir",
         "flag": "tr",
         "x": 263,
         "y": 283
@@ -2111,6 +2318,119 @@
     "geo_lat": 41,
     "geo_lng": 29,
     "geo_type": "regional"
+  },
+  "branchingpaths": {
+    "enum_key": "BranchingPaths",
+    "display_name": "Branching Paths",
+    "translated_name": "Branching Paths",
+    "category": "arcade",
+    "width": 2480,
+    "height": 2148,
+    "total_pixels": 5327040,
+    "land_tiles": 2103911,
+    "land_pct": 39.5,
+    "water_pct": 60.5,
+    "estimated_max_players": 105,
+    "playlist_frequency": 3,
+    "nation_count": 19,
+    "nations": [
+      {
+        "name": "Last Hold",
+        "x": 1240,
+        "y": 1431
+      },
+      {
+        "name": "First Wall",
+        "x": 1128,
+        "y": 1407
+      },
+      {
+        "name": "Second Wall",
+        "x": 1319,
+        "y": 1351
+      },
+      {
+        "name": "Third Wall",
+        "x": 1272,
+        "y": 1540
+      },
+      {
+        "name": "Scorching Rays",
+        "x": 1238,
+        "y": 35
+      },
+      {
+        "name": "Frozen Winds",
+        "x": 17,
+        "y": 2139
+      },
+      {
+        "name": "Barren Plains",
+        "x": 2471,
+        "y": 2143
+      },
+      {
+        "name": "Thriving Farmland",
+        "x": 1839,
+        "y": 1769
+      },
+      {
+        "name": "Desperate Farmland",
+        "x": 642,
+        "y": 1783
+      },
+      {
+        "name": "Stable Farmland",
+        "x": 1232,
+        "y": 743
+      },
+      {
+        "name": "Border Town",
+        "x": 1271,
+        "y": 1896
+      },
+      {
+        "name": "Border Village",
+        "x": 801,
+        "y": 1224
+      },
+      {
+        "name": "Border Hamlet",
+        "x": 1617,
+        "y": 1171
+      },
+      {
+        "name": "City of Trade",
+        "x": 932,
+        "y": 1667
+      },
+      {
+        "name": "City of Craftsmen",
+        "x": 1607,
+        "y": 1580
+      },
+      {
+        "name": "City of Industry",
+        "x": 1189,
+        "y": 1047
+      },
+      {
+        "name": "Fishing Town",
+        "x": 1243,
+        "y": 1666
+      },
+      {
+        "name": "Fishing Village",
+        "x": 1031,
+        "y": 1316
+      },
+      {
+        "name": "Fishing Hamlet",
+        "x": 1446,
+        "y": 1314
+      }
+    ],
+    "thumbnail": "thumbnails/branchingpaths.webp"
   },
   "britannia": {
     "enum_key": "Britannia",
@@ -2411,6 +2731,324 @@
     "geo_lng": -2,
     "geo_type": "regional"
   },
+  "caribbean": {
+    "enum_key": "Caribbean",
+    "display_name": "Caribbean",
+    "translated_name": "Caribbean",
+    "category": "regional",
+    "width": 3200,
+    "height": 1808,
+    "total_pixels": 5785600,
+    "land_tiles": 577573,
+    "land_pct": 10,
+    "water_pct": 90,
+    "estimated_max_players": 30,
+    "playlist_frequency": 5,
+    "nation_count": 34,
+    "nations": [
+      {
+        "name": "Florida",
+        "flag": "Florida",
+        "x": 538,
+        "y": 200
+      },
+      {
+        "name": "Mexico",
+        "flag": "mx",
+        "x": 65,
+        "y": 1211
+      },
+      {
+        "name": "Belize",
+        "flag": "bz",
+        "x": 53,
+        "y": 1596
+      },
+      {
+        "name": "Honduras",
+        "flag": "hn",
+        "x": 333,
+        "y": 1748
+      },
+      {
+        "name": "Cuba",
+        "flag": "cu",
+        "x": 960,
+        "y": 809
+      },
+      {
+        "name": "Guantanamo Bay",
+        "flag": "us",
+        "x": 1339,
+        "y": 943
+      },
+      {
+        "name": "Jamaica",
+        "flag": "jm",
+        "x": 1213,
+        "y": 1210
+      },
+      {
+        "name": "Turks and Caicos",
+        "flag": "tc",
+        "x": 1682,
+        "y": 674
+      },
+      {
+        "name": "Bahamas",
+        "flag": "bs",
+        "x": 973,
+        "y": 481
+      },
+      {
+        "name": "Cayman Islands",
+        "flag": "ky",
+        "x": 786,
+        "y": 1167
+      },
+      {
+        "name": "Haiti",
+        "flag": "ht",
+        "x": 1714,
+        "y": 971
+      },
+      {
+        "name": "Dominican Republic",
+        "flag": "do",
+        "x": 1867,
+        "y": 962
+      },
+      {
+        "name": "Puerto Rico",
+        "flag": "pr",
+        "x": 2388,
+        "y": 934
+      },
+      {
+        "name": "Colombia",
+        "flag": "co",
+        "x": 1964,
+        "y": 1732
+      },
+      {
+        "name": "Venezuela",
+        "flag": "ve",
+        "x": 2503,
+        "y": 1791
+      },
+      {
+        "name": "Guyana",
+        "flag": "gy",
+        "x": 3070,
+        "y": 1784
+      },
+      {
+        "name": "Trinidad and Tobago",
+        "flag": "tt",
+        "x": 3065,
+        "y": 1655
+      },
+      {
+        "name": "Barbados",
+        "flag": "bb",
+        "x": 3183,
+        "y": 1334
+      },
+      {
+        "name": "Grenada",
+        "flag": "gd",
+        "x": 2986,
+        "y": 1493
+      },
+      {
+        "name": "St Vincent & the Grenadines",
+        "flag": "vc",
+        "x": 3007,
+        "y": 1361
+      },
+      {
+        "name": "Saint Lucia",
+        "flag": "lc",
+        "x": 3015,
+        "y": 1291
+      },
+      {
+        "name": "Martinique",
+        "flag": "mq",
+        "x": 2989,
+        "y": 1202
+      },
+      {
+        "name": "Dominica",
+        "flag": "dm",
+        "x": 2937,
+        "y": 1130
+      },
+      {
+        "name": "Guadeloupe",
+        "flag": "gp",
+        "x": 2887,
+        "y": 1063
+      },
+      {
+        "name": "Saint Kitts and Nevis",
+        "flag": "kn",
+        "x": 2746,
+        "y": 959
+      },
+      {
+        "name": "Antigua and Barbuda",
+        "flag": "ag",
+        "x": 2853,
+        "y": 966
+      },
+      {
+        "name": "Montserrat",
+        "flag": "ms",
+        "x": 2821,
+        "y": 1011
+      },
+      {
+        "name": "Sint Maarten",
+        "flag": "sx",
+        "x": 2700,
+        "y": 886
+      },
+      {
+        "name": "U.S. Virgin Islands",
+        "flag": "vi",
+        "x": 2528,
+        "y": 963
+      },
+      {
+        "name": "Curaçao",
+        "flag": "cw",
+        "x": 2233,
+        "y": 1660
+      },
+      {
+        "name": "Bermuda",
+        "flag": "bm",
+        "x": 3185,
+        "y": 13
+      },
+      {
+        "name": "Nicaragua",
+        "flag": "ni",
+        "x": 603,
+        "y": 1768
+      },
+      {
+        "name": "British Virgin Islands",
+        "flag": "vg",
+        "x": 2528,
+        "y": 882
+      },
+      {
+        "name": "San Andres",
+        "flag": "co",
+        "x": 903,
+        "y": 1700
+      }
+    ],
+    "thumbnail": "thumbnails/caribbean.webp",
+    "geo_lat": 18.2,
+    "geo_lng": -73,
+    "geo_type": "regional"
+  },
+  "caspiansea": {
+    "enum_key": "CaspianSea",
+    "display_name": "Caspian Sea",
+    "translated_name": "Caspian Sea",
+    "category": "regional",
+    "width": 1008,
+    "height": 1728,
+    "total_pixels": 1741824,
+    "land_tiles": 951192,
+    "land_pct": 54.6,
+    "water_pct": 45.4,
+    "estimated_max_players": 50,
+    "playlist_frequency": 5,
+    "nation_count": 12,
+    "nations": [
+      {
+        "name": "Mangystau",
+        "flag": "kz",
+        "x": 927,
+        "y": 426
+      },
+      {
+        "name": "Turkmenistan",
+        "flag": "tm",
+        "x": 914,
+        "y": 1270
+      },
+      {
+        "name": "Atyrau",
+        "flag": "kz",
+        "x": 574,
+        "y": 24
+      },
+      {
+        "name": "Aktau",
+        "flag": "kz",
+        "x": 633,
+        "y": 678
+      },
+      {
+        "name": "Tehran",
+        "flag": "ir",
+        "x": 807,
+        "y": 1705
+      },
+      {
+        "name": "Gilan",
+        "flag": "ir",
+        "x": 398,
+        "y": 1647
+      },
+      {
+        "name": "Armenia",
+        "flag": "am",
+        "x": 69,
+        "y": 1350
+      },
+      {
+        "name": "Tabriz",
+        "flag": "ir",
+        "x": 128,
+        "y": 1658
+      },
+      {
+        "name": "Azerbaijan",
+        "flag": "az",
+        "x": 302,
+        "y": 1154
+      },
+      {
+        "name": "Astrakhan",
+        "flag": "ru",
+        "x": 203,
+        "y": 91
+      },
+      {
+        "name": "Dagestan",
+        "flag": "ru",
+        "x": 96,
+        "y": 744
+      },
+      {
+        "name": "Kalmykia",
+        "flag": "ru",
+        "x": 21,
+        "y": 310
+      }
+    ],
+    "thumbnail": "thumbnails/caspiansea.webp",
+    "geo_lat": 41.9,
+    "geo_lng": 51.5,
+    "geo_type": "regional"
+  },
   "caucasus": {
     "enum_key": "Caucasus",
     "display_name": "Caucasus",
@@ -2558,6 +3196,429 @@
     "geo_lng": 44.5,
     "geo_type": "regional"
   },
+  "china": {
+    "enum_key": "China",
+    "display_name": "China",
+    "translated_name": "China",
+    "category": "regional",
+    "width": 2080,
+    "height": 1892,
+    "total_pixels": 3935360,
+    "land_tiles": 1867569,
+    "land_pct": 47.5,
+    "water_pct": 52.5,
+    "estimated_max_players": 95,
+    "playlist_frequency": 8,
+    "nation_count": 32,
+    "nations": [
+      {
+        "name": "British Hong Kong",
+        "flag": "Flag_of_Hong_Kong_(1959-1997)",
+        "x": 1678,
+        "y": 1584
+      },
+      {
+        "name": "Guangdong",
+        "flag": "Qing Dynasty",
+        "x": 1562,
+        "y": 1530
+      },
+      {
+        "name": "Tannu Tuva",
+        "flag": "tannutuva",
+        "x": 721,
+        "y": 411
+      },
+      {
+        "name": "Boxer Rebellion",
+        "flag": "Qing Dynasty",
+        "x": 1729,
+        "y": 886
+      },
+      {
+        "name": "Taiping Heavenly Kingdom",
+        "flag": "Flag_of_Taiping_Heavenly_Kingdom",
+        "x": 1824,
+        "y": 1159
+      },
+      {
+        "name": "Sichuan",
+        "flag": "Qing Dynasty",
+        "x": 1197,
+        "y": 1299
+      },
+      {
+        "name": "Jiangxi Soviet",
+        "flag": "cn",
+        "x": 1743,
+        "y": 1324
+      },
+      {
+        "name": "Communist China",
+        "flag": "cn",
+        "x": 1310,
+        "y": 959
+      },
+      {
+        "name": "Peking",
+        "flag": "Qing Dynasty",
+        "x": 1589,
+        "y": 775
+      },
+      {
+        "name": "Heilongjiang",
+        "flag": "Flag_of_Manchukuo",
+        "x": 1690,
+        "y": 260
+      },
+      {
+        "name": "Manchukuo",
+        "flag": "Flag_of_Manchukuo",
+        "x": 1705,
+        "y": 439
+      },
+      {
+        "name": "Inner Mongolia",
+        "flag": "mn",
+        "x": 1338,
+        "y": 626
+      },
+      {
+        "name": "Outer Mongolia",
+        "flag": "mn",
+        "x": 1128,
+        "y": 520
+      },
+      {
+        "name": "Xinjiang",
+        "flag": "Eastern_Turkistan_Flag",
+        "x": 521,
+        "y": 820
+      },
+      {
+        "name": "Tibet",
+        "flag": "tibet",
+        "x": 542,
+        "y": 1281
+      },
+      {
+        "name": "Gansu",
+        "flag": "Qing Dynasty",
+        "x": 845,
+        "y": 833
+      },
+      {
+        "name": "Yaqub Beg Regime",
+        "flag": "Eastern_Turkistan_Flag",
+        "x": 195,
+        "y": 936
+      },
+      {
+        "name": "Yunnan",
+        "flag": "Qing Dynasty",
+        "x": 1025,
+        "y": 1499
+      },
+      {
+        "name": "Republic of China",
+        "flag": "Republic of China",
+        "x": 1563,
+        "y": 1120
+      },
+      {
+        "name": "Hainan",
+        "flag": "Qing Dynasty",
+        "x": 1504,
+        "y": 1773
+      },
+      {
+        "name": "Jiangsu",
+        "flag": "Qing Dynasty",
+        "x": 1775,
+        "y": 994
+      },
+      {
+        "name": "Anhui Clique",
+        "flag": "Republic of China",
+        "x": 1632,
+        "y": 1025
+      },
+      {
+        "name": "Zhili Clique",
+        "flag": "Republic of China",
+        "x": 1558,
+        "y": 943
+      },
+      {
+        "name": "Portuguese Macao",
+        "flag": "pt",
+        "x": 1625,
+        "y": 1602
+      },
+      {
+        "name": "Taiwan",
+        "flag": "Empire of Japan",
+        "x": 1945,
+        "y": 1447
+      },
+      {
+        "name": "Fujian",
+        "flag": "Qing Dynasty",
+        "x": 1832,
+        "y": 1395
+      },
+      {
+        "name": "Hunan",
+        "flag": "Qing Dynasty",
+        "x": 1519,
+        "y": 1364
+      },
+      {
+        "name": "Kuomintang",
+        "flag": "Kuomintang_Emblem",
+        "x": 1366,
+        "y": 1554
+      },
+      {
+        "name": "Guizhou",
+        "flag": "Qing Dynasty",
+        "x": 1319,
+        "y": 1400
+      },
+      {
+        "name": "Fengtian Clique",
+        "flag": "Republic of China",
+        "x": 1808,
+        "y": 605
+      },
+      {
+        "name": "Jilin",
+        "flag": "Qing Dynasty",
+        "x": 1940,
+        "y": 427
+      },
+      {
+        "name": "Ma Clique",
+        "flag": "Ma_Clique_Flag",
+        "x": 953,
+        "y": 1052
+      }
+    ],
+    "thumbnail": "thumbnails/china.webp",
+    "geo_lat": 35.9,
+    "geo_lng": 104.2,
+    "geo_type": "regional"
+  },
+  "choppingblock": {
+    "enum_key": "ChoppingBlock",
+    "display_name": "Chopping Block",
+    "translated_name": "Chopping Block",
+    "category": "arcade",
+    "width": 1616,
+    "height": 1616,
+    "total_pixels": 2611456,
+    "land_tiles": 1485703,
+    "land_pct": 56.9,
+    "water_pct": 43.1,
+    "estimated_max_players": 75,
+    "playlist_frequency": 5,
+    "nation_count": 32,
+    "nations": [
+      {
+        "name": "Boxey",
+        "flag": "",
+        "x": 230,
+        "y": 230
+      },
+      {
+        "name": "Gridsly",
+        "flag": "",
+        "x": 230,
+        "y": 570
+      },
+      {
+        "name": "Blocko",
+        "flag": "",
+        "x": 580,
+        "y": 230
+      },
+      {
+        "name": "Squarm",
+        "flag": "",
+        "x": 570,
+        "y": 570
+      },
+      {
+        "name": "Boximilian",
+        "flag": "",
+        "x": 1030,
+        "y": 230
+      },
+      {
+        "name": "Rectanglo",
+        "flag": "",
+        "x": 1030,
+        "y": 570
+      },
+      {
+        "name": "Cornerlius",
+        "flag": "",
+        "x": 1370,
+        "y": 230
+      },
+      {
+        "name": "Repeater",
+        "flag": "",
+        "x": 1380,
+        "y": 570
+      },
+      {
+        "name": "Derorrim",
+        "flag": "",
+        "x": 230,
+        "y": 1030
+      },
+      {
+        "name": "Boxedin",
+        "flag": "",
+        "x": 230,
+        "y": 1380
+      },
+      {
+        "name": "Mazely",
+        "flag": "",
+        "x": 580,
+        "y": 1040
+      },
+      {
+        "name": "Diagonalf",
+        "flag": "",
+        "x": 580,
+        "y": 1380
+      },
+      {
+        "name": "Blockedhof",
+        "flag": "",
+        "x": 1040,
+        "y": 1040
+      },
+      {
+        "name": "Blockhead",
+        "flag": "",
+        "x": 1040,
+        "y": 1390
+      },
+      {
+        "name": "Chopin",
+        "flag": "",
+        "x": 1380,
+        "y": 1035
+      },
+      {
+        "name": "Hacker",
+        "flag": "",
+        "x": 1380,
+        "y": 1390
+      },
+      {
+        "name": "Slasher",
+        "flag": "",
+        "x": 400,
+        "y": 160
+      },
+      {
+        "name": "Brixs",
+        "flag": "",
+        "x": 160,
+        "y": 410
+      },
+      {
+        "name": "Plaido",
+        "flag": "",
+        "x": 410,
+        "y": 650
+      },
+      {
+        "name": "Harlequin",
+        "flag": "",
+        "x": 650,
+        "y": 415
+      },
+      {
+        "name": "Checkheir",
+        "flag": "",
+        "x": 410,
+        "y": 970
+      },
+      {
+        "name": "Zigzag",
+        "flag": "",
+        "x": 160,
+        "y": 1210
+      },
+      {
+        "name": "Scaler",
+        "flag": "",
+        "x": 410,
+        "y": 1460
+      },
+      {
+        "name": "Crossed",
+        "flag": "",
+        "x": 650,
+        "y": 1220
+      },
+      {
+        "name": "Beeline",
+        "flag": "",
+        "x": 1210,
+        "y": 970
+      },
+      {
+        "name": "Bowtie",
+        "flag": "",
+        "x": 960,
+        "y": 1220
+      },
+      {
+        "name": "Buckly",
+        "flag": "",
+        "x": 1210,
+        "y": 1460
+      },
+      {
+        "name": "Dexted",
+        "flag": "",
+        "x": 1450,
+        "y": 1210
+      },
+      {
+        "name": "Flukes",
+        "flag": "",
+        "x": 1210,
+        "y": 170
+      },
+      {
+        "name": "Jonqal",
+        "flag": "",
+        "x": 970,
+        "y": 410
+      },
+      {
+        "name": "Huggins",
+        "flag": "",
+        "x": 1210,
+        "y": 650
+      },
+      {
+        "name": "Keeko",
+        "flag": "",
+        "x": 1460,
+        "y": 410
+      }
+    ],
+    "thumbnail": "thumbnails/choppingblock.webp"
+  },
   "conakry": {
     "enum_key": "Conakry",
     "display_name": "Conakry",
@@ -2697,6 +3758,183 @@
     "thumbnail": "thumbnails/conakry.webp",
     "geo_lat": 9.64,
     "geo_lng": -13.58,
+    "geo_type": "regional"
+  },
+  "danishstraits": {
+    "enum_key": "DanishStraits",
+    "display_name": "Danish Straits",
+    "translated_name": "Danish Straits",
+    "category": "regional",
+    "width": 872,
+    "height": 1224,
+    "total_pixels": 1067328,
+    "land_tiles": 587312,
+    "land_pct": 55,
+    "water_pct": 45,
+    "estimated_max_players": 30,
+    "playlist_frequency": 5,
+    "nation_count": 26,
+    "nations": [
+      {
+        "name": "Agder",
+        "flag": "Sweden Norway Union",
+        "x": 37,
+        "y": 227
+      },
+      {
+        "name": "Østlandet",
+        "flag": "Sweden Norway Union",
+        "x": 252,
+        "y": 43
+      },
+      {
+        "name": "Skåne",
+        "flag": "Sweden Norway Union",
+        "x": 737,
+        "y": 791
+      },
+      {
+        "name": "Halland",
+        "flag": "Sweden Norway Union",
+        "x": 646,
+        "y": 566
+      },
+      {
+        "name": "Småland",
+        "flag": "Sweden Norway Union",
+        "x": 846,
+        "y": 488
+      },
+      {
+        "name": "Västergötland",
+        "flag": "Sweden Norway Union",
+        "x": 701,
+        "y": 260
+      },
+      {
+        "name": "Bohuslän",
+        "flag": "Sweden Norway Union",
+        "x": 501,
+        "y": 273
+      },
+      {
+        "name": "Östergötland",
+        "flag": "Sweden Norway Union",
+        "x": 843,
+        "y": 278
+      },
+      {
+        "name": "Dalsland",
+        "flag": "Sweden Norway Union",
+        "x": 579,
+        "y": 45
+      },
+      {
+        "name": "Närke",
+        "flag": "Sweden Norway Union",
+        "x": 833,
+        "y": 73
+      },
+      {
+        "name": "Zealand",
+        "flag": "dk",
+        "x": 510,
+        "y": 821
+      },
+      {
+        "name": "Lolland-Falster",
+        "flag": "dk",
+        "x": 495,
+        "y": 949
+      },
+      {
+        "name": "Funen",
+        "flag": "dk",
+        "x": 347,
+        "y": 862
+      },
+      {
+        "name": "Schleswig-Holstein",
+        "flag": "prussia",
+        "x": 239,
+        "y": 976
+      },
+      {
+        "name": "Mecklenburg-Schwerin",
+        "flag": "German Confederation",
+        "x": 585,
+        "y": 1182
+      },
+      {
+        "name": "Pomerania",
+        "flag": "prussia",
+        "x": 846,
+        "y": 1131
+      },
+      {
+        "name": "Oldenburg",
+        "flag": "German Confederation",
+        "x": 59,
+        "y": 1201
+      },
+      {
+        "name": "Hamburg",
+        "flag": "German Confederation",
+        "x": 302,
+        "y": 1143
+      },
+      {
+        "name": "Hanover",
+        "flag": "prussia",
+        "x": 219,
+        "y": 1205
+      },
+      {
+        "name": "North Jutland",
+        "flag": "dk",
+        "x": 324,
+        "y": 457
+      },
+      {
+        "name": "Viborg",
+        "flag": "dk",
+        "x": 202,
+        "y": 609
+      },
+      {
+        "name": "Aarhus",
+        "flag": "dk",
+        "x": 384,
+        "y": 644
+      },
+      {
+        "name": "Ringkobing",
+        "flag": "dk",
+        "x": 150,
+        "y": 767
+      },
+      {
+        "name": "Ribe",
+        "flag": "dk",
+        "x": 189,
+        "y": 863
+      },
+      {
+        "name": "Vejle",
+        "flag": "dk",
+        "x": 278,
+        "y": 739
+      },
+      {
+        "name": "Bornholm",
+        "flag": "dk",
+        "x": 850,
+        "y": 889
+      }
+    ],
+    "thumbnail": "thumbnails/danishstraits.webp",
+    "geo_lat": 56,
+    "geo_lng": 11.5,
     "geo_type": "regional"
   },
   "deglaciatedantarctica": {
@@ -2851,7 +4089,7 @@
   },
   "didierfrance": {
     "enum_key": "DidierFrance",
-    "display_name": "Didier (France)",
+    "display_name": "Didier France",
     "translated_name": "Didier (France)",
     "category": "arcade",
     "width": 2100,
@@ -3123,408 +4361,432 @@
     "width": 3080,
     "height": 1344,
     "total_pixels": 4139520,
-    "land_tiles": 1895783,
-    "land_pct": 45.8,
-    "water_pct": 54.2,
+    "land_tiles": 1893666,
+    "land_pct": 45.7,
+    "water_pct": 54.3,
     "estimated_max_players": 95,
     "playlist_frequency": 8,
-    "nation_count": 66,
+    "nation_count": 76,
     "nations": [
       {
         "name": "Jermaine",
         "flag": "de",
-        "x": 2260,
+        "x": 2380,
         "y": 400
       },
       {
         "name": "Pants",
         "flag": "fr",
-        "x": 2111,
+        "x": 2230,
         "y": 399
       },
       {
         "name": "Splain",
         "flag": "es",
-        "x": 2050,
+        "x": 2170,
         "y": 460
       },
       {
         "name": "Idoly",
         "flag": "it",
-        "x": 2200,
+        "x": 2320,
         "y": 470
       },
       {
         "name": "Graet Brian",
         "flag": "gb",
-        "x": 980,
+        "x": 1100,
         "y": 375
       },
       {
         "name": "Grace",
         "flag": "gr",
-        "x": 2265,
+        "x": 2385,
         "y": 510
       },
       {
         "name": "Rollandia",
         "flag": "ro",
-        "x": 2342,
+        "x": 2462,
         "y": 436
       },
       {
         "name": "Ucryin",
         "flag": "ua",
-        "x": 1222,
+        "x": 1342,
         "y": 310
       },
       {
         "name": "Veden",
         "flag": "se",
-        "x": 2235,
+        "x": 2355,
         "y": 290
       },
       {
         "name": "Morvay",
         "flag": "no",
-        "x": 2190,
+        "x": 2310,
         "y": 250
       },
       {
         "name": "Binland",
         "flag": "fi",
-        "x": 2330,
+        "x": 2450,
         "y": 280
       },
       {
         "name": "Rusha",
         "flag": "Russian SSR",
-        "x": 1280,
-        "y": 285
+        "x": 40,
+        "y": 590
+      },
+      {
+        "name": "Sequoia",
+        "flag": "ru",
+        "x": 260,
+        "y": 600
+      },
+      {
+        "name": "Chinook",
+        "flag": "ru",
+        "x": 565,
+        "y": 605
       },
       {
         "name": "Georgia",
         "flag": "ge",
-        "x": 2555,
+        "x": 2675,
         "y": 475
       },
       {
         "name": "Irap",
         "flag": "Second Republic of Iraq",
-        "x": 1105,
+        "x": 1225,
         "y": 620
       },
       {
         "name": "United Bara Estimates",
         "flag": "ae",
-        "x": 1370,
+        "x": 1490,
         "y": 670
       },
       {
         "name": "Iram",
         "flag": "Pahlavi Iran",
-        "x": 356,
+        "x": 476,
         "y": 980
       },
       {
         "name": "Plackitstan",
         "flag": "pk",
-        "x": 2630,
+        "x": 2750,
         "y": 740
       },
       {
         "name": "Agraphistan",
         "flag": "af",
-        "x": 2650,
+        "x": 2770,
         "y": 640
       },
       {
         "name": "Azakah",
         "flag": "kz",
-        "x": 1260,
-        "y": 400
+        "x": 1500,
+        "y": 430
       },
       {
         "name": "Zheleznogzorzkz",
         "flag": "Zheleznogorsk",
-        "x": 1430,
-        "y": 390
+        "x": 1500,
+        "y": 300
       },
       {
         "name": "Shiberia",
-        "flag": "Siberia",
-        "x": 50,
+        "flag": "ru",
+        "x": 170,
         "y": 450
       },
       {
         "name": "Indiana",
         "flag": "in",
-        "x": 2690,
+        "x": 2810,
         "y": 950
       },
       {
         "name": "Ikeland",
         "flag": "is",
-        "x": 295,
+        "x": 415,
         "y": 1325
       },
       {
         "name": "Bangledash",
         "flag": "bd",
-        "x": 2020,
+        "x": 2140,
         "y": 900
       },
       {
         "name": "Jina",
         "flag": "cn",
-        "x": 1085,
-        "y": 885
+        "x": 1144,
+        "y": 766
       },
       {
         "name": "West Cornea",
         "flag": "kp",
-        "x": 65,
+        "x": 185,
         "y": 795
       },
       {
         "name": "East Cornea",
         "flag": "kr",
-        "x": 80,
+        "x": 200,
         "y": 805
       },
       {
         "name": "Chapan",
         "flag": "jp",
-        "x": 2890,
+        "x": 3010,
         "y": 300
       },
       {
         "name": "Mongoalina",
         "flag": "mn",
-        "x": 2900,
+        "x": 3020,
         "y": 650
       },
       {
         "name": "Endonisia",
         "flag": "id",
-        "x": 2385,
+        "x": 2505,
         "y": 1070
       },
       {
-        "name": "North Vitamen",
+        "name": "Vitamen",
         "flag": "vn",
-        "x": 880,
+        "x": 1000,
         "y": 950
       },
       {
-        "name": "South Vitamen",
-        "flag": "South Vietnam",
-        "x": 856,
-        "y": 996
+        "name": "Cuda",
+        "flag": "cu",
+        "x": 915,
+        "y": 1042
       },
       {
         "name": "Papa No Guine",
         "flag": "pg",
-        "x": 120,
+        "x": 255,
         "y": 945
       },
       {
         "name": "Austria",
         "flag": "au",
-        "x": 785,
+        "x": 905,
         "y": 615
       },
       {
         "name": "New Sealand",
         "flag": "nz",
-        "x": 335,
+        "x": 455,
         "y": 400
+      },
+      {
+        "name": "Elfsbeer",
+        "flag": "ca",
+        "x": 850,
+        "y": 404
+      },
+      {
+        "name": "Bafiling",
+        "flag": "ca",
+        "x": 808,
+        "y": 630
       },
       {
         "name": "Amtarctica",
         "flag": "an_pe",
-        "x": 360,
+        "x": 550,
         "y": 70
       },
       {
         "name": "Dophlin Confeteracy",
         "flag": "sardines",
-        "x": 100,
+        "x": 220,
         "y": 70
       },
       {
         "name": "Arctica",
         "flag": "aq",
-        "x": 2555,
+        "x": 2600,
         "y": 50
       },
       {
         "name": "Nort Pole",
         "flag": "santa_claus",
-        "x": 1950,
+        "x": 2070,
         "y": 1305
       },
       {
         "name": "Lidya",
         "flag": "ly",
-        "x": 1020,
+        "x": 1140,
         "y": 490
       },
       {
         "name": "Alberia",
         "flag": "dz",
-        "x": 380,
+        "x": 500,
         "y": 855
       },
       {
         "name": "Slomia",
         "flag": "so",
-        "x": 1215,
+        "x": 1335,
         "y": 790
       },
       {
         "name": "Manchurian",
         "flag": "Mauritania",
-        "x": 550,
+        "x": 670,
         "y": 770
       },
       {
         "name": "Nigel",
         "flag": "ne",
-        "x": 1735,
+        "x": 1855,
         "y": 860
       },
       {
         "name": "Libraria",
         "flag": "lr",
-        "x": 630,
+        "x": 750,
         "y": 825
       },
       {
         "name": "Center Africa",
         "flag": "cf",
-        "x": 2970,
-        "y": 735
+        "x": 3050,
+        "y": 755
       },
       {
         "name": "Southern African State",
         "flag": "za",
-        "x": 2950,
-        "y": 1150
+        "x": 10,
+        "y": 1100
       },
       {
         "name": "Madalplascar",
         "flag": "mg",
-        "x": 1620,
+        "x": 1740,
         "y": 670
       },
       {
         "name": "Southern South West Africa",
         "flag": "za",
-        "x": 2860,
+        "x": 2980,
         "y": 1050
       },
       {
         "name": "Brailzil",
         "flag": "br",
-        "x": 1400,
+        "x": 1520,
         "y": 500
       },
       {
         "name": "Anazom Warehouse",
         "flag": "Cthulhu Republic",
-        "x": 1480,
+        "x": 1600,
         "y": 865
       },
       {
         "name": "Aregano",
         "flag": "ar",
-        "x": 1620,
-        "y": 230
+        "x": 1740,
+        "y": 250
       },
       {
         "name": "Philly",
         "flag": "cl",
-        "x": 1750,
+        "x": 1870,
         "y": 600
       },
       {
         "name": "Venice",
         "flag": "ve",
-        "x": 1150,
+        "x": 1270,
         "y": 400
       },
       {
         "name": "Nicargo",
         "flag": "ni",
-        "x": 2060,
+        "x": 2180,
         "y": 900
       },
       {
         "name": "Xico",
         "flag": "mx",
-        "x": 1910,
+        "x": 2030,
         "y": 440
       },
       {
         "name": "Untitled States",
         "flag": "us",
-        "x": 2170,
+        "x": 2290,
         "y": 600
       },
       {
         "name": "Taxes",
         "flag": "Texas",
-        "x": 1960,
+        "x": 2080,
         "y": 530
       },
       {
         "name": "Calizonia",
         "flag": "California",
-        "x": 2860,
+        "x": 2980,
         "y": 400
       },
       {
         "name": "Foundland",
         "flag": "Newfoundland",
-        "x": 2300,
+        "x": 2420,
         "y": 765
       },
       {
-        "name": "Canananada",
+        "name": "Cananada",
         "flag": "ca",
-        "x": 2020,
+        "x": 2140,
         "y": 750
       },
       {
         "name": "Eleske",
         "flag": "Alaska",
-        "x": 1440,
+        "x": 1560,
         "y": 1000
       },
       {
         "name": "Yukant",
         "flag": "Yukon",
-        "x": 484,
+        "x": 604,
         "y": 256
       },
       {
         "name": "Greedland",
         "flag": "gl",
-        "x": 500,
+        "x": 620,
         "y": 1200
       },
       {
         "name": "Bearguin Aliance",
         "flag": "polar_bears",
-        "x": 1515,
+        "x": 1635,
         "y": 1313
       },
       {
         "name": "Biosphere Conmune",
         "flag": "Republic of Pirates",
-        "x": 3060,
-        "y": 100
+        "x": 2950,
+        "y": 50
       }
     ],
     "thumbnail": "thumbnails/dyslexdria.webp"
@@ -4017,7 +5279,7 @@
   },
   "europeclassic": {
     "enum_key": "EuropeClassic",
-    "display_name": "Europe",
+    "display_name": "Europe Classic",
     "translated_name": "Europe (Classic)",
     "category": "continental",
     "width": 2000,
@@ -4266,10 +5528,10 @@
     "width": 2100,
     "height": 1400,
     "total_pixels": 2940000,
-    "land_tiles": 859274,
-    "land_pct": 29.2,
-    "water_pct": 70.8,
-    "estimated_max_players": 45,
+    "land_tiles": 746474,
+    "land_pct": 25.4,
+    "water_pct": 74.6,
+    "estimated_max_players": 35,
     "playlist_frequency": 4,
     "nation_count": 12,
     "nations": [
@@ -4416,7 +5678,7 @@
     "width": 1500,
     "height": 1500,
     "total_pixels": 2250000,
-    "land_tiles": 517044,
+    "land_tiles": 517506,
     "land_pct": 23,
     "water_pct": 77,
     "estimated_max_players": 25,
@@ -4452,13 +5714,13 @@
   },
   "gatewaytotheatlantic": {
     "enum_key": "GatewayToTheAtlantic",
-    "display_name": "GatewayToTheAtlantic",
+    "display_name": "Gateway to the Atlantic",
     "translated_name": "Gateway to the Atlantic",
     "category": "regional",
     "width": 2216,
     "height": 1968,
     "total_pixels": 4361088,
-    "land_tiles": 2239818,
+    "land_tiles": 2239824,
     "land_pct": 51.4,
     "water_pct": 48.6,
     "estimated_max_players": 110,
@@ -4633,19 +5895,136 @@
     "geo_lng": -10,
     "geo_type": "regional"
   },
+  "germany": {
+    "enum_key": "Germany",
+    "display_name": "Germany",
+    "translated_name": "Germany",
+    "category": "regional",
+    "width": 1548,
+    "height": 1516,
+    "total_pixels": 2346768,
+    "land_tiles": 1072928,
+    "land_pct": 45.7,
+    "water_pct": 54.3,
+    "estimated_max_players": 55,
+    "playlist_frequency": 5,
+    "nation_count": 16,
+    "nations": [
+      {
+        "name": "Hamburg",
+        "flag": "DE-HH",
+        "x": 688,
+        "y": 396
+      },
+      {
+        "name": "Schleswig-Holstein",
+        "flag": "DE-SH",
+        "x": 717,
+        "y": 311
+      },
+      {
+        "name": "Bremen",
+        "flag": "DE-HB",
+        "x": 561,
+        "y": 537
+      },
+      {
+        "name": "Lower Saxony",
+        "flag": "DE-NI",
+        "x": 399,
+        "y": 592
+      },
+      {
+        "name": "North Rhine-Westphalia",
+        "flag": "DE-NW",
+        "x": 336,
+        "y": 803
+      },
+      {
+        "name": "Saarland",
+        "flag": "DE-SL",
+        "x": 279,
+        "y": 1129
+      },
+      {
+        "name": "Rhineland-Palatinate",
+        "flag": "DE-RP",
+        "x": 362,
+        "y": 1042
+      },
+      {
+        "name": "Baden-Württemberg",
+        "flag": "DE-BW",
+        "x": 602,
+        "y": 1207
+      },
+      {
+        "name": "Hesse",
+        "flag": "DE-HE",
+        "x": 627,
+        "y": 900
+      },
+      {
+        "name": "Bavaria",
+        "flag": "DE-BY-L",
+        "x": 941,
+        "y": 1139
+      },
+      {
+        "name": "Saxony",
+        "flag": "DE-SN",
+        "x": 1077,
+        "y": 836
+      },
+      {
+        "name": "Saxony-Anhalt",
+        "flag": "DE-ST",
+        "x": 883,
+        "y": 648
+      },
+      {
+        "name": "Thuringia",
+        "flag": "DE-TH",
+        "x": 861,
+        "y": 863
+      },
+      {
+        "name": "Mecklenburg-Vorpommern",
+        "flag": "DE-MV",
+        "x": 1026,
+        "y": 370
+      },
+      {
+        "name": "Berlin",
+        "flag": "DE-BE",
+        "x": 1189,
+        "y": 590
+      },
+      {
+        "name": "Brandenburg",
+        "flag": "DE-BB",
+        "x": 1254,
+        "y": 708
+      }
+    ],
+    "thumbnail": "thumbnails/germany.webp",
+    "geo_lat": 51.2,
+    "geo_lng": 10.4,
+    "geo_type": "regional"
+  },
   "giantworldmap": {
     "enum_key": "GiantWorldMap",
-    "display_name": "Giant_World_Map",
+    "display_name": "Giant World Map",
     "translated_name": "Giant World Map",
     "category": "continental",
     "width": 4108,
     "height": 1948,
     "total_pixels": 8002384,
-    "land_tiles": 2333974,
+    "land_tiles": 2335403,
     "land_pct": 29.2,
     "water_pct": 70.8,
     "estimated_max_players": 115,
-    "playlist_frequency": 0,
+    "playlist_frequency": 10,
     "nation_count": 107,
     "nations": [
       {
@@ -5304,7 +6683,7 @@
     "width": 2000,
     "height": 1300,
     "total_pixels": 2600000,
-    "land_tiles": 1938066,
+    "land_tiles": 1938051,
     "land_pct": 74.5,
     "water_pct": 25.5,
     "estimated_max_players": 95,
@@ -5529,7 +6908,7 @@
     "width": 1620,
     "height": 1348,
     "total_pixels": 2183760,
-    "land_tiles": 874011,
+    "land_tiles": 874013,
     "land_pct": 40,
     "water_pct": 60,
     "estimated_max_players": 45,
@@ -5706,7 +7085,7 @@
     "width": 2200,
     "height": 1760,
     "total_pixels": 3872000,
-    "land_tiles": 1729369,
+    "land_tiles": 1728899,
     "land_pct": 44.7,
     "water_pct": 55.3,
     "estimated_max_players": 85,
@@ -5842,6 +7221,453 @@
     "geo_lng": -156.3,
     "geo_type": "regional"
   },
+  "hongkong": {
+    "enum_key": "HongKong",
+    "display_name": "Hong Kong",
+    "translated_name": "Hong Kong",
+    "category": "regional",
+    "width": 2780,
+    "height": 1996,
+    "total_pixels": 5548880,
+    "land_tiles": 2260689,
+    "land_pct": 40.7,
+    "water_pct": 59.3,
+    "estimated_max_players": 115,
+    "playlist_frequency": 6,
+    "nation_count": 71,
+    "nations": [
+      {
+        "name": "Tsim Sha Tsui",
+        "flag": "hk",
+        "x": 1592,
+        "y": 1147
+      },
+      {
+        "name": "Mong Kok",
+        "flag": "hk",
+        "x": 1564,
+        "y": 993
+      },
+      {
+        "name": "Kowloon",
+        "flag": "hk",
+        "x": 1529,
+        "y": 1116
+      },
+      {
+        "name": "Yau Ma Tei",
+        "flag": "hk",
+        "x": 1599,
+        "y": 1072
+      },
+      {
+        "name": "Sham Shui Po",
+        "flag": "hk",
+        "x": 1490,
+        "y": 953
+      },
+      {
+        "name": "Tsing Yi",
+        "flag": "hk",
+        "x": 1284,
+        "y": 898
+      },
+      {
+        "name": "Kai Tak",
+        "flag": "hk",
+        "x": 1710,
+        "y": 995
+      },
+      {
+        "name": "Causeway Bay",
+        "flag": "hk",
+        "x": 1654,
+        "y": 1232
+      },
+      {
+        "name": "Central District",
+        "flag": "hk",
+        "x": 1470,
+        "y": 1196
+      },
+      {
+        "name": "Wan Chai",
+        "flag": "hk",
+        "x": 1593,
+        "y": 1238
+      },
+      {
+        "name": "Kennedy Town",
+        "flag": "hk",
+        "x": 1406,
+        "y": 1226
+      },
+      {
+        "name": "Kwun Tong",
+        "flag": "hk",
+        "x": 1850,
+        "y": 1068
+      },
+      {
+        "name": "Admiralty District",
+        "flag": "hk",
+        "x": 1527,
+        "y": 1220
+      },
+      {
+        "name": "Stanley",
+        "flag": "hk",
+        "x": 1749,
+        "y": 1503
+      },
+      {
+        "name": "Ocean Park",
+        "flag": "hk",
+        "x": 1588,
+        "y": 1424
+      },
+      {
+        "name": "Aberdeen",
+        "flag": "hk",
+        "x": 1534,
+        "y": 1376
+      },
+      {
+        "name": "Shek O",
+        "flag": "hk",
+        "x": 1923,
+        "y": 1470
+      },
+      {
+        "name": "Chai Wan",
+        "flag": "hk",
+        "x": 1903,
+        "y": 1310
+      },
+      {
+        "name": "Repulse Bay",
+        "flag": "hk",
+        "x": 1706,
+        "y": 1425
+      },
+      {
+        "name": "Pok Fu Lam",
+        "flag": "hk",
+        "x": 1437,
+        "y": 1325
+      },
+      {
+        "name": "Quarry Bay",
+        "flag": "hk",
+        "x": 1765,
+        "y": 1192
+      },
+      {
+        "name": "Shau Kei Wan",
+        "flag": "hk",
+        "x": 1866,
+        "y": 1243
+      },
+      {
+        "name": "Lamma Island",
+        "flag": "hk",
+        "x": 1400,
+        "y": 1649
+      },
+      {
+        "name": "Hong Kong Int'l Airport",
+        "flag": "hk",
+        "x": 447,
+        "y": 1093
+      },
+      {
+        "name": "Tung Chung",
+        "flag": "hk",
+        "x": 556,
+        "y": 1210
+      },
+      {
+        "name": "Tsuen Wan",
+        "flag": "hk",
+        "x": 1381,
+        "y": 779
+      },
+      {
+        "name": "Tuen Mun",
+        "flag": "hk",
+        "x": 675,
+        "y": 716
+      },
+      {
+        "name": "Yuen Long",
+        "flag": "hk",
+        "x": 864,
+        "y": 456
+      },
+      {
+        "name": "Discovery Bay",
+        "flag": "hk",
+        "x": 881,
+        "y": 1165
+      },
+      {
+        "name": "Disneyland",
+        "flag": "hk",
+        "x": 953,
+        "y": 1021
+      },
+      {
+        "name": "Lantau Island",
+        "flag": "hk",
+        "x": 480,
+        "y": 1347
+      },
+      {
+        "name": "Tai O",
+        "flag": "hk",
+        "x": 205,
+        "y": 1373
+      },
+      {
+        "name": "Po Toi",
+        "flag": "hk",
+        "x": 2004,
+        "y": 1763
+      },
+      {
+        "name": "Cheung Chau",
+        "flag": "hk",
+        "x": 951,
+        "y": 1592
+      },
+      {
+        "name": "Tin Shui Wai",
+        "flag": "hk",
+        "x": 846,
+        "y": 295
+      },
+      {
+        "name": "Mai Po",
+        "flag": "hk",
+        "x": 1007,
+        "y": 212
+      },
+      {
+        "name": "Shenzhen",
+        "flag": "cn",
+        "x": 932,
+        "y": 4
+      },
+      {
+        "name": "Lok Ma Chau",
+        "flag": "hk",
+        "x": 1178,
+        "y": 177
+      },
+      {
+        "name": "Plover Cove",
+        "flag": "hk",
+        "x": 1981,
+        "y": 183
+      },
+      {
+        "name": "Sheung Shui",
+        "flag": "hk",
+        "x": 1355,
+        "y": 167
+      },
+      {
+        "name": "Fanling",
+        "flag": "hk",
+        "x": 1492,
+        "y": 233
+      },
+      {
+        "name": "Tai Po",
+        "flag": "hk",
+        "x": 1659,
+        "y": 343
+      },
+      {
+        "name": "Sha Tin",
+        "flag": "hk",
+        "x": 1775,
+        "y": 707
+      },
+      {
+        "name": "Tai Wai",
+        "flag": "hk",
+        "x": 1659,
+        "y": 705
+      },
+      {
+        "name": "Ma On Shan",
+        "flag": "hk",
+        "x": 1913,
+        "y": 526
+      },
+      {
+        "name": "Clearwater Bay",
+        "flag": "hk",
+        "x": 2160,
+        "y": 1141
+      },
+      {
+        "name": "Tseung Kwan O",
+        "flag": "hk",
+        "x": 2020,
+        "y": 1121
+      },
+      {
+        "name": "Hang Hau",
+        "flag": "hk",
+        "x": 2000,
+        "y": 976
+      },
+      {
+        "name": "Sham Tseng",
+        "flag": "hk",
+        "x": 977,
+        "y": 814
+      },
+      {
+        "name": "Ma Wan",
+        "flag": "hk",
+        "x": 1082,
+        "y": 897
+      },
+      {
+        "name": "Sai Kung",
+        "flag": "hk",
+        "x": 2381,
+        "y": 637
+      },
+      {
+        "name": "Kau Sai",
+        "flag": "hk",
+        "x": 2225,
+        "y": 847
+      },
+      {
+        "name": "Kam Tin",
+        "flag": "hk",
+        "x": 1054,
+        "y": 387
+      },
+      {
+        "name": "Lam Tsuen",
+        "flag": "hk",
+        "x": 1466,
+        "y": 382
+      },
+      {
+        "name": "Pat Heung",
+        "flag": "hk",
+        "x": 1208,
+        "y": 430
+      },
+      {
+        "name": "Houhai District",
+        "flag": "cn",
+        "x": 523,
+        "y": 55
+      },
+      {
+        "name": "Shekou District",
+        "flag": "cn",
+        "x": 462,
+        "y": 168
+      },
+      {
+        "name": "Luohu District",
+        "flag": "cn",
+        "x": 1237,
+        "y": 26
+      },
+      {
+        "name": "Futian District",
+        "flag": "cn",
+        "x": 1027,
+        "y": 101
+      },
+      {
+        "name": "Peng Chau",
+        "flag": "hk",
+        "x": 996,
+        "y": 1226
+      },
+      {
+        "name": "Long Ke",
+        "flag": "hk",
+        "x": 2479,
+        "y": 781
+      },
+      {
+        "name": "Pat Sin Leung",
+        "flag": "hk",
+        "x": 1698,
+        "y": 182
+      },
+      {
+        "name": "Kwai Chung",
+        "flag": "hk",
+        "x": 1426,
+        "y": 870
+      },
+      {
+        "name": "Tai Tam",
+        "flag": "hk",
+        "x": 1766,
+        "y": 1364
+      },
+      {
+        "name": "The Peak",
+        "flag": "hk",
+        "x": 1524,
+        "y": 1299
+      },
+      {
+        "name": "Pui O",
+        "flag": "hk",
+        "x": 698,
+        "y": 1405
+      },
+      {
+        "name": "Cheung Sha",
+        "flag": "hk",
+        "x": 565,
+        "y": 1450
+      },
+      {
+        "name": "Hung Hom",
+        "flag": "hk",
+        "x": 1665,
+        "y": 1067
+      },
+      {
+        "name": "Kam Shan",
+        "flag": "hk",
+        "x": 1545,
+        "y": 842
+      },
+      {
+        "name": "Tai Tong",
+        "flag": "hk",
+        "x": 1031,
+        "y": 654
+      },
+      {
+        "name": "Tai Mo Shan",
+        "flag": "hk",
+        "x": 1422,
+        "y": 602
+      }
+    ],
+    "thumbnail": "thumbnails/hongkong.webp",
+    "geo_lat": 22.32,
+    "geo_lng": 114.17,
+    "geo_type": "regional"
+  },
   "iceland": {
     "enum_key": "Iceland",
     "display_name": "Iceland",
@@ -5850,9 +7676,9 @@
     "width": 2000,
     "height": 1500,
     "total_pixels": 3000000,
-    "land_tiles": 1098655,
-    "land_pct": 36.6,
-    "water_pct": 63.4,
+    "land_tiles": 1069645,
+    "land_pct": 35.7,
+    "water_pct": 64.3,
     "estimated_max_players": 55,
     "playlist_frequency": 4,
     "nation_count": 8,
@@ -5911,6 +7737,474 @@
     "geo_lng": -18,
     "geo_type": "regional"
   },
+  "indiansubcontinent": {
+    "enum_key": "IndianSubcontinent",
+    "display_name": "Indian Subcontinent",
+    "translated_name": "Indian Subcontinent",
+    "category": "regional",
+    "width": 2000,
+    "height": 2220,
+    "total_pixels": 4440000,
+    "land_tiles": 2113509,
+    "land_pct": 47.6,
+    "water_pct": 52.4,
+    "estimated_max_players": 105,
+    "playlist_frequency": 8,
+    "nation_count": 52,
+    "nations": [
+      {
+        "name": "Bangladesh",
+        "flag": "bd",
+        "x": 1601,
+        "y": 840
+      },
+      {
+        "name": "Myanmar",
+        "flag": "mm",
+        "x": 1907,
+        "y": 924
+      },
+      {
+        "name": "Bhutan",
+        "flag": "bt",
+        "x": 1764,
+        "y": 529
+      },
+      {
+        "name": "Nepal",
+        "flag": "np",
+        "x": 1338,
+        "y": 491
+      },
+      {
+        "name": "Afghanistan",
+        "flag": "af",
+        "x": 288,
+        "y": 244
+      },
+      {
+        "name": "Tibet",
+        "flag": "tibet",
+        "x": 1550,
+        "y": 167
+      },
+      {
+        "name": "China",
+        "flag": "cn",
+        "x": 1952,
+        "y": 26
+      },
+      {
+        "name": "Sri Lanka",
+        "flag": "lk",
+        "x": 1086,
+        "y": 1735
+      },
+      {
+        "name": "Aceh",
+        "flag": "Aceh",
+        "x": 1975,
+        "y": 1910
+      },
+      {
+        "name": "Andaman & Nicobar Islands",
+        "flag": "in",
+        "x": 1799,
+        "y": 1466
+      },
+      {
+        "name": "Lakshadweep",
+        "flag": "in",
+        "x": 632,
+        "y": 1566
+      },
+      {
+        "name": "Maldives",
+        "flag": "mv",
+        "x": 685,
+        "y": 1807
+      },
+      {
+        "name": "Kerala",
+        "flag": "in",
+        "x": 883,
+        "y": 1595
+      },
+      {
+        "name": "Tamil Nadu",
+        "flag": "in",
+        "x": 1051,
+        "y": 1586
+      },
+      {
+        "name": "Karnataka",
+        "flag": "in",
+        "x": 783,
+        "y": 1322
+      },
+      {
+        "name": "Andhra Pradesh",
+        "flag": "in",
+        "x": 1057,
+        "y": 1256
+      },
+      {
+        "name": "Telangana",
+        "flag": "in",
+        "x": 1007,
+        "y": 1065
+      },
+      {
+        "name": "Maharashtra",
+        "flag": "in",
+        "x": 787,
+        "y": 998
+      },
+      {
+        "name": "Goa",
+        "flag": "in",
+        "x": 706,
+        "y": 1141
+      },
+      {
+        "name": "Odisha",
+        "flag": "in",
+        "x": 1391,
+        "y": 906
+      },
+      {
+        "name": "Gujarat",
+        "flag": "in",
+        "x": 565,
+        "y": 892
+      },
+      {
+        "name": "Madhya Pradesh",
+        "flag": "in",
+        "x": 961,
+        "y": 717
+      },
+      {
+        "name": "Chhattisgarh",
+        "flag": "in",
+        "x": 1120,
+        "y": 895
+      },
+      {
+        "name": "West Bengal",
+        "flag": "in",
+        "x": 1508,
+        "y": 825
+      },
+      {
+        "name": "Jharkhand",
+        "flag": "in",
+        "x": 1317,
+        "y": 717
+      },
+      {
+        "name": "Bihar",
+        "flag": "in",
+        "x": 1379,
+        "y": 608
+      },
+      {
+        "name": "Sikkim",
+        "flag": "Sikkim",
+        "x": 1519,
+        "y": 506
+      },
+      {
+        "name": "Assam",
+        "flag": "in",
+        "x": 1738,
+        "y": 668
+      },
+      {
+        "name": "Uttar Pradesh",
+        "flag": "in",
+        "x": 1194,
+        "y": 535
+      },
+      {
+        "name": "Rajasthan",
+        "flag": "in",
+        "x": 735,
+        "y": 611
+      },
+      {
+        "name": "Meghalaya",
+        "flag": "in",
+        "x": 1624,
+        "y": 507
+      },
+      {
+        "name": "Tripura",
+        "flag": "in",
+        "x": 1658,
+        "y": 759
+      },
+      {
+        "name": "Mizoram",
+        "flag": "in",
+        "x": 1790,
+        "y": 834
+      },
+      {
+        "name": "Manipur",
+        "flag": "in",
+        "x": 1878,
+        "y": 762
+      },
+      {
+        "name": "Nagaland",
+        "flag": "in",
+        "x": 1952,
+        "y": 637
+      },
+      {
+        "name": "Arunachal Pradesh",
+        "flag": "in",
+        "x": 1957,
+        "y": 480
+      },
+      {
+        "name": "Haryana",
+        "flag": "in",
+        "x": 884,
+        "y": 439
+      },
+      {
+        "name": "Punjab",
+        "flag": "in",
+        "x": 840,
+        "y": 305
+      },
+      {
+        "name": "Uttarakhand",
+        "flag": "in",
+        "x": 1082,
+        "y": 384
+      },
+      {
+        "name": "Himachal Pradesh",
+        "flag": "in",
+        "x": 948,
+        "y": 236
+      },
+      {
+        "name": "Jammu and Kashmir",
+        "flag": "Jammu and Kashmir",
+        "x": 823,
+        "y": 11
+      },
+      {
+        "name": "Iran",
+        "flag": "ir",
+        "x": 51,
+        "y": 580
+      },
+      {
+        "name": "Tajikistan",
+        "flag": "tj",
+        "x": 81,
+        "y": 24
+      },
+      {
+        "name": "New Delhi",
+        "flag": "in",
+        "x": 978,
+        "y": 550
+      },
+      {
+        "name": "Sindh",
+        "flag": "pk",
+        "x": 468,
+        "y": 692
+      },
+      {
+        "name": "Balochistan",
+        "flag": "pk",
+        "x": 309,
+        "y": 529
+      },
+      {
+        "name": "Punjab",
+        "flag": "pk",
+        "x": 637,
+        "y": 464
+      },
+      {
+        "name": "Fata",
+        "flag": "pk",
+        "x": 514,
+        "y": 366
+      },
+      {
+        "name": "Khyber Pakhtunkhwa",
+        "flag": "pk",
+        "x": 616,
+        "y": 224
+      },
+      {
+        "name": "Azad Kashmir",
+        "flag": "Azad Kashmir",
+        "x": 740,
+        "y": 161
+      },
+      {
+        "name": "Gilgit-Baltistan",
+        "flag": "pk",
+        "x": 628,
+        "y": 12
+      },
+      {
+        "name": "Puducherry",
+        "flag": "in",
+        "x": 1065,
+        "y": 1454
+      }
+    ],
+    "thumbnail": "thumbnails/indiansubcontinent.webp",
+    "geo_lat": 22.5,
+    "geo_lng": 78.5,
+    "geo_type": "regional"
+  },
+  "irishsea": {
+    "enum_key": "IrishSea",
+    "display_name": "Irish Sea",
+    "translated_name": "Irish Sea",
+    "category": "regional",
+    "width": 1400,
+    "height": 1500,
+    "total_pixels": 2100000,
+    "land_tiles": 978363,
+    "land_pct": 46.6,
+    "water_pct": 53.4,
+    "estimated_max_players": 50,
+    "playlist_frequency": 5,
+    "nation_count": 19,
+    "nations": [
+      {
+        "name": "Isle of Man",
+        "flag": "im",
+        "x": 771,
+        "y": 744
+      },
+      {
+        "name": "Preston",
+        "flag": "GB-LAN",
+        "x": 1380,
+        "y": 914
+      },
+      {
+        "name": "Dundalk",
+        "flag": "ie",
+        "x": 109,
+        "y": 779
+      },
+      {
+        "name": "Dublin",
+        "flag": "ie",
+        "x": 163,
+        "y": 1096
+      },
+      {
+        "name": "Wicklow",
+        "flag": "ie",
+        "x": 212,
+        "y": 1392
+      },
+      {
+        "name": "Carlisle",
+        "flag": "GB-CMA",
+        "x": 1326,
+        "y": 206
+      },
+      {
+        "name": "Belfast",
+        "flag": "northern_ireland",
+        "x": 259,
+        "y": 467
+      },
+      {
+        "name": "Ballymena",
+        "flag": "northern_ireland",
+        "x": 143,
+        "y": 236
+      },
+      {
+        "name": "Lancaster",
+        "flag": "GB-LAN",
+        "x": 1326,
+        "y": 776
+      },
+      {
+        "name": "Liverpool",
+        "flag": "GB-Merseyside",
+        "x": 1323,
+        "y": 1142
+      },
+      {
+        "name": "Whitehaven",
+        "flag": "GB-CMA",
+        "x": 1108,
+        "y": 477
+      },
+      {
+        "name": "Bangor",
+        "flag": "gb-wls",
+        "x": 903,
+        "y": 1268
+      },
+      {
+        "name": "St Asaph",
+        "flag": "gb-wls",
+        "x": 1108,
+        "y": 1222
+      },
+      {
+        "name": "Wrexham",
+        "flag": "gb-wls",
+        "x": 1301,
+        "y": 1329
+      },
+      {
+        "name": "Kirkcudbright",
+        "flag": "gb-sct",
+        "x": 927,
+        "y": 266
+      },
+      {
+        "name": "Stranraer",
+        "flag": "gb-sct",
+        "x": 603,
+        "y": 274
+      },
+      {
+        "name": "Dumfries",
+        "flag": "gb-sct",
+        "x": 1128,
+        "y": 116
+      },
+      {
+        "name": "Armagh",
+        "flag": "northern_ireland",
+        "x": 22,
+        "y": 553
+      },
+      {
+        "name": "Newry",
+        "flag": "northern_ireland",
+        "x": 139,
+        "y": 698
+      }
+    ],
+    "thumbnail": "thumbnails/irishsea.webp",
+    "geo_lat": 54.5,
+    "geo_lng": -5.5,
+    "geo_type": "regional"
+  },
   "italia": {
     "enum_key": "Italia",
     "display_name": "Italia",
@@ -5919,9 +8213,9 @@
     "width": 1360,
     "height": 1272,
     "total_pixels": 1729920,
-    "land_tiles": 780495,
-    "land_pct": 45.1,
-    "water_pct": 54.9,
+    "land_tiles": 775663,
+    "land_pct": 44.8,
+    "water_pct": 55.2,
     "estimated_max_players": 40,
     "playlist_frequency": 6,
     "nation_count": 12,
@@ -6000,15 +8294,15 @@
   },
   "japan": {
     "enum_key": "Japan",
-    "display_name": "japan",
+    "display_name": "Japan",
     "translated_name": "Japan",
     "category": "regional",
     "width": 2500,
     "height": 2500,
     "total_pixels": 6250000,
-    "land_tiles": 488183,
-    "land_pct": 7.8,
-    "water_pct": 92.2,
+    "land_tiles": 478894,
+    "land_pct": 7.7,
+    "water_pct": 92.3,
     "estimated_max_players": 25,
     "playlist_frequency": 6,
     "nation_count": 12,
@@ -6091,6 +8385,528 @@
     "geo_lng": 138,
     "geo_type": "regional"
   },
+  "juandefucastrait": {
+    "enum_key": "JuanDeFucaStrait",
+    "display_name": "Juan De Fuca Strait",
+    "translated_name": "Juan De Fuca Strait",
+    "category": "regional",
+    "width": 3000,
+    "height": 1100,
+    "total_pixels": 3300000,
+    "land_tiles": 1666141,
+    "land_pct": 50.5,
+    "water_pct": 49.5,
+    "estimated_max_players": 85,
+    "playlist_frequency": 4,
+    "nation_count": 16,
+    "nations": [
+      {
+        "name": "Victoria",
+        "flag": "britishcolumbia",
+        "x": 1812,
+        "y": 445
+      },
+      {
+        "name": "Sooke",
+        "flag": "britishcolumbia",
+        "x": 1519,
+        "y": 512
+      },
+      {
+        "name": "Port Renfrew",
+        "flag": "britishcolumbia",
+        "x": 1016,
+        "y": 319
+      },
+      {
+        "name": "Bamfield",
+        "flag": "britishcolumbia",
+        "x": 366,
+        "y": 11
+      },
+      {
+        "name": "Sidney",
+        "flag": "britishcolumbia",
+        "x": 1742,
+        "y": 165
+      },
+      {
+        "name": "Friday Harbor",
+        "flag": "Washington",
+        "x": 2065,
+        "y": 346
+      },
+      {
+        "name": "Bellingham",
+        "flag": "Washington",
+        "x": 2532,
+        "y": 77
+      },
+      {
+        "name": "Port Angeles",
+        "flag": "Washington",
+        "x": 1762,
+        "y": 867
+      },
+      {
+        "name": "Neah Bay",
+        "flag": "Washington",
+        "x": 749,
+        "y": 556
+      },
+      {
+        "name": "Forks",
+        "flag": "Washington",
+        "x": 1003,
+        "y": 1014
+      },
+      {
+        "name": "Everett",
+        "flag": "Washington",
+        "x": 2747,
+        "y": 992
+      },
+      {
+        "name": "Anacortes",
+        "flag": "Washington",
+        "x": 2402,
+        "y": 389
+      },
+      {
+        "name": "Mount Vermon",
+        "flag": "Washington",
+        "x": 2654,
+        "y": 479
+      },
+      {
+        "name": "Oak Harbor",
+        "flag": "Washington",
+        "x": 2407,
+        "y": 615
+      },
+      {
+        "name": "Port Townsend",
+        "flag": "Washington",
+        "x": 2280,
+        "y": 850
+      },
+      {
+        "name": "Arlington",
+        "flag": "Washington",
+        "x": 2764,
+        "y": 714
+      }
+    ],
+    "thumbnail": "thumbnails/juandefucastrait.webp",
+    "geo_lat": 48.3,
+    "geo_lng": -124,
+    "geo_type": "regional"
+  },
+  "korea": {
+    "enum_key": "Korea",
+    "display_name": "Korea",
+    "translated_name": "Korea",
+    "category": "regional",
+    "width": 1092,
+    "height": 2148,
+    "total_pixels": 2345616,
+    "land_tiles": 1193914,
+    "land_pct": 50.9,
+    "water_pct": 49.1,
+    "estimated_max_players": 60,
+    "playlist_frequency": 5,
+    "nation_count": 35,
+    "nations": [
+      {
+        "name": "Ulsan",
+        "flag": "kr",
+        "x": 849,
+        "y": 1523
+      },
+      {
+        "name": "Busan",
+        "flag": "kr",
+        "x": 815,
+        "y": 1645
+      },
+      {
+        "name": "Jeju",
+        "flag": "kr",
+        "x": 392,
+        "y": 2008
+      },
+      {
+        "name": "Nagasaki",
+        "flag": "Empire of Japan",
+        "x": 963,
+        "y": 2093
+      },
+      {
+        "name": "Fukuoka",
+        "flag": "jp",
+        "x": 1039,
+        "y": 1970
+      },
+      {
+        "name": "Daegu",
+        "flag": "kr",
+        "x": 735,
+        "y": 1564
+      },
+      {
+        "name": "South Gyeongsang",
+        "flag": "kr",
+        "x": 602,
+        "y": 1619
+      },
+      {
+        "name": "North Gyeongsang",
+        "flag": "kr",
+        "x": 738,
+        "y": 1419
+      },
+      {
+        "name": "South Jeolla",
+        "flag": "kr",
+        "x": 408,
+        "y": 1770
+      },
+      {
+        "name": "North Jeolla",
+        "flag": "kr",
+        "x": 435,
+        "y": 1605
+      },
+      {
+        "name": "Seoul",
+        "flag": "kr",
+        "x": 456,
+        "y": 1158
+      },
+      {
+        "name": "Daejeon",
+        "flag": "kr",
+        "x": 529,
+        "y": 1500
+      },
+      {
+        "name": "Sejong",
+        "flag": "kr",
+        "x": 507,
+        "y": 1456
+      },
+      {
+        "name": "North Chungcheong",
+        "flag": "kr",
+        "x": 572,
+        "y": 1396
+      },
+      {
+        "name": "South Chungcheong",
+        "flag": "kr",
+        "x": 418,
+        "y": 1415
+      },
+      {
+        "name": "Incheon",
+        "flag": "kr",
+        "x": 384,
+        "y": 1163
+      },
+      {
+        "name": "Gangwon",
+        "flag": "kr",
+        "x": 684,
+        "y": 1228
+      },
+      {
+        "name": "Gyeonggi",
+        "flag": "kr",
+        "x": 471,
+        "y": 1254
+      },
+      {
+        "name": "Kaesong",
+        "flag": "kp",
+        "x": 301,
+        "y": 1093
+      },
+      {
+        "name": "Pyongyang",
+        "flag": "kp",
+        "x": 294,
+        "y": 986
+      },
+      {
+        "name": "North Hwanghae",
+        "flag": "kp",
+        "x": 416,
+        "y": 997
+      },
+      {
+        "name": "South Hwanghae",
+        "flag": "kp",
+        "x": 166,
+        "y": 1093
+      },
+      {
+        "name": "Nampo",
+        "flag": "kp",
+        "x": 188,
+        "y": 980
+      },
+      {
+        "name": "Kangwon",
+        "flag": "kp",
+        "x": 599,
+        "y": 1062
+      },
+      {
+        "name": "South Hamgyong",
+        "flag": "kp",
+        "x": 564,
+        "y": 642
+      },
+      {
+        "name": "North Hamgyong",
+        "flag": "kp",
+        "x": 817,
+        "y": 384
+      },
+      {
+        "name": "Ryanggang",
+        "flag": "kp",
+        "x": 540,
+        "y": 448
+      },
+      {
+        "name": "South Pyongan",
+        "flag": "kp",
+        "x": 283,
+        "y": 794
+      },
+      {
+        "name": "North Pyongan",
+        "flag": "kp",
+        "x": 151,
+        "y": 639
+      },
+      {
+        "name": "Chagang",
+        "flag": "kp",
+        "x": 336,
+        "y": 571
+      },
+      {
+        "name": "Jilin",
+        "flag": "cn",
+        "x": 402,
+        "y": 198
+      },
+      {
+        "name": "Liaoning",
+        "flag": "cn",
+        "x": 34,
+        "y": 533
+      },
+      {
+        "name": "Primorsky",
+        "flag": "ru",
+        "x": 1045,
+        "y": 43
+      },
+      {
+        "name": "Heilongjiang",
+        "flag": "cn",
+        "x": 820,
+        "y": 50
+      },
+      {
+        "name": "Saga",
+        "flag": "jp",
+        "x": 1057,
+        "y": 2090
+      }
+    ],
+    "thumbnail": "thumbnails/korea.webp",
+    "geo_lat": 37.5,
+    "geo_lng": 127.8,
+    "geo_type": "regional"
+  },
+  "labyrinth": {
+    "enum_key": "Labyrinth",
+    "display_name": "Labyrinth",
+    "translated_name": "Labyrinth",
+    "category": "arcade",
+    "width": 1360,
+    "height": 1360,
+    "total_pixels": 1849600,
+    "land_tiles": 1524448,
+    "land_pct": 82.4,
+    "water_pct": 17.6,
+    "estimated_max_players": 75,
+    "playlist_frequency": 6,
+    "nation_count": 26,
+    "nations": [
+      {
+        "name": "Alpha",
+        "flag": "",
+        "x": 50,
+        "y": 50
+      },
+      {
+        "name": "Bravo",
+        "flag": "",
+        "x": 500,
+        "y": 50
+      },
+      {
+        "name": "Charlie",
+        "flag": "",
+        "x": 950,
+        "y": 50
+      },
+      {
+        "name": "Delta",
+        "flag": "",
+        "x": 1300,
+        "y": 175
+      },
+      {
+        "name": "Echo",
+        "flag": "",
+        "x": 1300,
+        "y": 625
+      },
+      {
+        "name": "Foxtrot",
+        "flag": "",
+        "x": 1300,
+        "y": 1074
+      },
+      {
+        "name": "Golf",
+        "flag": "",
+        "x": 1050,
+        "y": 1300
+      },
+      {
+        "name": "Hotel",
+        "flag": "",
+        "x": 625,
+        "y": 1300
+      },
+      {
+        "name": "India",
+        "flag": "",
+        "x": 150,
+        "y": 1300
+      },
+      {
+        "name": "Juliett",
+        "flag": "",
+        "x": 50,
+        "y": 950
+      },
+      {
+        "name": "Kilo",
+        "flag": "",
+        "x": 50,
+        "y": 500
+      },
+      {
+        "name": "Lima",
+        "flag": "",
+        "x": 275,
+        "y": 275
+      },
+      {
+        "name": "Mike",
+        "flag": "",
+        "x": 740,
+        "y": 290
+      },
+      {
+        "name": "November",
+        "flag": "",
+        "x": 1080,
+        "y": 380
+      },
+      {
+        "name": "Oscar",
+        "flag": "",
+        "x": 1080,
+        "y": 850
+      },
+      {
+        "name": "Papa",
+        "flag": "",
+        "x": 850,
+        "y": 1080
+      },
+      {
+        "name": "Quebec",
+        "flag": "",
+        "x": 400,
+        "y": 1080
+      },
+      {
+        "name": "Romeo",
+        "flag": "",
+        "x": 280,
+        "y": 740
+      },
+      {
+        "name": "Sierra",
+        "flag": "",
+        "x": 510,
+        "y": 510
+      },
+      {
+        "name": "Tango",
+        "flag": "",
+        "x": 850,
+        "y": 630
+      },
+      {
+        "name": "Uniform",
+        "flag": "",
+        "x": 625,
+        "y": 850
+      },
+      {
+        "name": "Victor",
+        "flag": "",
+        "x": 745,
+        "y": 520
+      },
+      {
+        "name": "Whiskey",
+        "flag": "",
+        "x": 850,
+        "y": 850
+      },
+      {
+        "name": "X-ray",
+        "flag": "",
+        "x": 510,
+        "y": 740
+      },
+      {
+        "name": "Yankee",
+        "flag": "",
+        "x": 735,
+        "y": 735
+      },
+      {
+        "name": "Zulu",
+        "flag": "",
+        "x": 630,
+        "y": 630
+      }
+    ],
+    "thumbnail": "thumbnails/labyrinth.webp"
+  },
   "lemnos": {
     "enum_key": "Lemnos",
     "display_name": "Lemnos",
@@ -6108,55 +8924,55 @@
     "nations": [
       {
         "name": "Gomati",
-        "flag": "",
+        "flag": "gr",
         "x": 550,
         "y": 317
       },
       {
         "name": "Zematas",
-        "flag": "",
+        "flag": "gr",
         "x": 1371,
         "y": 254
       },
       {
         "name": "Kotsinas",
-        "flag": "",
+        "flag": "gr",
         "x": 1096,
         "y": 605
       },
       {
         "name": "Evgatis",
-        "flag": "",
+        "flag": "gr",
         "x": 518,
         "y": 894
       },
       {
         "name": "Kavala",
-        "flag": "",
+        "flag": "gr",
         "x": 250,
         "y": 879
       },
       {
         "name": "Atsiki",
-        "flag": "",
+        "flag": "gr",
         "x": 814,
         "y": 460
       },
       {
         "name": "Sardes",
-        "flag": "",
+        "flag": "gr",
         "x": 474,
         "y": 542
       },
       {
         "name": "Portianou",
-        "flag": "",
+        "flag": "gr",
         "x": 691,
         "y": 755
       },
       {
         "name": "Pyrgos",
-        "flag": "",
+        "flag": "gr",
         "x": 1177,
         "y": 975
       }
@@ -6164,6 +8980,117 @@
     "thumbnail": "thumbnails/lemnos.webp",
     "geo_lat": 39.9,
     "geo_lng": 25.2,
+    "geo_type": "regional"
+  },
+  "levant": {
+    "enum_key": "Levant",
+    "display_name": "Levant",
+    "translated_name": "Levant",
+    "category": "regional",
+    "width": 2000,
+    "height": 2000,
+    "total_pixels": 4000000,
+    "land_tiles": 2173100,
+    "land_pct": 54.3,
+    "water_pct": 45.7,
+    "estimated_max_players": 110,
+    "playlist_frequency": 5,
+    "nation_count": 15,
+    "nations": [
+      {
+        "name": "Fatimid Caliphate",
+        "flag": "Fatimid Caliphate",
+        "x": 722,
+        "y": 1683
+      },
+      {
+        "name": "Kingdom of Jerusalem",
+        "flag": "Kingdom of Jerusalem",
+        "x": 1476,
+        "y": 1376
+      },
+      {
+        "name": "County of Tripoli",
+        "flag": "County of Tripoli",
+        "x": 1627,
+        "y": 919
+      },
+      {
+        "name": "Principality of Antioch",
+        "flag": "Principality of Antioch",
+        "x": 1673,
+        "y": 442
+      },
+      {
+        "name": "County of Edessa",
+        "flag": "County of Edessa",
+        "x": 1880,
+        "y": 80
+      },
+      {
+        "name": "Kingdom of Cyprus",
+        "flag": "Kingdom Of Cyprus",
+        "x": 987,
+        "y": 957
+      },
+      {
+        "name": "Emirate of Damascus",
+        "flag": "Seljuk Empire",
+        "x": 1659,
+        "y": 1214
+      },
+      {
+        "name": "Seljuk Empire",
+        "flag": "Seljuk Empire",
+        "x": 1980,
+        "y": 412
+      },
+      {
+        "name": "Sultanate of Rum",
+        "flag": "Sultanate Of Rum",
+        "x": 975,
+        "y": 37
+      },
+      {
+        "name": "Armenian Kingdom Of Cilicia",
+        "flag": "Armenian Kingdom Of Cilicia",
+        "x": 1336,
+        "y": 317
+      },
+      {
+        "name": "Byzantine Empire",
+        "flag": "Byzantine Empire",
+        "x": 520,
+        "y": 216
+      },
+      {
+        "name": "Danishmendid Beylik",
+        "flag": "Seljuk Empire",
+        "x": 1443,
+        "y": 41
+      },
+      {
+        "name": "Sharifate of Mecca",
+        "flag": "Ayyubid Dynasty",
+        "x": 1654,
+        "y": 1978
+      },
+      {
+        "name": "Ayyubid Dynasty",
+        "flag": "Ayyubid Dynasty",
+        "x": 846,
+        "y": 1681
+      },
+      {
+        "name": "Knights Hospitaller",
+        "flag": "Order Of Malta",
+        "x": 140,
+        "y": 480
+      }
+    ],
+    "thumbnail": "thumbnails/levant.webp",
+    "geo_lat": 33.5,
+    "geo_lng": 36,
     "geo_type": "regional"
   },
   "lisbon": {
@@ -6285,9 +9212,9 @@
     "width": 1800,
     "height": 2276,
     "total_pixels": 4096800,
-    "land_tiles": 2066156,
-    "land_pct": 50.4,
-    "water_pct": 49.6,
+    "land_tiles": 2055581,
+    "land_pct": 50.2,
+    "water_pct": 49.8,
     "estimated_max_players": 105,
     "playlist_frequency": 8,
     "nation_count": 26,
@@ -6460,12 +9387,12 @@
     "translated_name": "Luna",
     "category": "fantasy",
     "width": 1308,
-    "height": 3500,
-    "total_pixels": 4578000,
-    "land_tiles": 1646031,
-    "land_pct": 36,
-    "water_pct": 64,
-    "estimated_max_players": 80,
+    "height": 3508,
+    "total_pixels": 4588464,
+    "land_tiles": 1517614,
+    "land_pct": 33.1,
+    "water_pct": 66.9,
+    "estimated_max_players": 75,
     "playlist_frequency": 6,
     "nation_count": 25,
     "nations": [
@@ -6485,13 +9412,13 @@
         "name": "Apollo 15",
         "flag": "us",
         "x": 780,
-        "y": 345
+        "y": 340
       },
       {
         "name": "Apollo 11",
         "flag": "us",
         "x": 825,
-        "y": 735
+        "y": 705
       },
       {
         "name": "Apollo 16",
@@ -6514,7 +9441,7 @@
       {
         "name": "Apollo 13",
         "flag": "us",
-        "x": 256,
+        "x": 250,
         "y": 148
       },
       {
@@ -6526,7 +9453,7 @@
       {
         "name": "Luna 17",
         "flag": "Russian SSR",
-        "x": 510,
+        "x": 515,
         "y": 170
       },
       {
@@ -6580,8 +9507,8 @@
       {
         "name": "Chang'e 5",
         "flag": "cn",
-        "x": 270,
-        "y": 2690
+        "x": 260,
+        "y": 268
       },
       {
         "name": "Chang'e 6",
@@ -6593,7 +9520,7 @@
         "name": "S.L.I.M.",
         "flag": "jp",
         "x": 830,
-        "y": 735
+        "y": 745
       },
       {
         "name": "Chandrayaan 3",
@@ -6605,17 +9532,17 @@
         "name": "Chandrayaan 1",
         "flag": "in",
         "x": 732,
-        "y": 3490
+        "y": 3493
       },
       {
-        "name": "T▅▚░S▅cr▅▟░M▅l▅t▅r▅░B▅s▅",
+        "name": "T0Þ $e¢®ët Mi|¡tªr¥ ß@§£",
         "flag": "",
         "x": 755,
         "y": 3035
       },
       {
-        "name": "[]",
-        "flag": "",
+        "name": "ΜΟΝΟʟΙȚΗ",
+        "flag": "custom/luna_monolith",
         "x": 628,
         "y": 921
       }
@@ -7014,7 +9941,7 @@
   },
   "mena": {
     "enum_key": "Mena",
-    "display_name": "MENA",
+    "display_name": "Mena",
     "translated_name": "MENA",
     "category": "regional",
     "width": 2200,
@@ -7243,9 +10170,192 @@
     "geo_lng": 11.8531,
     "geo_type": "regional"
   },
+  "middleeast": {
+    "enum_key": "MiddleEast",
+    "display_name": "Middle East",
+    "translated_name": "Middle East",
+    "category": "regional",
+    "width": 2200,
+    "height": 2060,
+    "total_pixels": 4532000,
+    "land_tiles": 3449078,
+    "land_pct": 76.1,
+    "water_pct": 23.9,
+    "estimated_max_players": 170,
+    "playlist_frequency": 8,
+    "nation_count": 27,
+    "nations": [
+      {
+        "name": "Ottoman Empire",
+        "flag": "tr",
+        "x": 300,
+        "y": 65
+      },
+      {
+        "name": "Qajar Dynasty",
+        "flag": "Persia",
+        "x": 1639,
+        "y": 558
+      },
+      {
+        "name": "Emirate of Kuwait",
+        "flag": "Socialist_flag",
+        "x": 1141,
+        "y": 797
+      },
+      {
+        "name": "Sultanate of Muscat",
+        "flag": "Socialist_flag",
+        "x": 1880,
+        "y": 1353
+      },
+      {
+        "name": "Imamate of Oman",
+        "flag": "White Flag",
+        "x": 1703,
+        "y": 1402
+      },
+      {
+        "name": "Trucial States",
+        "flag": "Socialist_flag",
+        "x": 1592,
+        "y": 1239
+      },
+      {
+        "name": "Aden Protectorate",
+        "flag": "gb",
+        "x": 1129,
+        "y": 1875
+      },
+      {
+        "name": "Kingdom of Yemen",
+        "flag": "Kingdom of Yemen",
+        "x": 964,
+        "y": 1744
+      },
+      {
+        "name": "Emirate of Asir",
+        "flag": "Emirate of Asir",
+        "x": 844,
+        "y": 1655
+      },
+      {
+        "name": "Kingdom of Hejaz",
+        "flag": "Arabia",
+        "x": 579,
+        "y": 1173
+      },
+      {
+        "name": "Rashidi Emirate",
+        "flag": "Rashidi Emirate",
+        "x": 800,
+        "y": 1052
+      },
+      {
+        "name": "Sultanate of Nejd",
+        "flag": "Sultanate of Nejd",
+        "x": 1092,
+        "y": 1336
+      },
+      {
+        "name": "Qatar",
+        "flag": "qa",
+        "x": 1397,
+        "y": 1128
+      },
+      {
+        "name": "Kingdom of Iraq",
+        "flag": "Kingdom of Iraq",
+        "x": 973,
+        "y": 296
+      },
+      {
+        "name": "Kingdom of Syria",
+        "flag": "Kingdom of Syria",
+        "x": 554,
+        "y": 364
+      },
+      {
+        "name": "Palestine Mandate",
+        "flag": "gb",
+        "x": 423,
+        "y": 647
+      },
+      {
+        "name": "Kingdom of Egypt",
+        "flag": "Kingdom of Egypt",
+        "x": 100,
+        "y": 781
+      },
+      {
+        "name": "Anglo-Egyptian Sudan",
+        "flag": "gb",
+        "x": 159,
+        "y": 1530
+      },
+      {
+        "name": "Italian Eritrea",
+        "flag": "italy",
+        "x": 578,
+        "y": 1766
+      },
+      {
+        "name": "Ethiopian Empire",
+        "flag": "Ethiopian Empire",
+        "x": 401,
+        "y": 2005
+      },
+      {
+        "name": "French Somaliland",
+        "flag": "fr",
+        "x": 826,
+        "y": 2044
+      },
+      {
+        "name": "British Bushehr",
+        "flag": "gb",
+        "x": 1455,
+        "y": 902
+      },
+      {
+        "name": "British Cyprus",
+        "flag": "gb",
+        "x": 185,
+        "y": 375
+      },
+      {
+        "name": "Emirate of Afghanistan",
+        "flag": "Emirate of Afghanistan",
+        "x": 2127,
+        "y": 373
+      },
+      {
+        "name": "Baluchistan Agency",
+        "flag": "gb",
+        "x": 2087,
+        "y": 925
+      },
+      {
+        "name": "Republic of Armenia",
+        "flag": "am",
+        "x": 932,
+        "y": 15
+      },
+      {
+        "name": "Russian State",
+        "flag": "ru",
+        "x": 1671,
+        "y": 71
+      }
+    ],
+    "thumbnail": "thumbnails/middleeast.webp",
+    "geo_lat": 29.5,
+    "geo_lng": 45,
+    "geo_type": "regional"
+  },
   "milkyway": {
     "enum_key": "MilkyWay",
-    "display_name": "milkyway",
+    "display_name": "MilkyWay",
     "translated_name": "Milky Way",
     "category": "fantasy",
     "width": 1500,
@@ -7296,6 +10406,93 @@
       }
     ],
     "thumbnail": "thumbnails/milkyway.webp"
+  },
+  "mississippiriver": {
+    "enum_key": "MississippiRiver",
+    "display_name": "Mississippi River",
+    "translated_name": "Mississippi River",
+    "category": "regional",
+    "width": 400,
+    "height": 4200,
+    "total_pixels": 1680000,
+    "land_tiles": 1500944,
+    "land_pct": 89.3,
+    "water_pct": 10.7,
+    "estimated_max_players": 75,
+    "playlist_frequency": 3,
+    "nation_count": 11,
+    "nations": [
+      {
+        "name": "Memphis",
+        "flag": "Tennessee",
+        "x": 390,
+        "y": 269
+      },
+      {
+        "name": "Marion",
+        "flag": "Arkansas",
+        "x": 89,
+        "y": 50
+      },
+      {
+        "name": "Helena-West Helena",
+        "flag": "Arkansas",
+        "x": 174,
+        "y": 1804
+      },
+      {
+        "name": "Rosedale",
+        "flag": "Mississippi",
+        "x": 329,
+        "y": 3385
+      },
+      {
+        "name": "Arkansas City",
+        "flag": "Arkansas",
+        "x": 113,
+        "y": 4031
+      },
+      {
+        "name": "Elaine",
+        "flag": "Arkansas",
+        "x": 89,
+        "y": 2510
+      },
+      {
+        "name": "Friars Point",
+        "flag": "Mississippi",
+        "x": 330,
+        "y": 2162
+      },
+      {
+        "name": "Tunica",
+        "flag": "Mississippi",
+        "x": 365,
+        "y": 1251
+      },
+      {
+        "name": "Horseshoe Lake",
+        "flag": "Arkansas",
+        "x": 182,
+        "y": 800
+      },
+      {
+        "name": "Clarksdale",
+        "flag": "Mississippi",
+        "x": 378,
+        "y": 2490
+      },
+      {
+        "name": "West Memphis",
+        "flag": "Arkansas",
+        "x": 185,
+        "y": 308
+      }
+    ],
+    "thumbnail": "thumbnails/mississippiriver.webp",
+    "geo_lat": 35,
+    "geo_lng": -90,
+    "geo_type": "regional"
   },
   "montreal": {
     "enum_key": "Montreal",
@@ -7609,18 +10806,18 @@
   },
   "northamerica": {
     "enum_key": "NorthAmerica",
-    "display_name": "NorthAmerica",
+    "display_name": "North America",
     "translated_name": "North America",
     "category": "continental",
     "width": 2800,
     "height": 1448,
     "total_pixels": 4054400,
-    "land_tiles": 1243623,
+    "land_tiles": 1243929,
     "land_pct": 30.7,
     "water_pct": 69.3,
     "estimated_max_players": 60,
     "playlist_frequency": 5,
-    "nation_count": 69,
+    "nation_count": 71,
     "nations": [
       {
         "name": "Florida",
@@ -8035,6 +11232,18 @@
         "flag": "Massachusetts",
         "x": 1811,
         "y": 782
+      },
+      {
+        "name": "Cabo Verde",
+        "flag": "cv",
+        "x": 2719,
+        "y": 1264
+      },
+      {
+        "name": "Azores",
+        "flag": "pt-azores",
+        "x": 2638,
+        "y": 840
       }
     ],
     "thumbnail": "thumbnails/northamerica.webp",
@@ -8042,17 +11251,164 @@
     "geo_lng": -100,
     "geo_type": "continent"
   },
+  "northwestpassage": {
+    "enum_key": "NorthwestPassage",
+    "display_name": "Northwest Passage",
+    "translated_name": "Northwest Passage",
+    "category": "regional",
+    "width": 2500,
+    "height": 1664,
+    "total_pixels": 4160000,
+    "land_tiles": 1569905,
+    "land_pct": 37.7,
+    "water_pct": 62.3,
+    "estimated_max_players": 80,
+    "playlist_frequency": 5,
+    "nation_count": 21,
+    "nations": [
+      {
+        "name": "Qaanaaq",
+        "flag": "gl",
+        "x": 1203,
+        "y": 592
+      },
+      {
+        "name": "Jan Mayen",
+        "flag": "sj",
+        "x": 2104,
+        "y": 125
+      },
+      {
+        "name": "Reykjavik",
+        "flag": "is",
+        "x": 2391,
+        "y": 513
+      },
+      {
+        "name": "Nuuk",
+        "flag": "gl",
+        "x": 1906,
+        "y": 1159
+      },
+      {
+        "name": "Qaqortoq",
+        "flag": "gl",
+        "x": 2200,
+        "y": 1194
+      },
+      {
+        "name": "Tasiilaq",
+        "flag": "gl",
+        "x": 2100,
+        "y": 823
+      },
+      {
+        "name": "Ittoqqortoormiit",
+        "flag": "gl",
+        "x": 2010,
+        "y": 410
+      },
+      {
+        "name": "Nord",
+        "flag": "gl",
+        "x": 1439,
+        "y": 41
+      },
+      {
+        "name": "Ilulissat",
+        "flag": "gl",
+        "x": 1758,
+        "y": 897
+      },
+      {
+        "name": "Alert",
+        "flag": "Nunavut",
+        "x": 1052,
+        "y": 362
+      },
+      {
+        "name": "Resolute",
+        "flag": "Nunavut",
+        "x": 862,
+        "y": 792
+      },
+      {
+        "name": "Pond Inlet",
+        "flag": "Nunavut",
+        "x": 1208,
+        "y": 1009
+      },
+      {
+        "name": "Iqaluit",
+        "flag": "Nunavut",
+        "x": 1479,
+        "y": 1317
+      },
+      {
+        "name": "Rankin Inlet",
+        "flag": "Nunavut",
+        "x": 903,
+        "y": 1643
+      },
+      {
+        "name": "Cambridge Bay",
+        "flag": "Nunavut",
+        "x": 578,
+        "y": 1216
+      },
+      {
+        "name": "Grise Fiord",
+        "flag": "Nunavut",
+        "x": 1022,
+        "y": 759
+      },
+      {
+        "name": "Yellowknife",
+        "flag": "northwestterritories",
+        "x": 361,
+        "y": 1592
+      },
+      {
+        "name": "Baker Lake",
+        "flag": "Nunavut",
+        "x": 629,
+        "y": 1612
+      },
+      {
+        "name": "Igloolik",
+        "flag": "Nunavut",
+        "x": 1118,
+        "y": 1235
+      },
+      {
+        "name": "Ulukhaktok",
+        "flag": "northwestterritories",
+        "x": 418,
+        "y": 1139
+      },
+      {
+        "name": "Inuvik",
+        "flag": "northwestterritories",
+        "x": 51,
+        "y": 1024
+      }
+    ],
+    "thumbnail": "thumbnails/northwestpassage.webp",
+    "geo_lat": 74,
+    "geo_lng": -105,
+    "geo_type": "regional"
+  },
   "oceania": {
     "enum_key": "Oceania",
     "display_name": "Oceania",
     "translated_name": "Oceania",
     "category": "continental",
-    "width": 2000,
+    "width": 1664,
     "height": 1000,
-    "total_pixels": 2000000,
-    "land_tiles": 194648,
-    "land_pct": 9.7,
-    "water_pct": 90.3,
+    "total_pixels": 1664000,
+    "land_tiles": 197878,
+    "land_pct": 11.9,
+    "water_pct": 88.1,
     "estimated_max_players": 10,
     "playlist_frequency": 0,
     "nation_count": 22,
@@ -8194,6 +11550,42 @@
     "geo_lat": -25.5132,
     "geo_lng": 155.0953,
     "geo_type": "continent"
+  },
+  "onion": {
+    "enum_key": "Onion",
+    "display_name": "Onion",
+    "translated_name": "Onion",
+    "category": "arcade",
+    "width": 512,
+    "height": 512,
+    "total_pixels": 262144,
+    "land_tiles": 210555,
+    "land_pct": 80.3,
+    "water_pct": 19.7,
+    "estimated_max_players": 10,
+    "playlist_frequency": 2,
+    "nation_count": 3,
+    "nations": [
+      {
+        "name": "Leafer Confederation",
+        "flag": "",
+        "x": 51,
+        "y": 188
+      },
+      {
+        "name": "Outer Enclave",
+        "flag": "",
+        "x": 252,
+        "y": 199
+      },
+      {
+        "name": "Inner Tribe",
+        "flag": "",
+        "x": 252,
+        "y": 233
+      }
+    ],
+    "thumbnail": "thumbnails/onion.webp"
   },
   "pangaea": {
     "enum_key": "Pangaea",
@@ -8599,9 +11991,522 @@
     ],
     "thumbnail": "thumbnails/pluto.webp"
   },
+  "russia": {
+    "enum_key": "Russia",
+    "display_name": "Russia",
+    "translated_name": "Russia",
+    "category": "regional",
+    "width": 3200,
+    "height": 1688,
+    "total_pixels": 5401600,
+    "land_tiles": 2540280,
+    "land_pct": 47,
+    "water_pct": 53,
+    "estimated_max_players": 125,
+    "playlist_frequency": 8,
+    "nation_count": 82,
+    "nations": [
+      {
+        "name": "Murmansk",
+        "flag": "RU-MUR",
+        "x": 715,
+        "y": 415
+      },
+      {
+        "name": "Karelia",
+        "flag": "RU-KR",
+        "x": 519,
+        "y": 551
+      },
+      {
+        "name": "Arkhangelsk",
+        "flag": "RU-ARK",
+        "x": 719,
+        "y": 617
+      },
+      {
+        "name": "Vologda",
+        "flag": "RU-VLG",
+        "x": 599,
+        "y": 753
+      },
+      {
+        "name": "Komi Republic",
+        "flag": "RU-KO",
+        "x": 1110,
+        "y": 878
+      },
+      {
+        "name": "Nenets Autonomous Okrug",
+        "flag": "RU-NEN",
+        "x": 1093,
+        "y": 641
+      },
+      {
+        "name": "Saint Petersburg",
+        "flag": "RU-SPE",
+        "x": 360,
+        "y": 639
+      },
+      {
+        "name": "Leningrad",
+        "flag": "RU-LEN",
+        "x": 463,
+        "y": 686
+      },
+      {
+        "name": "Kaliningrad",
+        "flag": "RU-KGD",
+        "x": 86,
+        "y": 691
+      },
+      {
+        "name": "Pskov",
+        "flag": "RU-PSK",
+        "x": 298,
+        "y": 707
+      },
+      {
+        "name": "Novgorod",
+        "flag": "RU-NGR",
+        "x": 382,
+        "y": 725
+      },
+      {
+        "name": "Tver",
+        "flag": "RU-TVE",
+        "x": 398,
+        "y": 791
+      },
+      {
+        "name": "Bryansk",
+        "flag": "RU-BRY",
+        "x": 249,
+        "y": 910
+      },
+      {
+        "name": "Smolensk",
+        "flag": "RU-SMO",
+        "x": 276,
+        "y": 841
+      },
+      {
+        "name": "Moscow",
+        "flag": "RU-MOW",
+        "x": 463,
+        "y": 892
+      },
+      {
+        "name": "Kursk",
+        "flag": "RU-KRS",
+        "x": 247,
+        "y": 1006
+      },
+      {
+        "name": "Belgorod",
+        "flag": "RU-BEL",
+        "x": 281,
+        "y": 1093
+      },
+      {
+        "name": "Voronezh",
+        "flag": "RU-VOR",
+        "x": 391,
+        "y": 1168
+      },
+      {
+        "name": "Rostov",
+        "flag": "RU-ROS",
+        "x": 293,
+        "y": 1190
+      },
+      {
+        "name": "Krasnodar",
+        "flag": "RU-KDA",
+        "x": 217,
+        "y": 1252
+      },
+      {
+        "name": "Adygea",
+        "flag": "Circassia",
+        "x": 180,
+        "y": 1328
+      },
+      {
+        "name": "Stavropol",
+        "flag": "RU-STA",
+        "x": 287,
+        "y": 1386
+      },
+      {
+        "name": "Kalmykia",
+        "flag": "RU-KL",
+        "x": 317,
+        "y": 1321
+      },
+      {
+        "name": "Astrakhan",
+        "flag": "RU-AST",
+        "x": 390,
+        "y": 1402
+      },
+      {
+        "name": "Dagestan",
+        "flag": "RU-DA",
+        "x": 309,
+        "y": 1474
+      },
+      {
+        "name": "Karachay-Cherkessia",
+        "flag": "RU-KC",
+        "x": 160,
+        "y": 1378
+      },
+      {
+        "name": "Kabardino-Balkaria",
+        "flag": "RU-KB",
+        "x": 186,
+        "y": 1416
+      },
+      {
+        "name": "North Ossetia",
+        "flag": "RU-SE",
+        "x": 216,
+        "y": 1449
+      },
+      {
+        "name": "Chechnya",
+        "flag": "RU-CE",
+        "x": 270,
+        "y": 1528
+      },
+      {
+        "name": "Ingushetia",
+        "flag": "RU-IN",
+        "x": 250,
+        "y": 1475
+      },
+      {
+        "name": "Volgograd",
+        "flag": "RU-VGG",
+        "x": 406,
+        "y": 1239
+      },
+      {
+        "name": "Kaluga",
+        "flag": "RU-KLU",
+        "x": 374,
+        "y": 880
+      },
+      {
+        "name": "Oryol",
+        "flag": "RU-ORL",
+        "x": 323,
+        "y": 995
+      },
+      {
+        "name": "Lipetsk",
+        "flag": "RU-LIP",
+        "x": 358,
+        "y": 1077
+      },
+      {
+        "name": "Tula",
+        "flag": "RU-TUL",
+        "x": 397,
+        "y": 985
+      },
+      {
+        "name": "Ryazan",
+        "flag": "RU-RYA",
+        "x": 441,
+        "y": 1054
+      },
+      {
+        "name": "Tambov",
+        "flag": "RU-TAM",
+        "x": 443,
+        "y": 1127
+      },
+      {
+        "name": "Yaroslavl",
+        "flag": "RU-YAR",
+        "x": 518,
+        "y": 823
+      },
+      {
+        "name": "Kostroma",
+        "flag": "RU-KOS",
+        "x": 685,
+        "y": 822
+      },
+      {
+        "name": "Vladimir",
+        "flag": "RU-VLA",
+        "x": 563,
+        "y": 923
+      },
+      {
+        "name": "Ivanovo",
+        "flag": "RU-IVA",
+        "x": 623,
+        "y": 883
+      },
+      {
+        "name": "Nizhny Novgorod",
+        "flag": "RU-NIZ",
+        "x": 523,
+        "y": 969
+      },
+      {
+        "name": "Saratov",
+        "flag": "RU-SAR",
+        "x": 506,
+        "y": 1208
+      },
+      {
+        "name": "Samara",
+        "flag": "RU-SAM",
+        "x": 644,
+        "y": 1183
+      },
+      {
+        "name": "Ulyanovsk",
+        "flag": "RU-ULY",
+        "x": 602,
+        "y": 1120
+      },
+      {
+        "name": "Penza",
+        "flag": "RU-PNZ",
+        "x": 521,
+        "y": 1104
+      },
+      {
+        "name": "Mordovia",
+        "flag": "RU-MO",
+        "x": 515,
+        "y": 1038
+      },
+      {
+        "name": "Kirov",
+        "flag": "RU-KIR",
+        "x": 761,
+        "y": 863
+      },
+      {
+        "name": "Mari El",
+        "flag": "RU-ME",
+        "x": 580,
+        "y": 1004
+      },
+      {
+        "name": "Chuvashia",
+        "flag": "Chuvashia",
+        "x": 653,
+        "y": 960
+      },
+      {
+        "name": "Tatarstan",
+        "flag": "RU-TA",
+        "x": 706,
+        "y": 1060
+      },
+      {
+        "name": "Orenburg",
+        "flag": "RU-ORE",
+        "x": 675,
+        "y": 1285
+      },
+      {
+        "name": "Bashkortostan",
+        "flag": "RU-BA",
+        "x": 780,
+        "y": 1144
+      },
+      {
+        "name": "Udmurtia",
+        "flag": "RU-UD",
+        "x": 794,
+        "y": 939
+      },
+      {
+        "name": "Perm",
+        "flag": "RU-PER",
+        "x": 874,
+        "y": 996
+      },
+      {
+        "name": "Chelyabinsk",
+        "flag": "RU-CHE",
+        "x": 809,
+        "y": 1259
+      },
+      {
+        "name": "Kurgan",
+        "flag": "RU-KGN",
+        "x": 951,
+        "y": 1131
+      },
+      {
+        "name": "Sverdlovsk",
+        "flag": "RU-SVE",
+        "x": 1000,
+        "y": 997
+      },
+      {
+        "name": "Yamalo-Nenets",
+        "flag": "RU-YAN",
+        "x": 1310,
+        "y": 749
+      },
+      {
+        "name": "Khanty-Mansi",
+        "flag": "RU-KHM",
+        "x": 1327,
+        "y": 950
+      },
+      {
+        "name": "Tyumen",
+        "flag": "RU-TYU",
+        "x": 1065,
+        "y": 1144
+      },
+      {
+        "name": "Omsk",
+        "flag": "RU-OMS",
+        "x": 1134,
+        "y": 1206
+      },
+      {
+        "name": "Tomsk",
+        "flag": "RU-TOM",
+        "x": 1482,
+        "y": 1098
+      },
+      {
+        "name": "Novosibirsk",
+        "flag": "RU-NVS",
+        "x": 1405,
+        "y": 1311
+      },
+      {
+        "name": "Altai",
+        "flag": "RU-ALT",
+        "x": 1231,
+        "y": 1339
+      },
+      {
+        "name": "Gorno-Altai",
+        "flag": "RU-AL",
+        "x": 1458,
+        "y": 1545
+      },
+      {
+        "name": "Kemerovo",
+        "flag": "RU-KEM",
+        "x": 1520,
+        "y": 1247
+      },
+      {
+        "name": "Khakassia",
+        "flag": "RU-KK",
+        "x": 1536,
+        "y": 1393
+      },
+      {
+        "name": "Tuva",
+        "flag": "RU-TY",
+        "x": 1698,
+        "y": 1523
+      },
+      {
+        "name": "Krasnoyarsk",
+        "flag": "RU-KYA",
+        "x": 1740,
+        "y": 838
+      },
+      {
+        "name": "Irkutsk",
+        "flag": "RU-IRK",
+        "x": 1947,
+        "y": 1332
+      },
+      {
+        "name": "Sakha",
+        "flag": "RU-SA",
+        "x": 2266,
+        "y": 844
+      },
+      {
+        "name": "Buryatia",
+        "flag": "RU-BU",
+        "x": 2020,
+        "y": 1404
+      },
+      {
+        "name": "Amur",
+        "flag": "RU-AMU",
+        "x": 2511,
+        "y": 1368
+      },
+      {
+        "name": "Khabarovsk",
+        "flag": "RU-KHA",
+        "x": 2615,
+        "y": 1164
+      },
+      {
+        "name": "Jewish Autonomous Oblast",
+        "flag": "RU-YEV",
+        "x": 2654,
+        "y": 1377
+      },
+      {
+        "name": "Primorsky",
+        "flag": "RU-PRI",
+        "x": 2733,
+        "y": 1502
+      },
+      {
+        "name": "Sakhalin",
+        "flag": "RU-SAK",
+        "x": 2851,
+        "y": 1222
+      },
+      {
+        "name": "Magadan",
+        "flag": "RU-MAG",
+        "x": 2782,
+        "y": 711
+      },
+      {
+        "name": "Kamchatka",
+        "flag": "RU-KAM",
+        "x": 3090,
+        "y": 923
+      },
+      {
+        "name": "Chukotka",
+        "flag": "RU-CHU",
+        "x": 2956,
+        "y": 223
+      },
+      {
+        "name": "Zabaykalsky",
+        "flag": "RU-ZAB",
+        "x": 2224,
+        "y": 1452
+      }
+    ],
+    "thumbnail": "thumbnails/russia.webp",
+    "geo_lat": 61.5,
+    "geo_lng": 95,
+    "geo_type": "regional"
+  },
   "sanfrancisco": {
     "enum_key": "SanFrancisco",
-    "display_name": "SanFrancisco",
+    "display_name": "San Francisco",
     "translated_name": "San Francisco",
     "category": "regional",
     "width": 2000,
@@ -8746,6 +12651,171 @@
     "geo_lng": -122.4,
     "geo_type": "regional"
   },
+  "scandinavia": {
+    "enum_key": "Scandinavia",
+    "display_name": "Scandinavia",
+    "translated_name": "Scandinavia",
+    "category": "regional",
+    "width": 2004,
+    "height": 2240,
+    "total_pixels": 4488960,
+    "land_tiles": 2475461,
+    "land_pct": 55.1,
+    "water_pct": 44.9,
+    "estimated_max_players": 125,
+    "playlist_frequency": 7,
+    "nation_count": 24,
+    "nations": [
+      {
+        "name": "Norway",
+        "flag": "no",
+        "x": 419,
+        "y": 1426
+      },
+      {
+        "name": "Sweden",
+        "flag": "se",
+        "x": 811,
+        "y": 1499
+      },
+      {
+        "name": "Denmark",
+        "flag": "dk",
+        "x": 513,
+        "y": 1893
+      },
+      {
+        "name": "Germany",
+        "flag": "de",
+        "x": 734,
+        "y": 2170
+      },
+      {
+        "name": "Netherlands",
+        "flag": "nl",
+        "x": 276,
+        "y": 2227
+      },
+      {
+        "name": "Finland",
+        "flag": "fi",
+        "x": 1381,
+        "y": 1251
+      },
+      {
+        "name": "Estonia",
+        "flag": "ee",
+        "x": 1466,
+        "y": 1479
+      },
+      {
+        "name": "Latvia",
+        "flag": "lv",
+        "x": 1329,
+        "y": 1789
+      },
+      {
+        "name": "Lithuania",
+        "flag": "lt",
+        "x": 1394,
+        "y": 1994
+      },
+      {
+        "name": "Poland",
+        "flag": "pl",
+        "x": 1057,
+        "y": 2129
+      },
+      {
+        "name": "Belarus",
+        "flag": "by",
+        "x": 1761,
+        "y": 2096
+      },
+      {
+        "name": "Ostrobothnia",
+        "flag": "fi",
+        "x": 1262,
+        "y": 896
+      },
+      {
+        "name": "Karelia",
+        "flag": "ru",
+        "x": 1750,
+        "y": 796
+      },
+      {
+        "name": "Murmansk",
+        "flag": "ru",
+        "x": 1798,
+        "y": 278
+      },
+      {
+        "name": "Lapland",
+        "flag": "fi",
+        "x": 1418,
+        "y": 468
+      },
+      {
+        "name": "St. Petersburg",
+        "flag": "ru",
+        "x": 1733,
+        "y": 1325
+      },
+      {
+        "name": "Pskov",
+        "flag": "ru",
+        "x": 1670,
+        "y": 1724
+      },
+      {
+        "name": "Tver",
+        "flag": "ru",
+        "x": 2007,
+        "y": 1727
+      },
+      {
+        "name": "Skåne",
+        "flag": "se",
+        "x": 781,
+        "y": 1865
+      },
+      {
+        "name": "Aland Islands",
+        "flag": "ax",
+        "x": 1110,
+        "y": 1374
+      },
+      {
+        "name": "Norrland",
+        "flag": "se",
+        "x": 911,
+        "y": 1121
+      },
+      {
+        "name": "Norrbotten",
+        "flag": "se",
+        "x": 1028,
+        "y": 714
+      },
+      {
+        "name": "Troms",
+        "flag": "no",
+        "x": 891,
+        "y": 443
+      },
+      {
+        "name": "Finnmark",
+        "flag": "no",
+        "x": 1304,
+        "y": 159
+      }
+    ],
+    "thumbnail": "thumbnails/scandinavia.webp",
+    "geo_lat": 64.5,
+    "geo_lng": 16,
+    "geo_type": "regional"
+  },
   "sierpinski": {
     "enum_key": "Sierpinski",
     "display_name": "Sierpinski",
@@ -8820,7 +12890,7 @@
   },
   "southamerica": {
     "enum_key": "SouthAmerica",
-    "display_name": "Americas",
+    "display_name": "South America",
     "translated_name": "South America",
     "category": "continental",
     "width": 1744,
@@ -8989,6 +13059,213 @@
     "geo_lng": -60,
     "geo_type": "continent"
   },
+  "southeastasia": {
+    "enum_key": "SoutheastAsia",
+    "display_name": "SoutheastAsia",
+    "translated_name": "Southeast Asia",
+    "category": "regional",
+    "width": 2812,
+    "height": 1672,
+    "total_pixels": 4701664,
+    "land_tiles": 977094,
+    "land_pct": 20.8,
+    "water_pct": 79.2,
+    "estimated_max_players": 50,
+    "playlist_frequency": 5,
+    "nation_count": 31,
+    "nations": [
+      {
+        "name": "Taiwan",
+        "flag": "tw",
+        "x": 1319,
+        "y": 76
+      },
+      {
+        "name": "China",
+        "flag": "cn",
+        "x": 789,
+        "y": 21
+      },
+      {
+        "name": "Hong Kong",
+        "flag": "hk",
+        "x": 1007,
+        "y": 101
+      },
+      {
+        "name": "Macau",
+        "flag": "mo",
+        "x": 943,
+        "y": 124
+      },
+      {
+        "name": "Myanmar",
+        "flag": "mm",
+        "x": 183,
+        "y": 184
+      },
+      {
+        "name": "Guam",
+        "flag": "gu",
+        "x": 2425,
+        "y": 549
+      },
+      {
+        "name": "Northern Mariana Islands",
+        "flag": "mp",
+        "x": 2449,
+        "y": 515
+      },
+      {
+        "name": "Micronesia",
+        "flag": "fm",
+        "x": 2751,
+        "y": 837
+      },
+      {
+        "name": "Palau",
+        "flag": "pw",
+        "x": 1955,
+        "y": 820
+      },
+      {
+        "name": "Japan",
+        "flag": "jp",
+        "x": 2270,
+        "y": 19
+      },
+      {
+        "name": "Philippines",
+        "flag": "ph",
+        "x": 1393,
+        "y": 647
+      },
+      {
+        "name": "Vietnam",
+        "flag": "vn",
+        "x": 672,
+        "y": 414
+      },
+      {
+        "name": "Thailand",
+        "flag": "th",
+        "x": 374,
+        "y": 494
+      },
+      {
+        "name": "Malaysia",
+        "flag": "my",
+        "x": 439,
+        "y": 937
+      },
+      {
+        "name": "Singapore",
+        "flag": "sg",
+        "x": 527,
+        "y": 1082
+      },
+      {
+        "name": "Cambodia",
+        "flag": "kh",
+        "x": 585,
+        "y": 556
+      },
+      {
+        "name": "India",
+        "flag": "in",
+        "x": 24,
+        "y": 585
+      },
+      {
+        "name": "Laos",
+        "flag": "la",
+        "x": 426,
+        "y": 203
+      },
+      {
+        "name": "Papua New Guinea",
+        "flag": "pg",
+        "x": 2413,
+        "y": 1428
+      },
+      {
+        "name": "Brunei",
+        "flag": "bn",
+        "x": 1074,
+        "y": 956
+      },
+      {
+        "name": "Christmas Island",
+        "flag": "cx",
+        "x": 615,
+        "y": 1657
+      },
+      {
+        "name": "Timor-Leste",
+        "flag": "tl",
+        "x": 1545,
+        "y": 1580
+      },
+      {
+        "name": "Sumatra",
+        "flag": "id",
+        "x": 455,
+        "y": 1260
+      },
+      {
+        "name": "Java",
+        "flag": "id",
+        "x": 844,
+        "y": 1511
+      },
+      {
+        "name": "Kalimantan",
+        "flag": "id",
+        "x": 983,
+        "y": 1159
+      },
+      {
+        "name": "West Papua",
+        "flag": "id",
+        "x": 1944,
+        "y": 1323
+      },
+      {
+        "name": "Sulawesi",
+        "flag": "id",
+        "x": 1286,
+        "y": 1268
+      },
+      {
+        "name": "Nusa Tenggara",
+        "flag": "id",
+        "x": 1282,
+        "y": 1569
+      },
+      {
+        "name": "Maluku",
+        "flag": "id",
+        "x": 1710,
+        "y": 1317
+      },
+      {
+        "name": "Sarawak",
+        "flag": "Sarawak",
+        "x": 843,
+        "y": 1131
+      },
+      {
+        "name": "Wa State",
+        "flag": "Wa State",
+        "x": 260,
+        "y": 100
+      }
+    ],
+    "thumbnail": "thumbnails/southeastasia.webp",
+    "geo_lat": 10.5,
+    "geo_lng": 108,
+    "geo_type": "regional"
+  },
   "straitofgibraltar": {
     "enum_key": "StraitOfGibraltar",
     "display_name": "Strait of Gibraltar",
@@ -8997,10 +13274,10 @@
     "width": 2900,
     "height": 1476,
     "total_pixels": 4280400,
-    "land_tiles": 1941359,
-    "land_pct": 45.4,
-    "water_pct": 54.6,
-    "estimated_max_players": 95,
+    "land_tiles": 1957694,
+    "land_pct": 45.7,
+    "water_pct": 54.3,
+    "estimated_max_players": 100,
     "playlist_frequency": 5,
     "nation_count": 7,
     "nations": [
@@ -9062,127 +13339,133 @@
     "water_pct": 41.9,
     "estimated_max_players": 65,
     "playlist_frequency": 4,
-    "nation_count": 20,
+    "nation_count": 21,
     "nations": [
       {
         "name": "Hormozgan",
-        "flag": "",
+        "flag": "ir",
         "x": 837,
         "y": 356
       },
       {
         "name": "Fars",
-        "flag": "",
+        "flag": "ir",
         "x": 717,
         "y": 162
       },
       {
         "name": "Ash Sharqiyah",
-        "flag": "",
+        "flag": "sa",
         "x": 97,
         "y": 939
       },
       {
         "name": "Sistan and Baluchestan",
-        "flag": "",
+        "flag": "ir",
         "x": 1725,
         "y": 360
       },
       {
         "name": "Abu Dhabi",
-        "flag": "",
+        "flag": "ae",
         "x": 745,
         "y": 1003
       },
       {
         "name": "Kerman",
-        "flag": "",
+        "flag": "ir",
         "x": 1513,
         "y": 289
       },
       {
         "name": "Bushehr",
-        "flag": "",
+        "flag": "ir",
         "x": 311,
         "y": 147
       },
       {
         "name": "Al Dhahira",
-        "flag": "",
+        "flag": "om",
         "x": 1165,
         "y": 1092
       },
       {
         "name": "Al Batnah North",
-        "flag": "",
+        "flag": "om",
         "x": 1219,
         "y": 959
       },
       {
         "name": "Al Buraymi",
-        "flag": "",
+        "flag": "om",
         "x": 1114,
         "y": 956
       },
       {
         "name": "Ad Dakhliyah",
-        "flag": "",
+        "flag": "om",
         "x": 1316,
         "y": 1141
       },
       {
         "name": "Al Batnah South",
-        "flag": "",
+        "flag": "om",
         "x": 1431,
         "y": 1111
       },
       {
         "name": "Dubay",
-        "flag": "",
-        "x": 979,
-        "y": 807
+        "flag": "ae",
+        "x": 926,
+        "y": 849
       },
       {
         "name": "Muscat",
-        "flag": "",
+        "flag": "om",
         "x": 1615,
         "y": 1134
       },
       {
         "name": "Sharjah",
-        "flag": "",
+        "flag": "ae",
         "x": 1070,
         "y": 774
       },
       {
         "name": "Musandam",
-        "flag": "",
+        "flag": "om",
         "x": 1166,
         "y": 583
       },
       {
-        "name": "Ar Rayyān",
-        "flag": "",
+        "name": "Ar Rayyan",
+        "flag": "qa",
         "x": 159,
         "y": 756
       },
       {
         "name": "Ras Al Khaymah",
-        "flag": "",
+        "flag": "ae",
         "x": 1103,
         "y": 647
       },
       {
         "name": "Fujayrah",
-        "flag": "",
+        "flag": "ae",
         "x": 1155,
         "y": 703
       },
       {
         "name": "Al Wakrah",
-        "flag": "",
+        "flag": "qa",
         "x": 216,
         "y": 815
+      },
+      {
+        "name": "Bahrain",
+        "flag": "bh",
+        "x": 56,
+        "y": 554
       }
     ],
     "thumbnail": "thumbnails/straitofhormuz.webp",
@@ -9192,18 +13475,18 @@
   },
   "straitofmalacca": {
     "enum_key": "StraitOfMalacca",
-    "display_name": "Strait of Malacca",
+    "display_name": "Strait Of Malacca",
     "translated_name": "Strait of Malacca",
     "category": "regional",
     "width": 1832,
     "height": 1644,
     "total_pixels": 3011808,
-    "land_tiles": 867389,
-    "land_pct": 28.8,
-    "water_pct": 71.2,
+    "land_tiles": 865820,
+    "land_pct": 28.7,
+    "water_pct": 71.3,
     "estimated_max_players": 45,
     "playlist_frequency": 4,
-    "nation_count": 9,
+    "nation_count": 13,
     "nations": [
       {
         "name": "Singapore",
@@ -9218,46 +13501,70 @@
         "y": 41
       },
       {
-        "name": "Sumatra",
-        "flag": "id",
-        "x": 1328,
-        "y": 1284
-      },
-      {
-        "name": "Burmese Pythons",
-        "flag": "mm",
-        "x": 1141,
-        "y": 1090
-      },
-      {
         "name": "Aceh",
-        "flag": "id",
+        "flag": "Aceh",
         "x": 210,
         "y": 243
-      },
-      {
-        "name": "Riau",
-        "flag": "id",
-        "x": 1011,
-        "y": 736
-      },
-      {
-        "name": "Samosir",
-        "flag": "id",
-        "x": 600,
-        "y": 565
-      },
-      {
-        "name": "Barisan",
-        "flag": "id",
-        "x": 827,
-        "y": 999
       },
       {
         "name": "Malaysia",
         "flag": "my",
         "x": 1053,
         "y": 333
+      },
+      {
+        "name": "North Sumatra",
+        "flag": "id",
+        "x": 596,
+        "y": 573
+      },
+      {
+        "name": "West Sumatra",
+        "flag": "id",
+        "x": 797,
+        "y": 1002
+      },
+      {
+        "name": "Riau",
+        "flag": "id",
+        "x": 956,
+        "y": 743
+      },
+      {
+        "name": "Bangka Belitung",
+        "flag": "id",
+        "x": 1644,
+        "y": 1265
+      },
+      {
+        "name": "Lampung",
+        "flag": "id",
+        "x": 1419,
+        "y": 1636
+      },
+      {
+        "name": "Bengkulu",
+        "flag": "id",
+        "x": 1084,
+        "y": 1414
+      },
+      {
+        "name": "South Sumatra",
+        "flag": "id",
+        "x": 1366,
+        "y": 1303
+      },
+      {
+        "name": "Jambi",
+        "flag": "id",
+        "x": 1167,
+        "y": 1071
+      },
+      {
+        "name": "Riau Islands",
+        "flag": "id",
+        "x": 1383,
+        "y": 938
       }
     ],
     "thumbnail": "thumbnails/straitofmalacca.webp",
@@ -9379,9 +13686,180 @@
     ],
     "thumbnail": "thumbnails/svalmel.webp"
   },
+  "taiwanstrait": {
+    "enum_key": "TaiwanStrait",
+    "display_name": "Taiwan Strait",
+    "translated_name": "Taiwan Strait",
+    "category": "regional",
+    "width": 1600,
+    "height": 1600,
+    "total_pixels": 2560000,
+    "land_tiles": 907469,
+    "land_pct": 35.4,
+    "water_pct": 64.6,
+    "estimated_max_players": 45,
+    "playlist_frequency": 5,
+    "nation_count": 25,
+    "nations": [
+      {
+        "name": "Fuzhou",
+        "flag": "cn",
+        "x": 694,
+        "y": 26
+      },
+      {
+        "name": "Putian",
+        "flag": "cn",
+        "x": 720,
+        "y": 222
+      },
+      {
+        "name": "Quanzhou",
+        "flag": "cn",
+        "x": 538,
+        "y": 432
+      },
+      {
+        "name": "Xiamen",
+        "flag": "cn",
+        "x": 303,
+        "y": 593
+      },
+      {
+        "name": "Zhangzhou",
+        "flag": "cn",
+        "x": 259,
+        "y": 678
+      },
+      {
+        "name": "Longyan",
+        "flag": "cn",
+        "x": 26,
+        "y": 345
+      },
+      {
+        "name": "Kinmen Island",
+        "flag": "tw",
+        "x": 386,
+        "y": 606
+      },
+      {
+        "name": "Penghu",
+        "flag": "tw",
+        "x": 773,
+        "y": 912
+      },
+      {
+        "name": "Kaohsiung",
+        "flag": "tw",
+        "x": 1057,
+        "y": 1252
+      },
+      {
+        "name": "Tainan",
+        "flag": "tw",
+        "x": 981,
+        "y": 1131
+      },
+      {
+        "name": "Taitung",
+        "flag": "tw",
+        "x": 1230,
+        "y": 1193
+      },
+      {
+        "name": "Hualien",
+        "flag": "tw",
+        "x": 1416,
+        "y": 789
+      },
+      {
+        "name": "Chiayi",
+        "flag": "tw",
+        "x": 1018,
+        "y": 936
+      },
+      {
+        "name": "Taichung City",
+        "flag": "tw",
+        "x": 1007,
+        "y": 710
+      },
+      {
+        "name": "Keelung",
+        "flag": "tw",
+        "x": 1489,
+        "y": 235
+      },
+      {
+        "name": "Taipei",
+        "flag": "tw",
+        "x": 1424,
+        "y": 254
+      },
+      {
+        "name": "Taoyuan",
+        "flag": "tw",
+        "x": 1341,
+        "y": 284
+      },
+      {
+        "name": "Hsinchu",
+        "flag": "tw",
+        "x": 1247,
+        "y": 415
+      },
+      {
+        "name": "Dongshan",
+        "flag": "cn",
+        "x": 73,
+        "y": 859
+      },
+      {
+        "name": "Anxi",
+        "flag": "cn",
+        "x": 397,
+        "y": 335
+      },
+      {
+        "name": "Sanming",
+        "flag": "cn",
+        "x": 22,
+        "y": 11
+      },
+      {
+        "name": "Dehua",
+        "flag": "cn",
+        "x": 267,
+        "y": 134
+      },
+      {
+        "name": "Xianyou",
+        "flag": "cn",
+        "x": 522,
+        "y": 220
+      },
+      {
+        "name": "Miaoli",
+        "flag": "tw",
+        "x": 1097,
+        "y": 592
+      },
+      {
+        "name": "Lanyu",
+        "flag": "tw",
+        "x": 1426,
+        "y": 1431
+      }
+    ],
+    "thumbnail": "thumbnails/taiwanstrait.webp",
+    "geo_lat": 24.2,
+    "geo_lng": 119.5,
+    "geo_type": "regional"
+  },
   "thebox": {
     "enum_key": "TheBox",
-    "display_name": "TheBox",
+    "display_name": "The Box",
     "translated_name": "The Box",
     "category": "arcade",
     "width": 2048,
@@ -9475,9 +13953,167 @@
     ],
     "thumbnail": "thumbnails/thebox.webp"
   },
+  "tierradelfuego": {
+    "enum_key": "TierraDelFuego",
+    "display_name": "Tierra Del Fuego",
+    "translated_name": "Tierra Del Fuego",
+    "category": "regional",
+    "width": 2504,
+    "height": 1664,
+    "total_pixels": 4166656,
+    "land_tiles": 822917,
+    "land_pct": 19.8,
+    "water_pct": 80.2,
+    "estimated_max_players": 40,
+    "playlist_frequency": 5,
+    "nation_count": 20,
+    "nations": [
+      {
+        "name": "Rio Grande",
+        "flag": "Tierra del Fuego",
+        "x": 1320,
+        "y": 945
+      },
+      {
+        "name": "Ushuaia",
+        "flag": "Tierra del Fuego",
+        "x": 1283,
+        "y": 1153
+      },
+      {
+        "name": "Tolhuin",
+        "flag": "Tierra del Fuego",
+        "x": 1452,
+        "y": 1118
+      },
+      {
+        "name": "Falkland Islands",
+        "flag": "fk",
+        "x": 2226,
+        "y": 351
+      },
+      {
+        "name": "Rio Gallegos",
+        "flag": "Santa Cruz",
+        "x": 1181,
+        "y": 536
+      },
+      {
+        "name": "Puerto Santa Cruz",
+        "flag": "Santa Cruz",
+        "x": 1200,
+        "y": 204
+      },
+      {
+        "name": "El Calafate",
+        "flag": "Santa Cruz",
+        "x": 790,
+        "y": 251
+      },
+      {
+        "name": "Gobernador Gregores",
+        "flag": "Santa Cruz",
+        "x": 1039,
+        "y": 22
+      },
+      {
+        "name": "San Julian",
+        "flag": "Santa Cruz",
+        "x": 1340,
+        "y": 24
+      },
+      {
+        "name": "Puerto Natales",
+        "flag": "Magallanes",
+        "x": 759,
+        "y": 505
+      },
+      {
+        "name": "Puerto Williams",
+        "flag": "Magallanes",
+        "x": 1363,
+        "y": 1209
+      },
+      {
+        "name": "Punta Arenas",
+        "flag": "Magallanes",
+        "x": 929,
+        "y": 849
+      },
+      {
+        "name": "Porvenir",
+        "flag": "Magallanes",
+        "x": 1057,
+        "y": 848
+      },
+      {
+        "name": "Cerro Castillo",
+        "flag": "Magallanes",
+        "x": 755,
+        "y": 368
+      },
+      {
+        "name": "Puerto Eden",
+        "flag": "Magallanes",
+        "x": 471,
+        "y": 15
+      },
+      {
+        "name": "Laguna Blanca",
+        "flag": "Magallanes",
+        "x": 910,
+        "y": 609
+      },
+      {
+        "name": "Timaukel",
+        "flag": "Magallanes",
+        "x": 1086,
+        "y": 972
+      },
+      {
+        "name": "Primavera",
+        "flag": "Magallanes",
+        "x": 1162,
+        "y": 782
+      },
+      {
+        "name": "Rio Verde",
+        "flag": "Magallanes",
+        "x": 815,
+        "y": 721
+      },
+      {
+        "name": "San Gregorio",
+        "flag": "Magallanes",
+        "x": 1029,
+        "y": 666
+      }
+    ],
+    "thumbnail": "thumbnails/tierradelfuego.webp",
+    "geo_lat": -54.2,
+    "geo_lng": -69,
+    "geo_type": "regional"
+  },
+  "titan": {
+    "enum_key": "Titan",
+    "display_name": "Titan",
+    "translated_name": "Titan",
+    "category": "fantasy",
+    "width": 1232,
+    "height": 2160,
+    "total_pixels": 2661120,
+    "land_tiles": 1627144,
+    "land_pct": 61.1,
+    "water_pct": 38.9,
+    "estimated_max_players": 80,
+    "playlist_frequency": 3,
+    "nation_count": 28,
+    "nations": [],
+    "thumbnail": "thumbnails/titan.webp"
+  },
   "tourney1": {
     "enum_key": "Tourney1",
-    "display_name": "Tourney1",
+    "display_name": "Tourney 2 Teams",
     "translated_name": "Tourney 2 Teams",
     "category": "tournament",
     "width": 1500,
@@ -9505,7 +14141,7 @@
   },
   "tourney2": {
     "enum_key": "Tourney2",
-    "display_name": "Tourney2",
+    "display_name": "Tourney 3 Teams",
     "translated_name": "Tourney 3 Teams",
     "category": "tournament",
     "width": 1500,
@@ -9538,7 +14174,7 @@
   },
   "tourney3": {
     "enum_key": "Tourney3",
-    "display_name": "Tourney3",
+    "display_name": "Tourney 4 Teams",
     "translated_name": "Tourney 4 Teams",
     "category": "tournament",
     "width": 1500,
@@ -9576,7 +14212,7 @@
   },
   "tourney4": {
     "enum_key": "Tourney4",
-    "display_name": "Tourney4",
+    "display_name": "Tourney 8 Teams",
     "translated_name": "Tourney 8 Teams",
     "category": "tournament",
     "width": 1500,
@@ -9736,35 +14372,40 @@
     "width": 2100,
     "height": 1840,
     "total_pixels": 3864000,
-    "land_tiles": 3426566,
+    "land_tiles": 3426935,
     "land_pct": 88.7,
     "water_pct": 11.3,
     "estimated_max_players": 170,
-    "playlist_frequency": 6,
+    "playlist_frequency": 4,
     "nation_count": 5,
     "nations": [
       {
         "name": "Galicica",
+        "flag": "mk",
         "x": 1025,
         "y": 750
       },
       {
         "name": "Pelister",
+        "flag": "mk",
         "x": 1815,
         "y": 820
       },
       {
         "name": "Podgorie",
+        "flag": "al",
         "x": 920,
         "y": 1250
       },
       {
         "name": "Valamara",
+        "flag": "al",
         "x": 100,
         "y": 1410
       },
       {
         "name": "Prespa",
+        "flag": "gr",
         "x": 1320,
         "y": 1485
       }
@@ -9774,6 +14415,509 @@
     "geo_lng": 20.5,
     "geo_type": "regional"
   },
+  "unitedstates": {
+    "enum_key": "UnitedStates",
+    "display_name": "United States",
+    "translated_name": "United States",
+    "category": "regional",
+    "width": 2800,
+    "height": 1548,
+    "total_pixels": 4334400,
+    "land_tiles": 1868914,
+    "land_pct": 43.1,
+    "water_pct": 56.9,
+    "estimated_max_players": 95,
+    "playlist_frequency": 9,
+    "nation_count": 49,
+    "nations": [
+      {
+        "name": "California",
+        "flag": "California",
+        "x": 320,
+        "y": 692
+      },
+      {
+        "name": "Oregon",
+        "flag": "Oregon",
+        "x": 439,
+        "y": 344
+      },
+      {
+        "name": "Washington",
+        "flag": "Washington",
+        "x": 490,
+        "y": 174
+      },
+      {
+        "name": "Idaho",
+        "flag": "Idaho",
+        "x": 677,
+        "y": 375
+      },
+      {
+        "name": "Nevada",
+        "flag": "Nevada",
+        "x": 558,
+        "y": 658
+      },
+      {
+        "name": "Arizona",
+        "flag": "Arizona",
+        "x": 660,
+        "y": 941
+      },
+      {
+        "name": "Utah",
+        "flag": "Utah",
+        "x": 716,
+        "y": 681
+      },
+      {
+        "name": "Montana",
+        "flag": "Montana",
+        "x": 943,
+        "y": 279
+      },
+      {
+        "name": "Wyoming",
+        "flag": "Wyoming",
+        "x": 1005,
+        "y": 500
+      },
+      {
+        "name": "Colorado",
+        "flag": "Colorado",
+        "x": 971,
+        "y": 735
+      },
+      {
+        "name": "New Mexico",
+        "flag": "New_Mexico",
+        "x": 940,
+        "y": 922
+      },
+      {
+        "name": "Texas",
+        "flag": "Texas",
+        "x": 1254,
+        "y": 1191
+      },
+      {
+        "name": "Louisiana",
+        "flag": "Louisiana",
+        "x": 1597,
+        "y": 1201
+      },
+      {
+        "name": "Oklahoma",
+        "flag": "Oklahoma",
+        "x": 1322,
+        "y": 961
+      },
+      {
+        "name": "North Dakota",
+        "flag": "North_Dakota",
+        "x": 1277,
+        "y": 262
+      },
+      {
+        "name": "South Dakota",
+        "flag": "South_Dakota",
+        "x": 1274,
+        "y": 437
+      },
+      {
+        "name": "Nebraska",
+        "flag": "Nebraska",
+        "x": 1285,
+        "y": 621
+      },
+      {
+        "name": "Kansas",
+        "flag": "Kansas",
+        "x": 1308,
+        "y": 817
+      },
+      {
+        "name": "Minnesota",
+        "flag": "Minnesota",
+        "x": 1513,
+        "y": 383
+      },
+      {
+        "name": "Iowa",
+        "flag": "Iowa",
+        "x": 1566,
+        "y": 593
+      },
+      {
+        "name": "Missouri",
+        "flag": "Missouri",
+        "x": 1605,
+        "y": 767
+      },
+      {
+        "name": "Arkansas",
+        "flag": "Arkansas",
+        "x": 1598,
+        "y": 972
+      },
+      {
+        "name": "Wisconsin",
+        "flag": "Wisconsin",
+        "x": 1671,
+        "y": 475
+      },
+      {
+        "name": "Michigan",
+        "flag": "Michigan",
+        "x": 1875,
+        "y": 457
+      },
+      {
+        "name": "Illinois",
+        "flag": "Illinois",
+        "x": 1706,
+        "y": 670
+      },
+      {
+        "name": "Indiana",
+        "flag": "Indiana",
+        "x": 1835,
+        "y": 664
+      },
+      {
+        "name": "Kentucky",
+        "flag": "Kentucky",
+        "x": 1891,
+        "y": 799
+      },
+      {
+        "name": "Tennessee",
+        "flag": "Tennessee",
+        "x": 1872,
+        "y": 921
+      },
+      {
+        "name": "Mississippi",
+        "flag": "Mississippi",
+        "x": 1688,
+        "y": 1127
+      },
+      {
+        "name": "Alabama",
+        "flag": "Alabama",
+        "x": 1843,
+        "y": 1085
+      },
+      {
+        "name": "Florida",
+        "flag": "Florida",
+        "x": 2123,
+        "y": 1300
+      },
+      {
+        "name": "Georgia (US State)",
+        "flag": "Georgia_US",
+        "x": 2020,
+        "y": 1092
+      },
+      {
+        "name": "Ohio",
+        "flag": "Ohio",
+        "x": 1970,
+        "y": 646
+      },
+      {
+        "name": "Maine",
+        "flag": "Maine",
+        "x": 2472,
+        "y": 245
+      },
+      {
+        "name": "South Carolina",
+        "flag": "South_Carolina",
+        "x": 2112,
+        "y": 996
+      },
+      {
+        "name": "North Carolina",
+        "flag": "North_Carolina",
+        "x": 2154,
+        "y": 829
+      },
+      {
+        "name": "Virginia",
+        "flag": "Virginia",
+        "x": 2163,
+        "y": 727
+      },
+      {
+        "name": "West Virginia",
+        "flag": "West_Virginia",
+        "x": 2061,
+        "y": 703
+      },
+      {
+        "name": "Maryland",
+        "flag": "Maryland",
+        "x": 2241,
+        "y": 649
+      },
+      {
+        "name": "Delaware",
+        "flag": "Delaware",
+        "x": 2294,
+        "y": 667
+      },
+      {
+        "name": "Pennsylvania",
+        "flag": "Pennsylvania",
+        "x": 2201,
+        "y": 519
+      },
+      {
+        "name": "New Jersey",
+        "flag": "New_Jersey",
+        "x": 2318,
+        "y": 588
+      },
+      {
+        "name": "New York",
+        "flag": "New_York",
+        "x": 2315,
+        "y": 481
+      },
+      {
+        "name": "Connecticut",
+        "flag": "Connecticut",
+        "x": 2402,
+        "y": 497
+      },
+      {
+        "name": "Massachusetts",
+        "flag": "Massachusetts",
+        "x": 2415,
+        "y": 446
+      },
+      {
+        "name": "Rhode Island",
+        "flag": "Rhode_Island",
+        "x": 2430,
+        "y": 473
+      },
+      {
+        "name": "Vermont",
+        "flag": "Vermont",
+        "x": 2339,
+        "y": 358
+      },
+      {
+        "name": "Washington D.C",
+        "flag": "District_of_Columbia",
+        "x": 2200,
+        "y": 660
+      },
+      {
+        "name": "New Hampshire",
+        "flag": "New_Hampshire",
+        "x": 2409,
+        "y": 334
+      }
+    ],
+    "thumbnail": "thumbnails/unitedstates.webp",
+    "geo_lat": 39,
+    "geo_lng": -98.5,
+    "geo_type": "regional"
+  },
+  "venice": {
+    "enum_key": "Venice",
+    "display_name": "Venice",
+    "translated_name": "Venice",
+    "category": "regional",
+    "width": 2000,
+    "height": 1500,
+    "total_pixels": 3000000,
+    "land_tiles": 823860,
+    "land_pct": 27.5,
+    "water_pct": 72.5,
+    "estimated_max_players": 40,
+    "playlist_frequency": 6,
+    "nation_count": 15,
+    "nations": [
+      {
+        "name": "Cannaregio",
+        "flag": "venice",
+        "x": 760,
+        "y": 593
+      },
+      {
+        "name": "San Polo",
+        "flag": "venice",
+        "x": 776,
+        "y": 772
+      },
+      {
+        "name": "San Marco",
+        "flag": "venice",
+        "x": 897,
+        "y": 934
+      },
+      {
+        "name": "Santa Croce",
+        "flag": "venice",
+        "x": 527,
+        "y": 822
+      },
+      {
+        "name": "Dorsoduro",
+        "flag": "venice",
+        "x": 639,
+        "y": 975
+      },
+      {
+        "name": "Giudecca",
+        "flag": "venice",
+        "x": 673,
+        "y": 1205
+      },
+      {
+        "name": "Lido",
+        "flag": "venice",
+        "x": 1868,
+        "y": 1297
+      },
+      {
+        "name": "San Michele",
+        "flag": "venice",
+        "x": 1200,
+        "y": 523
+      },
+      {
+        "name": "Murano",
+        "flag": "venice",
+        "x": 1255,
+        "y": 209
+      },
+      {
+        "name": "Certosa",
+        "flag": "venice",
+        "x": 1839,
+        "y": 877
+      },
+      {
+        "name": "Castello",
+        "flag": "venice",
+        "x": 1199,
+        "y": 836
+      },
+      {
+        "name": "Porto di Venezia",
+        "flag": "venice",
+        "x": 437,
+        "y": 750
+      },
+      {
+        "name": "San Giorgio Maggiore",
+        "flag": "venice",
+        "x": 1120,
+        "y": 1121
+      },
+      {
+        "name": "Le Vignole",
+        "flag": "venice",
+        "x": 1897,
+        "y": 669
+      },
+      {
+        "name": "Sant'Elena",
+        "flag": "venice",
+        "x": 1586,
+        "y": 1167
+      }
+    ],
+    "thumbnail": "thumbnails/venice.webp",
+    "geo_lat": 45.44,
+    "geo_lng": 12.33,
+    "geo_type": "regional"
+  },
+  "warshipwarship": {
+    "enum_key": "WarshipWarship",
+    "display_name": "Warship Warship",
+    "translated_name": "Warship Warship",
+    "category": "arcade",
+    "width": 3000,
+    "height": 1396,
+    "total_pixels": 4188000,
+    "land_tiles": 1122343,
+    "land_pct": 26.8,
+    "water_pct": 73.2,
+    "estimated_max_players": 55,
+    "playlist_frequency": 3,
+    "nation_count": 10,
+    "nations": [
+      {
+        "name": "Isle of Infestation",
+        "flag": "Republic of Pirates",
+        "x": 750,
+        "y": 680
+      },
+      {
+        "name": "Poort",
+        "flag": "Republic of Pirates",
+        "x": 1775,
+        "y": 435
+      },
+      {
+        "name": "Battleship Bay",
+        "flag": "Republic of Pirates",
+        "x": 1884,
+        "y": 1064
+      },
+      {
+        "name": "Piracity",
+        "flag": "Republic of Pirates",
+        "x": 1116,
+        "y": 1000
+      },
+      {
+        "name": "Robbery Rock",
+        "flag": "Republic of Pirates",
+        "x": 413,
+        "y": 378
+      },
+      {
+        "name": "Warship Wastelands",
+        "flag": "Republic of Pirates",
+        "x": 1009,
+        "y": 272
+      },
+      {
+        "name": "Port Pirate",
+        "flag": "Republic of Pirates",
+        "x": 388,
+        "y": 1027
+      },
+      {
+        "name": "Cape Caribbean",
+        "flag": "bs",
+        "x": 2688,
+        "y": 968
+      },
+      {
+        "name": "Evil island man",
+        "x": 2222,
+        "y": 686
+      },
+      {
+        "name": "Somalian Sound",
+        "flag": "so",
+        "x": 2597,
+        "y": 405
+      }
+    ],
+    "thumbnail": "thumbnails/warshipwarship.webp"
+  },
   "world": {
     "enum_key": "World",
     "display_name": "World",
@@ -9782,7 +14926,7 @@
     "width": 2000,
     "height": 1000,
     "total_pixels": 2000000,
-    "land_tiles": 651609,
+    "land_tiles": 651569,
     "land_pct": 32.6,
     "water_pct": 67.4,
     "estimated_max_players": 35,
@@ -10226,6 +15370,585 @@
     "geo_lat": 20,
     "geo_lng": 0,
     "geo_type": "global"
+  },
+  "worldinverted": {
+    "enum_key": "WorldInverted",
+    "display_name": "World Inverted",
+    "translated_name": "World Inverted",
+    "category": "fantasy",
+    "width": 2500,
+    "height": 1248,
+    "total_pixels": 3120000,
+    "land_tiles": 1561762,
+    "land_pct": 50.1,
+    "water_pct": 49.9,
+    "estimated_max_players": 80,
+    "playlist_frequency": 8,
+    "nation_count": 94,
+    "nations": [
+      {
+        "name": "RMS Lusitania",
+        "flag": "gb",
+        "x": 2420,
+        "y": 230
+      },
+      {
+        "name": "HMHS Britannic",
+        "flag": "gb",
+        "x": 250,
+        "y": 365
+      },
+      {
+        "name": "Endurance",
+        "flag": "no",
+        "x": 2330,
+        "y": 1095
+      },
+      {
+        "name": "Doña Paz",
+        "flag": "ph",
+        "x": 920,
+        "y": 520
+      },
+      {
+        "name": "Ferry Neptune",
+        "flag": "ht",
+        "x": 310,
+        "y": 510
+      },
+      {
+        "name": "RMS Titanic",
+        "flag": "gb",
+        "x": 2322,
+        "y": 340
+      },
+      {
+        "name": "Toya Maru",
+        "flag": "jp",
+        "x": 1060,
+        "y": 410
+      },
+      {
+        "name": "Castillo de Olite",
+        "flag": "es",
+        "x": 64,
+        "y": 310
+      },
+      {
+        "name": "MV Bukoba",
+        "flag": "tz",
+        "x": 423,
+        "y": 646
+      },
+      {
+        "name": "SS Camorta",
+        "flag": "gb",
+        "x": 706,
+        "y": 555
+      },
+      {
+        "name": "Tampomas II",
+        "flag": "id",
+        "x": 830,
+        "y": 680
+      },
+      {
+        "name": "SS Valbanera",
+        "flag": "es",
+        "x": 2020,
+        "y": 575
+      },
+      {
+        "name": "Cahaya Bahari",
+        "flag": "id",
+        "x": 2020,
+        "y": 450
+      },
+      {
+        "name": "MV Le Joola",
+        "flag": "sn",
+        "x": 120,
+        "y": 625
+      },
+      {
+        "name": "Sewol",
+        "flag": "kr",
+        "x": 965,
+        "y": 470
+      },
+      {
+        "name": "Teratai Prima",
+        "flag": "id",
+        "x": 950,
+        "y": 570
+      },
+      {
+        "name": "Princess Sophia",
+        "flag": "gb",
+        "x": 1680,
+        "y": 300
+      },
+      {
+        "name": "Principessa Mafalda",
+        "flag": "it",
+        "x": 2360,
+        "y": 730
+      },
+      {
+        "name": "Uskudar",
+        "flag": "tr",
+        "x": 322,
+        "y": 333
+      },
+      {
+        "name": "Angamos",
+        "flag": "cl",
+        "x": 2091,
+        "y": 852
+      },
+      {
+        "name": "MV Dara",
+        "flag": "gb",
+        "x": 2498,
+        "y": 800
+      },
+      {
+        "name": "MV Christena",
+        "flag": "gy",
+        "x": 2221,
+        "y": 555
+      },
+      {
+        "name": "SS Waratah",
+        "flag": "gb",
+        "x": 288,
+        "y": 888
+      },
+      {
+        "name": "Christiana Hama",
+        "flag": "ke",
+        "x": 2227,
+        "y": 200
+      },
+      {
+        "name": "SS Koombana",
+        "flag": "au",
+        "x": 930,
+        "y": 720
+      },
+      {
+        "name": "Pamir",
+        "flag": "west_germany",
+        "x": 2480,
+        "y": 360
+      },
+      {
+        "name": "USS Thresher",
+        "flag": "us",
+        "x": 2225,
+        "y": 345
+      },
+      {
+        "name": "TSMS Lakonia",
+        "flag": "nl",
+        "x": 2450,
+        "y": 500
+      },
+      {
+        "name": "SS Yongala",
+        "flag": "au",
+        "x": 1170,
+        "y": 720
+      },
+      {
+        "name": "K-141 Kursk",
+        "flag": "ru",
+        "x": 120,
+        "y": 20
+      },
+      {
+        "name": "SS Valencia",
+        "flag": "us",
+        "x": 1720,
+        "y": 400
+      },
+      {
+        "name": "INS Khukri",
+        "flag": "in",
+        "x": 570,
+        "y": 540
+      },
+      {
+        "name": "MV Butiraoi",
+        "flag": "nz",
+        "x": 1300,
+        "y": 730
+      },
+      {
+        "name": "361 Ming III",
+        "flag": "cn",
+        "x": 1050,
+        "y": 335
+      },
+      {
+        "name": "USS Scorpion",
+        "flag": "us",
+        "x": 2330,
+        "y": 446
+      },
+      {
+        "name": "SS Yarmouth Castle",
+        "flag": "pa",
+        "x": 2115,
+        "y": 482
+      },
+      {
+        "name": "HMAS Voyager",
+        "flag": "au",
+        "x": 1170,
+        "y": 880
+      },
+      {
+        "name": "TEV Wahine",
+        "flag": "nz",
+        "x": 1410,
+        "y": 900
+      },
+      {
+        "name": "PNS Ghazi",
+        "flag": "pk",
+        "x": 690,
+        "y": 700
+      },
+      {
+        "name": "ARA San Juan",
+        "flag": "ar",
+        "x": 2322,
+        "y": 907
+      },
+      {
+        "name": "Pacific",
+        "flag": "",
+        "x": 1500,
+        "y": 610
+      },
+      {
+        "name": "Atlantic",
+        "flag": "",
+        "x": 2475,
+        "y": 660
+      },
+      {
+        "name": "Indian",
+        "flag": "",
+        "x": 645,
+        "y": 775
+      },
+      {
+        "name": "Baltic",
+        "flag": "",
+        "x": 87,
+        "y": 175
+      },
+      {
+        "name": "Arctic",
+        "flag": "",
+        "x": 2344,
+        "y": 15
+      },
+      {
+        "name": "Barents",
+        "flag": "",
+        "x": 203,
+        "y": 101
+      },
+      {
+        "name": "Bering",
+        "flag": "",
+        "x": 1350,
+        "y": 230
+      },
+      {
+        "name": "Banda",
+        "flag": "",
+        "x": 1000,
+        "y": 664
+      },
+      {
+        "name": "Amundsen",
+        "flag": "",
+        "x": 475,
+        "y": 1045
+      },
+      {
+        "name": "Beaufort",
+        "flag": "",
+        "x": 1684,
+        "y": 107
+      },
+      {
+        "name": "Laptev",
+        "flag": "",
+        "x": 970,
+        "y": 75
+      },
+      {
+        "name": "Kara",
+        "flag": "",
+        "x": 610,
+        "y": 35
+      },
+      {
+        "name": "Bellingshausen",
+        "flag": "",
+        "x": 2084,
+        "y": 1045
+      },
+      {
+        "name": "Ross",
+        "flag": "",
+        "x": 1550,
+        "y": 1120
+      },
+      {
+        "name": "Weddell",
+        "flag": "",
+        "x": 24,
+        "y": 1080
+      },
+      {
+        "name": "Weddell Plain",
+        "flag": "",
+        "x": 120,
+        "y": 1050
+      },
+      {
+        "name": "Walvis Ridge",
+        "flag": "",
+        "x": 120,
+        "y": 820
+      },
+      {
+        "name": "Lake Kerguelen",
+        "flag": "",
+        "x": 645,
+        "y": 945
+      },
+      {
+        "name": "Mariana Mountains",
+        "flag": "",
+        "x": 1270,
+        "y": 567
+      },
+      {
+        "name": "Shatsky Falls",
+        "flag": "",
+        "x": 1230,
+        "y": 390
+      },
+      {
+        "name": "Siberian Shelf",
+        "flag": "",
+        "x": 1270,
+        "y": 60
+      },
+      {
+        "name": "Hawaiian-Emperor Lakes",
+        "flag": "",
+        "x": 1500,
+        "y": 467
+      },
+      {
+        "name": "Manihiki Valley",
+        "flag": "",
+        "x": 1770,
+        "y": 820
+      },
+      {
+        "name": "Kermadec Mountains",
+        "flag": "",
+        "x": 1544,
+        "y": 965
+      },
+      {
+        "name": "East Pacific Plains",
+        "flag": "",
+        "x": 1940,
+        "y": 914
+      },
+      {
+        "name": "Nazca Ridge",
+        "flag": "",
+        "x": 2070,
+        "y": 760
+      },
+      {
+        "name": "Mendocino",
+        "flag": "",
+        "x": 1450,
+        "y": 333
+      },
+      {
+        "name": "Clarion",
+        "flag": "",
+        "x": 1635,
+        "y": 520
+      },
+      {
+        "name": "Clipperton",
+        "flag": "",
+        "x": 1720,
+        "y": 580
+      },
+      {
+        "name": "Challenger",
+        "flag": "",
+        "x": 1680,
+        "y": 770
+      },
+      {
+        "name": "Udintsev",
+        "flag": "",
+        "x": 1670,
+        "y": 1040
+      },
+      {
+        "name": "Falkland-Agulhas",
+        "flag": "",
+        "x": 75,
+        "y": 940
+      },
+      {
+        "name": "Gallieni",
+        "flag": "",
+        "x": 465,
+        "y": 860
+      },
+      {
+        "name": "Andrew-Basin",
+        "flag": "",
+        "x": 355,
+        "y": 970
+      },
+      {
+        "name": "Shaka",
+        "flag": "",
+        "x": 190,
+        "y": 950
+      },
+      {
+        "name": "Zeewolf",
+        "flag": "",
+        "x": 700,
+        "y": 890
+      },
+      {
+        "name": "Naturaliste",
+        "flag": "",
+        "x": 855,
+        "y": 840
+      },
+      {
+        "name": "Zeehaen",
+        "flag": "",
+        "x": 837,
+        "y": 993
+      },
+      {
+        "name": "Saint Vincent",
+        "flag": "",
+        "x": 1090,
+        "y": 1030
+      },
+      {
+        "name": "Gambier",
+        "flag": "",
+        "x": 1000,
+        "y": 940
+      },
+      {
+        "name": "Hjort",
+        "flag": "",
+        "x": 1270,
+        "y": 1078
+      },
+      {
+        "name": "Emerald",
+        "flag": "",
+        "x": 1325,
+        "y": 1000
+      }
+    ],
+    "thumbnail": "thumbnails/worldinverted.webp"
+  },
+  "yellowsea": {
+    "enum_key": "YellowSea",
+    "display_name": "Yellow Sea",
+    "translated_name": "Yellow Sea",
+    "category": "regional",
+    "width": 1500,
+    "height": 1152,
+    "total_pixels": 1728000,
+    "land_tiles": 1042745,
+    "land_pct": 60.3,
+    "water_pct": 39.7,
+    "estimated_max_players": 50,
+    "playlist_frequency": 5,
+    "nation_count": 8,
+    "nations": [
+      {
+        "name": "North Korea",
+        "flag": "kp",
+        "x": 1350,
+        "y": 575
+      },
+      {
+        "name": "South Korea",
+        "flag": "kr",
+        "x": 1469,
+        "y": 935
+      },
+      {
+        "name": "Liaoning",
+        "flag": "cn",
+        "x": 1003,
+        "y": 220
+      },
+      {
+        "name": "Shandong",
+        "flag": "cn",
+        "x": 490,
+        "y": 924
+      },
+      {
+        "name": "Beijing",
+        "flag": "cn",
+        "x": 32,
+        "y": 295
+      },
+      {
+        "name": "Tianjin",
+        "flag": "cn",
+        "x": 161,
+        "y": 483
+      },
+      {
+        "name": "Hebei",
+        "flag": "cn",
+        "x": 109,
+        "y": 781
+      },
+      {
+        "name": "Jilin",
+        "flag": "cn",
+        "x": 1387,
+        "y": 84
+      }
+    ],
+    "thumbnail": "thumbnails/yellowsea.webp",
+    "geo_lat": 35,
+    "geo_lng": 123,
+    "geo_type": "regional"
   },
   "yenisei": {
     "enum_key": "Yenisei",

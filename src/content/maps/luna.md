@@ -6,7 +6,7 @@ tagline: "A lunar war over craters and shadowed seas"
 
 ## The Terrain
 
-Luna imagines Earth's Moon as a strange battlefield of crater basins, maria, ridges, and dark gaps. The map is unusually tall at 1308x3500, with 36% land and 64% water-like void. It plays less like a planet and more like a long chain of lunar routes.
+Luna imagines Earth's Moon as a strange battlefield of crater basins, maria, ridges, and dark gaps. The map is unusually tall at 1308x3508, with 33% land and 67% water-like void. It plays less like a planet and more like a long chain of lunar routes.
 
 The name uses the Latin word for Moon, and the map leans into that mythic quality. Solid ground appears as cratered territory, while the dark regions behave like seas that separate expansion lanes.
 
@@ -36,4 +36,4 @@ Luna is about corridor discipline. Secure the lane you are in, then look for cro
 ## Fun Facts
 - Lunar maria are not seas; early astronomers named them before their geology was understood.
 - The Moon is tidally locked, so the same side always faces Earth.
-- Luna's 1308x3500 dimensions make it one of the most vertically stretched maps in the game.
+- Luna's 1308x3508 dimensions make it one of the most vertically stretched maps in the game.

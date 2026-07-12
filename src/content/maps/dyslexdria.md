@@ -8,7 +8,7 @@ tagline: "A scrambled world that still wants to be read"
 
 Dyslexdria is a fantasy map that feels familiar only long enough to mislead you. At 3080x1344 with 46% land, it has the scale and proportions of a world map, but the geography is rearranged into a strange, fractured puzzle. The name is a warning: do not trust your usual mental atlas.
 
-Its 66 nations make the opening busy. There are enough recognizable shapes to invite old habits, but the actual routes, gaps, and chokepoints need to be learned on their own terms.
+Its 76 nations make the opening busy. There are enough recognizable shapes to invite old habits, but the actual routes, gaps, and chokepoints need to be learned on their own terms.
 
 ## The Battlefield
 
@@ -22,7 +22,7 @@ Dyslexdria is a high-density macro map. It mixes large landmasses, awkward seas,
 
 ### Avoid
 - **Assuming geography behaves like Earth** - familiar shapes can have unfamiliar routes.
-- **Crowded chokepoints** - 66 nations means local mistakes become public opportunities quickly.
+- **Crowded chokepoints** - 76 nations means local mistakes become public opportunities quickly.
 - **Pure naval openings** - water matters, but the land share is high enough that armies decide much of the map.
 
 ### Strategic Insights

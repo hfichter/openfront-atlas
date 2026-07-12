@@ -140,6 +140,42 @@ async function syncMapAssets(slug) {
   console.log(`Synced thumbnail and full-size map assets for ${slug}`);
 }
 
+async function syncNationFlags() {
+  const flagIds = [
+    ...new Set(
+      Object.values(mapsData)
+        .flatMap((map) => map.nations ?? [])
+        .map((nation) => nation.flag)
+        .filter(Boolean),
+    ),
+  ].sort();
+  const upstreamFlagsRoot = path.resolve(upstreamRoot, 'resources', 'flags');
+  const outputFlagsRoot = path.resolve('public', 'flags');
+
+  for (const flagId of flagIds) {
+    const relativePath = `${flagId}.svg`;
+    const source = path.resolve(upstreamFlagsRoot, relativePath);
+    const output = path.resolve(outputFlagsRoot, relativePath);
+
+    if (
+      !source.startsWith(`${upstreamFlagsRoot}${path.sep}`) ||
+      !output.startsWith(`${outputFlagsRoot}${path.sep}`)
+    ) {
+      throw new Error(`Invalid nation flag path: ${flagId}`);
+    }
+    if (!existsSync(source)) {
+      throw new Error(`Missing upstream nation flag: ${source}`);
+    }
+
+    await mkdir(path.dirname(output), { recursive: true });
+    await copyFile(source, output);
+  }
+
+  console.log(`Synced ${flagIds.length} referenced nation flags`);
+}
+
+await syncNationFlags();
+
 for (const slug of slugs) {
   await syncMapAssets(slug);
 }

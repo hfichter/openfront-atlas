@@ -8,7 +8,7 @@ tagline: "Des vents glacés sur une mer farouchement disputée"
 
 Les îles Falkland se trouvent dans l'Atlantique Sud à environ 300 miles des côtes argentines, isolées dans une vaste étendue d'océan froid. Les deux îles principales — East Falkland et West Falkland — sont profondément découpées par des baies, chenaux et anses, tandis que les petites îles environnantes fragmentent encore davantage le littoral. Ce n'est pas un archipel verdoyant, mais un avant-poste maritime balayé par les vents, fait de landes, de basses montagnes et de mouillages exposés.
 
-Sur la carte OpenFront (2100×1400), seulement 29% de la surface est terrestre. Cela fait des Falkland Islands l'un des théâtres de géographie réelle les plus dominés par la mer dans l'atlas. Les terres y existent comme des objectifs dispersés au milieu d'un immense océan opérationnel, si bien que les flottes ne sont pas ici un simple soutien facultatif — elles forment l'ossature entière de la campagne.
+Sur la carte OpenFront (2100×1400), seulement 25% de la surface est terrestre. Cela fait des Falkland Islands l'un des théâtres de géographie réelle les plus dominés par la mer dans l'atlas. Les terres y existent comme des objectifs dispersés au milieu d'un immense océan opérationnel, si bien que les flottes ne sont pas ici un simple soutien facultatif — elles forment l'ossature entière de la campagne.
 
 L'isolement géographique est la caractéristique psychologique centrale de la carte. Il n'y a pas d'arrière-pays continental proche où se replier, pas d'intérieur profond où se consolider. Tout se joue sur des côtes exposées, des traversées disputées et des îles solitaires où une seule bataille navale perdue peut soudain rendre tout un flanc indéfendable.
 

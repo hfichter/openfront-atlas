@@ -8,7 +8,7 @@ tagline: "Cold winds over a fiercely disputed sea"
 
 The Falkland Islands lie in the South Atlantic roughly 300 miles east of the Argentine coast, isolated in a broad expanse of cold ocean. The two principal islands — East Falkland and West Falkland — are deeply indented by bays, sounds, and inlets, while smaller surrounding islands fragment the coastline even further. This is not a lush archipelago but a windswept maritime outpost of moorland, low mountains, and exposed anchorages.
 
-On the OpenFront map (2100×1400), only 29% is land. That makes the Falkland Islands one of the most sea-dominated real-geography theaters in the atlas. Land exists as scattered objectives inside a huge operational ocean, so fleets are not optional support units here — they are the backbone of the entire campaign.
+On the OpenFront map (2100×1400), only 25% is land. That makes the Falkland Islands one of the most sea-dominated real-geography theaters in the atlas. Land exists as scattered objectives inside a huge operational ocean, so fleets are not optional support units here — they are the backbone of the entire campaign.
 
 Geographic isolation is the map's defining psychological feature. There is no nearby continental hinterland to retreat into, no deep interior to consolidate. Everything happens on exposed coasts, contested crossings, and lonely islands where a single lost naval battle can suddenly make an entire flank indefensible.
 

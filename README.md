@@ -1,6 +1,6 @@
 # OpenFront Atlas
 
-An interactive atlas of all 64 [OpenFront.io](https://openfront.io) maps — real geography, historical context, and strategy for every battlefield.
+An interactive atlas of all 105 current [OpenFront.io](https://openfront.io) maps — plus the legacy archive — with real geography, historical context, and strategy for every battlefield.
 
 🗺️ **Live site:** [openfront-atlas.xyz](https://www.openfront-atlas.xyz/)
 
@@ -24,11 +24,13 @@ The atlas gives players:
 
 | Category | Count |
 |---|---|
-| Continental | 9 |
-| Regional | 35 |
-| Other Worlds (fantasy) | 12 |
-| Arcade / Tournament | 8 |
-| **Total** | **64** |
+| Continental | 10 |
+| Regional | 66 |
+| Other Worlds (fantasy) | 16 |
+| Arcade | 9 |
+| Tournament | 4 |
+| **Current total** | **105** |
+| Legacy archive | 1 |
 
 ---
 

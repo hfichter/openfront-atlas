@@ -8,7 +8,7 @@ tagline: "The hinge between two worlds"
 
 The Strait of Gibraltar is one of the most strategically loaded pieces of water on Earth: a 14-kilometer-wide channel between Europe and Africa that connects the Atlantic to the Mediterranean. On its north shore sits the Iberian Peninsula — Spanish Andalusia, with the Rock of Gibraltar as its sentinel. On the south, Morocco's Rif Mountains rise sharply from the Moroccan coast. The OpenFront map (2900×1476) captures this confrontation at a regional scale, extending west into the Atlantic and east into the Alboran Sea.
 
-At 45.4% land, the map has near-equal land-sea distribution, but the water isn't open ocean — it's the strait itself, acting as a dividing channel. The north shore rises into the Sierra Nevada and Andalusian highlands. The south shore has the Atlas foothills. The strait's narrowness means crossing points are few, chokepoints are severe, and the gap between Europe and Africa is more geographical fact than obstacle.
+At 45.7% land, the map has near-equal land-sea distribution, but the water isn't open ocean — it's the strait itself, acting as a dividing channel. The north shore rises into the Sierra Nevada and Andalusian highlands. The south shore has the Atlas foothills. The strait's narrowness means crossing points are few, chokepoints are severe, and the gap between Europe and Africa is more geographical fact than obstacle.
 
 ## The History
 
@@ -36,7 +36,7 @@ The strait is the map's entire strategic logic. Both shores fight for control of
 - **Far western Atlantic edge** — too far from the decisive theatre, hard to project power back into the strait
 
 ### Strategic Insights
-The map rewards aggressive early positioning at the strait crossing. Allowing an opponent to lock down both shores creates an extremely difficult comeback scenario. The relatively equal land-sea split (45.4/54.6) means both naval and land forces are necessary — you can't win with only one.
+The map rewards aggressive early positioning at the strait crossing. Allowing an opponent to lock down both shores creates an extremely difficult comeback scenario. The relatively equal land-sea split (45.7/54.3) means both naval and land forces are necessary — you can't win with only one.
 
 ## Fun Facts
 - The real Strait of Gibraltar is 14 km at its narrowest — narrower than the English Channel, yet it separates two continents
