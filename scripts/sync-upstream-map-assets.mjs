@@ -23,8 +23,14 @@ function clamp(value) {
 
 function lightTerrainColor(tile) {
   if (!tile.land) {
-    if (tile.shoreline) return [100, 143, 255, 0];
-    return [70, 132, 180, 0];
+    const ocean = [71, 133, 181];
+
+    if (tile.shoreline) {
+      return ocean.map((channel) => clamp(0.7 * channel + 76.5)).concat(255);
+    }
+
+    const depth = Math.min(tile.magnitude, 10);
+    return ocean.map((channel) => channel - depth).concat(255);
   }
 
   if (tile.shoreline) return [204, 203, 158, 255];
