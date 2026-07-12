@@ -6,7 +6,7 @@ tagline: "Fire, ice, and the North Atlantic"
 
 ## The Geography
 
-Iceland sits alone in the North Atlantic, straddling both a volcanic hotspot and the Mid-Atlantic Ridge. That double geological accident made it one of the strangest inhabited islands on Earth: glaciers spill down from high interior plateaus while lava fields, geysers, black-sand coasts, and rift valleys fracture the same landscape. On the OpenFront Iceland map (2000×1500), land makes up 37% of the space, leaving 63% as surrounding ocean.
+Iceland sits alone in the North Atlantic, straddling both a volcanic hotspot and the Mid-Atlantic Ridge. That double geological accident made it one of the strangest inhabited islands on Earth: glaciers spill down from high interior plateaus while lava fields, geysers, black-sand coasts, and rift valleys fracture the same landscape. On the OpenFront Iceland map (2000×1500), land makes up 36% of the space, leaving 64% as surrounding ocean.
 
 The coastline does most of the strategic work. Iceland's interior is harsh and historically thinly settled, while the more habitable ring around the coast connects fjords, peninsulas, and fishing harbors. The southwest around Reykjavik is the natural center, but the island's shape means the north, east, and west can all become self-contained theaters if crossings are contested.
 

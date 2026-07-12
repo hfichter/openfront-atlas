@@ -6,7 +6,7 @@ tagline: "Feu, glace et Atlantique Nord"
 
 ## La Géographie
 
-L’Islande se tient seule dans l’Atlantique Nord, à cheval à la fois sur un point chaud volcanique et sur la dorsale médio-atlantique. Ce double accident géologique en a fait l’une des îles habitées les plus étranges de la Terre : des glaciers descendent de hauts plateaux intérieurs tandis que champs de lave, geysers, côtes de sable noir et vallées de rift fissurent le même paysage. Sur la carte OpenFront Iceland (2000×1500), les terres représentent 37 % de l’espace, laissant 63 % à l’océan environnant.
+L’Islande se tient seule dans l’Atlantique Nord, à cheval à la fois sur un point chaud volcanique et sur la dorsale médio-atlantique. Ce double accident géologique en a fait l’une des îles habitées les plus étranges de la Terre : des glaciers descendent de hauts plateaux intérieurs tandis que champs de lave, geysers, côtes de sable noir et vallées de rift fissurent le même paysage. Sur la carte OpenFront Iceland (2000×1500), les terres représentent 36 % de l’espace, laissant 64 % à l’océan environnant.
 
 C’est le littoral qui accomplit l’essentiel du travail stratégique. L’intérieur islandais est rude et historiquement peu peuplé, tandis que l’anneau plus habitable de la côte relie fjords, péninsules et ports de pêche. Le sud-ouest autour de Reykjavik est le centre naturel, mais la forme de l’île fait que le nord, l’est et l’ouest peuvent tous devenir des théâtres autonomes si les traversées sont disputées.
 

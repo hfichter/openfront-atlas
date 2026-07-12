@@ -35,7 +35,7 @@ public/
 astro.config.mjs         # site + vite config — no base path (custom domain)
 docs/map-status.md       # Map content status + upstream sync log (see below)
 scripts/sync-upstream-map-assets.mjs
-                         # Syncs map preview + full-size raster assets from upstream
+                         # Syncs map rasters + referenced nation flags from upstream
 ```
 
 ---
@@ -102,14 +102,17 @@ OpenFront has generator input images and published display assets. Do **not** co
   must be rendered from upstream `resources/maps/<slug>/map.bin` plus
   `resources/maps/<slug>/manifest.json`. The packed `map.bin` contains final terrain type,
   shoreline, and elevation data after upstream cleanup.
+- **Nation flags** referenced by map overlay data must be copied from upstream
+  `resources/flags/<flag>.svg` into the matching path under `public/flags/`.
 - Use the local helper:
 
 ```bash
 npm run sync:map-assets -- /path/to/OpenFrontIO
 ```
 
-This syncs `public/thumbnails/`, `public/thumbnails-dark/`, `public/maps/`, and
-`public/maps-dark/` for all active slugs in `src/data/maps_data.json`.
+This syncs `public/thumbnails/`, `public/thumbnails-dark/`, `public/maps/`,
+`public/maps-dark/`, and all referenced `public/flags/` assets for active slugs in
+`src/data/maps_data.json`.
 
 After syncing map rasters, verify:
 

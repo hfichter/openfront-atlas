@@ -8,7 +8,7 @@ tagline: "La charnière entre deux mondes"
 
 Le Détroit de Gibraltar est l'un des bras d'eau stratégiquement les plus chargés sur Terre : un canal de 14 kilomètres de largeur entre l'Europe et l'Afrique qui connecte l'Atlantique à la Méditerranée. Sur sa rive nord se trouve la Péninsule Ibérique — l'Andalousie espagnole, avec le Rocher de Gibraltar comme sentinelle. Au sud, les Monts Rif du Maroc s'élèvent brusquement depuis la côte marocaine. La carte OpenFront (2900×1476) capture cette confrontation à l'échelle régionale, s'étendant à l'ouest vers l'Atlantique et à l'est vers la mer d'Alboran.
 
-À 45,4 % de terres, la carte a une distribution terre-mer quasi égale, mais l'eau n'est pas de l'océan ouvert — c'est le détroit lui-même, agissant comme canal de séparation.
+À 45,7 % de terres, la carte a une distribution terre-mer quasi égale, mais l'eau n'est pas de l'océan ouvert — c'est le détroit lui-même, agissant comme canal de séparation.
 
 ## L'Histoire
 
@@ -36,7 +36,7 @@ Le détroit est toute la logique stratégique de la carte. Les deux rives se bat
 - **Bord atlantique extrême ouest** — trop loin du théâtre décisif
 
 ### Insights stratégiques
-La carte récompense un positionnement agressif précoce au croisement du détroit. Permettre à un adversaire de verrouiller les deux rives crée un scénario de retour extrêmement difficile. La distribution quasi équale terres-mer (45,4/54,6) signifie que des forces terrestres et navales sont nécessaires.
+La carte récompense un positionnement agressif précoce au croisement du détroit. Permettre à un adversaire de verrouiller les deux rives crée un scénario de retour extrêmement difficile. La distribution quasi égale terres-mer (45,7/54,3) signifie que des forces terrestres et navales sont nécessaires.
 
 ## Le Saviez-vous ?
 - Le vrai Détroit de Gibraltar est large de 14 km à son point le plus étroit — plus étroit que la Manche, pourtant il sépare deux continents

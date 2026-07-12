@@ -8,7 +8,7 @@ tagline: "The Pacific scatters power into islands"
 
 Oceania stretches across the largest ocean on Earth. Australia dominates the southwest as a continental landmass, New Zealand sits far to the southeast, and between them lie thousands of islands spread across Melanesia, Micronesia, and Polynesia. Papua New Guinea, Fiji, Samoa, Tonga, the Solomons, Vanuatu, and countless smaller chains form stepping stones across a region so vast that distance itself becomes the main terrain feature.
 
-This OpenFront version leans fully into that reality. At 2000×1000 with only 10% land, Oceania is the most water-dominant of the continental maps. Twenty-two nations are scattered across a battlefield that is 90% ocean, so no one begins with much room — but everyone begins with a coastline. Australia provides the only major continuous land bloc, while nearly every other start depends on island hopping, sea lanes, and careful fleet timing.
+This OpenFront version leans fully into that reality. At 1664×1000 with only 12% land, Oceania is the most water-dominant of the continental maps. Twenty-two nations are scattered across a battlefield that is 88% ocean, so no one begins with much room — but everyone begins with a coastline. Australia provides the only major continuous land bloc, while nearly every other start depends on island hopping, sea lanes, and careful fleet timing.
 
 That makes Oceania feel unlike any other continent. Here, the sea is not the edge of the map; it is the map. Land control matters, but maritime reach matters more. A player who thinks only in local terms will get stranded, while a player who thinks in chains of islands can turn the Pacific into a highway.
 
