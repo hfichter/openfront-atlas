@@ -8,23 +8,23 @@ Tracks all active upstream maps in the atlas, plus legacy maps removed from the 
 
 | Field | Value |
 |-------|-------|
-| **lastUpstreamSync** | 2026-07-12 |
+| **lastUpstreamSync** | 2026-08-15 |
 | **upstreamRef** | main |
-| **upstreamCommit** | e57939a |
-| **activeMapCount (ours)** | 105 |
+| **upstreamCommit** | b6c194e |
+| **activeMapCount (ours)** | 118 |
 | **legacyMapCount (ours)** | 1 |
 | **source** | https://github.com/openfrontio/OpenFrontIO |
 
 Update `lastUpstreamSync` every time the upstream repo is checked for map changes, even if none were added.
-Active map stats come from upstream `resources/maps/<slug>/manifest.json`; category and playlist metadata are generated from `map-generator/assets/maps/<slug>/info.json` into `src/core/game/Maps.gen.ts`.
+Active map stats and playlist metadata come from upstream `resources/maps/<slug>/manifest.json`. Atlas keeps its own five-category navigation taxonomy and optional geographic pin metadata when those upstream-owned fields are refreshed.
 
-The atlas follows upstream `main`, matching previous syncs. At this sync, the latest stable tag (`v0.32.9`) contained 95 maps; 10 additional official map assets were present only on `main`.
+The atlas follows upstream `main`, matching previous syncs. This sync added 13 official maps and refreshed upstream-owned stats, nation metadata, thumbnails, terrain renders, and referenced flags for the full active roster.
 
 ---
 
 ## Active map list
 
-All 105 active upstream maps have atlas data and light/dark raster assets. Every map has English editorial content, and all 30 maps added in this sync have matching French editorial content.
+All 118 active upstream maps have Atlas data, English and French editorial content, and light/dark raster assets.
 
 | Slug | Title | Category |
 |------|-------|----------|
@@ -42,6 +42,8 @@ All 105 active upstream maps have atlas data and light/dark raster assets. Every
 | baikalnukewars | Baikal (Nuke Wars) | fantasy |
 | bajacalifornia | Baja California | regional |
 | balkans | Balkans | regional |
+| balkhash | Balkhash | regional |
+| baltics | Baltics | regional |
 | beringsea | Bering Sea | regional |
 | beringstrait | Bering Strait | regional |
 | betweentwoseas | Between Two Seas | regional |
@@ -55,7 +57,9 @@ All 105 active upstream maps have atlas data and light/dark raster assets. Every
 | caucasus | Caucasus | regional |
 | china | China | regional |
 | choppingblock | Chopping Block | arcade |
+| clearwaterlakes | Clearwater Lakes | regional |
 | conakry | Conakry | regional |
+| crimea | Crimea | regional |
 | danishstraits | Danish Straits | regional |
 | deglaciatedantarctica | Deglaciated Antarctica | fantasy |
 | didier | Didier | arcade |
@@ -66,14 +70,18 @@ All 105 active upstream maps have atlas data and light/dark raster assets. Every
 | europeclassic | Europe (Classic) | continental |
 | falklandislands | Falkland Islands | regional |
 | faroeislands | Faroe Islands | regional |
+| fingerlakes | Finger Lakes | regional |
 | fourislands | Four Islands | fantasy |
+| france | France | regional |
 | gatewaytotheatlantic | Gateway to the Atlantic | regional |
 | germany | Germany | regional |
 | giantworldmap | Giant World Map | continental |
 | greatlakes | Great Lakes | regional |
+| gulfofguinea | Gulf Of Guinea | regional |
 | gulfofstlawrence | Gulf of St. Lawrence | regional |
 | halkidiki | Halkidiki | regional |
 | hawaii | Hawaii | regional |
+| hecatestrait | Hecate Strait | regional |
 | hongkong | Hong Kong | regional |
 | iceland | Iceland | regional |
 | indiansubcontinent | Indian Subcontinent | regional |
@@ -83,6 +91,7 @@ All 105 active upstream maps have atlas data and light/dark raster assets. Every
 | juandefucastrait | Juan De Fuca Strait | regional |
 | korea | Korea | regional |
 | labyrinth | Labyrinth | arcade |
+| lasvegasstrip | Las Vegas Strip | regional |
 | lemnos | Lemnos | regional |
 | levant | Levant | regional |
 | lisbon | Lisbon | regional |
@@ -96,6 +105,7 @@ All 105 active upstream maps have atlas data and light/dark raster assets. Every
 | milkyway | Milky Way | fantasy |
 | mississippiriver | Mississippi River | regional |
 | montreal | Montreal | regional |
+| morethanluck | More Than Luck | arcade |
 | newyorkcity | New York City | regional |
 | niledelta | Nile Delta | regional |
 | northamerica | North America | continental |
@@ -109,6 +119,7 @@ All 105 active upstream maps have atlas data and light/dark raster assets. Every
 | sanfrancisco | San Francisco | regional |
 | scandinavia | Scandinavia | regional |
 | sierpinski | Sierpinski | arcade |
+| sol | Sol | fantasy |
 | southamerica | South America | continental |
 | southeastasia | Southeast Asia | regional |
 | straitofgibraltar | Strait of Gibraltar | regional |
@@ -128,9 +139,11 @@ All 105 active upstream maps have atlas data and light/dark raster assets. Every
 | twolakes | Two Lakes | regional |
 | unitedstates | United States | regional |
 | venice | Venice | regional |
+| vietnam | Vietnam | regional |
 | warshipwarship | Warship Warship | arcade |
 | world | World | continental |
 | worldinverted | World Inverted | fantasy |
+| yangtzeriver | Yangtze River | regional |
 | yellowsea | Yellow Sea | regional |
 | yenisei | Yenisei | regional |
 

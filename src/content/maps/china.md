@@ -6,7 +6,7 @@ tagline: A continental arena of mountains, rivers and rival capitals
 
 ## The Geography
 
-China spans the high plateaus of Tibet and Xinjiang, the northern grasslands, the great river basins and the densely settled eastern coast. Its 2080×1892 field is 47% land and includes 32 historical starting powers, from regional provinces to warlord cliques and competing Chinese governments. The west is broad and mountainous; the east is compact and crowded.
+China spans the high plateaus of Tibet and Xinjiang, the northern grasslands, the great river basins and the densely settled eastern coast. Its 2080×1892 field is 47.5% land and includes 32 historical starting powers, from regional provinces to warlord cliques and competing Chinese governments. The west is broad and mountainous; the east is compact and crowded.
 
 ## The History
 

@@ -6,7 +6,7 @@ tagline: Les océans deviennent continents et les continents deviennent mers
 
 ## La Carte
 
-Monde inversé retourne la carte globale familière : les océans deviennent des terres jouables, tandis que les continents actuels forment d'immenses mers intérieures. Le terrain de 2500×1248 atteint presque exactement un partage 50/50 et accueille 94 départs maritimes, des navires célèbres aux bassins et reliefs sous-marins. Les côtes restent reconnaissables, mais toutes les intuitions stratégiques sont renversées.
+Monde inversé retourne la carte globale familière : les océans deviennent des terres jouables, tandis que les continents actuels forment d'immenses mers intérieures. Le terrain de 2500×1248 atteint presque exactement un partage 50/50 et accueille 93 nations maritimes, dont 81 disposent d'un overlay de coordonnées, des navires célèbres aux bassins et reliefs sous-marins. Les côtes restent reconnaissables, mais toutes les intuitions stratégiques sont renversées.
 
 ## Le Champ de Bataille
 

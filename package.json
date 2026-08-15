@@ -10,6 +10,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
+    "sync:map-data": "node scripts/sync-upstream-map-data.mjs",
     "sync:map-assets": "node scripts/sync-upstream-map-assets.mjs"
   },
   "dependencies": {

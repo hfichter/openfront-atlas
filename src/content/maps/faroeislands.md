@@ -46,4 +46,4 @@ Faroe Islands punishes overconfidence more than aggression. Because there are on
 ## Fun Facts
 - At just 13% land, Faroe Islands is the second most ocean-dominant real-geography map mentioned in this batch
 - It has only 6 nations, fewer than any other map in this set, yet its fragmentation can make it feel trickier than much larger theaters
-- Faroe Islands is even wetter than Falkland Islands (29%) and Gulf of St. Lawrence (40%), making it one of the purest naval maps in the atlas
+- Faroe Islands is even wetter than Falkland Islands (25.4%) and Gulf of St. Lawrence (40%), making it one of the purest naval maps in the atlas

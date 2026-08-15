@@ -6,7 +6,7 @@ tagline: "Freshwater seas in the middle of a continent"
 
 ## The Geography
 
-Great Lakes centers on the enormous freshwater system between the United States and Canada. The map is 2000x1300 with 75% land and 25% water, which means the lakes are not the majority of the board, but they dominate its structure. They split movement, create coastal arcs, and turn the middle of North America into a chain of chokepoints.
+Great Lakes centers on the enormous freshwater system between the United States and Canada. The map is 2000x1300 with 74.5% land and 25.5% water, which means the lakes are not the majority of the board, but they dominate its structure. They split movement, create coastal arcs, and turn the middle of North America into a chain of chokepoints.
 
 The five Great Lakes act like inland seas. Superior, Michigan, Huron, Erie, and Ontario are barriers, highways, and objectives all at once. Around them sit dense industrial corridors, forests, plains, and border cities.
 

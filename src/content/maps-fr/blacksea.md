@@ -8,7 +8,7 @@ tagline: "Une mer presque fermée chargée de mémoires impériales"
 
 La mer Noire est un bassin maritime au caractère presque intérieur. Elle est enfermée entre l'Europe du Sud-Est, l'Anatolie, le Caucase et la steppe pontique, et sa seule véritable sortie océanique passe par le Bosphore, la mer de Marmara et les Dardanelles. La carte Black Sea d'OpenFront utilise un cadre compact de 1500×1100 qui convient bien à cette géographie : une mer centrale entourée de côtes assez proches pour être disputées immédiatement.
 
-Avec 70% de terres, la carte est bien plus continentale que le mot « mer » ne le suggère. Cela reflète la réalité. La péninsule de Crimée, l'ouest tourné vers le Danube, la côte sud anatolienne et l'est caucasien créent tous de puissants théâtres terrestres qui convergent vers l'eau. La mer compte parce qu'elle relie ces rivages, mais elle ne les écrase pas ; elle agit plutôt comme l'arène centrale autour de laquelle tourne la guerre terrestre.
+Avec 70,7% de terres, la carte est bien plus continentale que le mot « mer » ne le suggère. Cela reflète la réalité. La péninsule de Crimée, l'ouest tourné vers le Danube, la côte sud anatolienne et l'est caucasien créent tous de puissants théâtres terrestres qui convergent vers l'eau. La mer compte parce qu'elle relie ces rivages, mais elle ne les écrase pas ; elle agit plutôt comme l'arène centrale autour de laquelle tourne la guerre terrestre.
 
 Avec seulement 9 nations, Black Sea avance à un rythme relativement mesuré. Il y a assez de puissances pour rendre les alliances de convenance fragiles, mais pas assez pour transformer chaque côte en chaos instantané. Vous avez généralement le temps de décider si votre futur empire sera continental, naval ou un mélange des deux.
 
@@ -41,9 +41,9 @@ Black Sea est un combat en anneau. Les côtes sont proches, l'eau centrale est u
 - **Pointes de péninsules étroites sans arrière-pays** — valeur tactique précoce, faible profondeur à long terme
 
 ### Idées stratégiques
-Black Sea récompense l'équilibre. Comme la carte est terrestre à 70%, une approche purement axée sur la flotte est souvent trop étroite, mais ignorer la mer est tout aussi dangereux car elle réduit les distances entre côtes hostiles. Les meilleurs joueurs utilisent l'eau comme connecteur d'un empire terrestre : sécurisez une côte, bâtissez de la profondeur à l'intérieur, puis frappez à travers le bassin là où vos adversaires pensent encore que la distance les protège.
+Black Sea récompense l'équilibre. Comme la carte est terrestre à 70,7%, une approche purement axée sur la flotte est souvent trop étroite, mais ignorer la mer est tout aussi dangereux car elle réduit les distances entre côtes hostiles. Les meilleurs joueurs utilisent l'eau comme connecteur d'un empire terrestre : sécurisez une côte, bâtissez de la profondeur à l'intérieur, puis frappez à travers le bassin là où vos adversaires pensent encore que la distance les protège.
 
 ## Anecdotes
-- Malgré son nom, Black Sea est composée à 70% de terres, ce qui lui donne un ressenti bien plus continental que des cartes navales comme Égée
+- Malgré son nom, Black Sea est composée à 70,7% de terres, ce qui lui donne un ressenti bien plus continental que des cartes navales comme Égée
 - La Crimée occupe une place stratégique centrale depuis plus de deux mille ans, et la carte le reflète en la plaçant près du cœur de l'action
 - La véritable mer Noire n'a qu'une seule route vers la Méditerranée par les détroits turcs, ce qui explique pourquoi le contrôle du coin sud-ouest a compté pour des empires allant de Byzance à aujourd'hui

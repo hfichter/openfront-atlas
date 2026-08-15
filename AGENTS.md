@@ -36,6 +36,8 @@ astro.config.mjs         # site + vite config — no base path (custom domain)
 docs/map-status.md       # Map content status + upstream sync log (see below)
 scripts/sync-upstream-map-assets.mjs
                          # Syncs map rasters + referenced nation flags from upstream
+scripts/sync-upstream-map-data.mjs
+                         # Refreshes upstream-owned stats while preserving Atlas metadata
 ```
 
 ---
@@ -69,7 +71,11 @@ Each map page is powered by two sources:
 
 When OpenFront.io adds a new map:
 
-1. **Update `src/data/maps_data.json`** — add the new map's stats entry.
+1. **Update `src/data/maps_data.json`** — sync upstream-owned stats, then review the Atlas category
+   and optional geographic pin metadata for new maps:
+   ```bash
+   npm run sync:map-data -- /path/to/OpenFrontIO
+   ```
    Source of truth: [OpenFront.io GitHub repo](https://github.com/openfrontio/OpenFrontIO),
    specifically `resources/maps/<slug>/manifest.json`, `src/core/game/Game.ts`,
    and `src/server/MapPlaylist.ts` or their current equivalents.
@@ -109,6 +115,10 @@ OpenFront has generator input images and published display assets. Do **not** co
 ```bash
 npm run sync:map-assets -- /path/to/OpenFrontIO
 ```
+
+Run `npm run sync:map-data -- /path/to/OpenFrontIO` first when the active map roster or
+upstream-owned stats have changed. The data sync deliberately preserves existing Atlas categories
+and geographic pins; it refuses to silently remove maps so legacy migration remains explicit.
 
 This syncs `public/thumbnails/`, `public/thumbnails-dark/`, `public/maps/`,
 `public/maps-dark/`, and all referenced `public/flags/` assets for active slugs in
