@@ -6,7 +6,7 @@ tagline: Oceans become continents and continents become seas
 
 ## The Map
 
-World Inverted reverses the familiar global map: the oceans are playable land, while today's continents become vast internal seas. The 2500×1248 field lands almost exactly at a 50/50 split and supports 94 maritime-themed starts, from famous ships to ocean basins and undersea features. Familiar coastlines remain visible, but every strategic assumption is turned inside out.
+World Inverted reverses the familiar global map: the oceans are playable land, while today's continents become vast internal seas. The 2500×1248 field lands almost exactly at a 50/50 split and supports 93 maritime-themed nations, with 81 coordinate overlays, from famous ships to ocean basins and undersea features. Familiar coastlines remain visible, but every strategic assumption is turned inside out.
 
 ## The Battlefield
 

@@ -24,7 +24,7 @@ Today the Strait of Malacca carries a major share of global maritime trade and e
 ## The Battlefield
 
 ### Terrain Overview
-Nine nations make the opening readable, but the water-heavy layout means every player must think about crossings early. Land is concentrated along long coasts rather than broad interiors.
+Thirteen nations make the opening readable, but the water-heavy layout means every player must think about crossings early. Land is concentrated along long coasts rather than broad interiors.
 
 ### Best Spawns
 - **Central strait positions** - dangerous, but they control the most valuable traffic.

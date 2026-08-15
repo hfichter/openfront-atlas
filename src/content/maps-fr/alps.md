@@ -10,7 +10,7 @@ Les Alpes sont le système montagneux le plus célèbre d'Europe : un grand arc 
 
 Contrairement à la plupart des cartes régionales, Alpes est composée à 100% de terres. Pas d'échappatoire côtière, pas d'îles, pas de raccourcis navals — seulement du relief, des goulets d'étranglement et la logique implacable des systèmes de vallées. Cela en fait une carte de terrain d'une grande pureté : la vallée du Rhône, les accès au Plateau suisse, le corridor du Brenner et les cols tournés vers la plaine du Pô comptent tous, car chaque avancée doit passer à travers ou contourner la roche.
 
-Seules 8 nations apparaissent ici, ce qui change radicalement le rythme. Sur une carte aussi montagneuse, un faible nombre de nations signifie moins de collisions chaotiques et davantage d'espace pour bâtir un noyau alpin défendable. Mais l'envers du décor, c'est qu'une fois qu'un ennemi contrôle le réseau principal de cols menant à votre vallée, il n'y a plus de retraite possible sinon plus profondément dans les montagnes.
+Trente nations apparaissent ici, ce qui rend l’ouverture animée malgré le relief montagneux. Les Alpes offrent toujours de l’espace pour bâtir un noyau défendable, mais la densité des départs rend les cols principaux disputés dès le début. Une fois qu’un ennemi contrôle le réseau de cols menant à votre vallée, il n’y a plus de retraite possible sinon plus profondément dans les montagnes.
 
 ## L'Histoire
 
@@ -45,5 +45,5 @@ Comme la carte est à 100% terrestre, il n'existe aucune route alternative pour 
 
 ## Anecdotes
 - Alpes est l'une des rares cartes OpenFront sans aucune eau — pas même une voie maritime comme joker stratégique
-- Avec seulement 8 nations, elle est bien moins encombrée qu'Égée ou Arctique, ce qui rend les goulets montagneux plus lisibles que chaotiques
+- Avec 30 nations, elle est à peu près aussi encombrée que l’Égée et moins que l’Arctique : les goulets montagneux y sont disputés sans que la partie ne devienne un chaos total
 - Les vraies Alpes comptent certains des tunnels et cols les plus célèbres d'Europe, et la carte reprend cette même idée : le mouvement compte plus que la simple superficie

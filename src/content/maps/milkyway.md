@@ -6,9 +6,9 @@ tagline: "Star clusters drift in a hostile void"
 
 ## The Map
 
-Milky Way turns space into naval terrain. Instead of continents and oceans, you get dense star clusters floating in a mostly empty void. "Land" reads as inhabited systems, nebular knots, or gravitationally connected sectors; "water" is deep space — the dark distance between meaningful footholds. On a square 1500×1500 board with only 20% land, the map feels balanced but eerily sparse, as if every expansion is an interstellar expedition.
+Milky Way turns space into naval terrain. Instead of continents and oceans, you get dense star clusters floating in a mostly empty void. "Land" reads as inhabited systems, nebular knots, or gravitationally connected sectors; "water" is deep space — the dark distance between meaningful footholds. On a square 1748×1748 board with only 14.5% land, the map feels starkly sparse, as if every expansion is an interstellar expedition.
 
-The low nation count is what gives the map its mood. With just 6 nations, the opening is not a frantic scrum but a measured colonization race. Each player has room to claim a cluster and decide whether to grow inward toward the galactic center or outward into safer peripheral arms. Because the board is mostly void, geometry matters more than size: a compact cluster with three exits can be stronger than a bigger cluster with only one.
+The low nation count is what gives the map its mood. With just 6 nations, the opening is not a frantic scrum but a measured colonization race. Each player has room to claim a cluster and decide whether to grow inward toward the galactic center or outward into safer peripheral arms. Because the board is overwhelmingly void, geometry matters more than size: a compact cluster with three exits can be stronger than a bigger cluster with only one.
 
 ## The Battlefield
 

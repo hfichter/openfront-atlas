@@ -10,7 +10,7 @@ The Alps are Europe's most famous mountain system: a great arc of uplift stretch
 
 Unlike most regional maps, Alps is 100% land. There are no coastal escapes, no islands, and no naval shortcuts — just elevation, chokepoints, and the long logic of valley systems. That makes it unusually pure as a terrain map: the Rhône valley, Swiss plateau approaches, Brenner corridor, and Po-facing passes all matter because every advance has to move through or around rock.
 
-Only 8 nations appear here, which dramatically changes the tempo. On a map this mountainous, low nation count means fewer chaotic collisions and more room to build a defensible alpine core. But the flipside is that once an enemy secures the major pass network into your valley, there is nowhere to retreat except deeper into the mountains.
+Thirty nations appear here, creating a busy opening even on a map this mountainous. The Alps still offer room to build a defensible alpine core, but the dense starting field makes the major passes contested from the beginning. Once an enemy secures the pass network into your valley, there is nowhere to retreat except deeper into the mountains.
 
 ## The History
 
@@ -45,5 +45,5 @@ Because the map is 100% land, there is no alternate route around a blocked front
 
 ## Fun Facts
 - Alps is one of the rare OpenFront maps with absolutely no water — not even a sea lane as a strategic wildcard
-- With only 8 nations, it is dramatically less crowded than Aegean or Arctic, which makes the mountain chokepoints feel deliberate rather than chaotic
+- With 30 nations, it is roughly as crowded as Aegean and less crowded than Arctic, making the mountain chokepoints contested without becoming pure chaos
 - The real Alps contain some of Europe's most famous tunnels and passes, and the map captures that same idea: movement matters more than raw area

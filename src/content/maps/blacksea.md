@@ -8,7 +8,7 @@ tagline: "A nearly closed sea with imperial memories"
 
 The Black Sea is a maritime basin that feels almost inland. It is enclosed by southeastern Europe, Anatolia, the Caucasus, and the Pontic steppe, with its only true oceanic exit running through the Bosphorus, Sea of Marmara, and Dardanelles. The OpenFront Black Sea map uses a compact 1500×1100 frame that suits this geography: a central sea ringed by coasts that are close enough to fight over immediately.
 
-At 70% land, the map is much more terrestrial than the word "sea" suggests. That reflects reality. The Crimean Peninsula, Danube-facing west, Anatolian south coast, and Caucasian east all create strong land theaters that press inward toward the water. The sea matters because it connects these shores, but it does not overwhelm them; instead, it acts as the central arena around which the land war rotates.
+At 70.7% land, the map is much more terrestrial than the word "sea" suggests. That reflects reality. The Crimean Peninsula, Danube-facing west, Anatolian south coast, and Caucasian east all create strong land theaters that press inward toward the water. The sea matters because it connects these shores, but it does not overwhelm them; instead, it acts as the central arena around which the land war rotates.
 
 With only 9 nations, Black Sea is relatively measured in pace. There are enough powers to make alliances of convenience impossible, but not enough to turn every shore into instant chaos. You usually have time to decide whether your future empire will be continental, naval, or a hybrid of both.
 
@@ -41,9 +41,9 @@ Black Sea is a ring fight. The coasts are close, the central water is useful but
 - **Narrow peninsula tips without hinterland** — early tactical value, poor long-term depth
 
 ### Strategic Insights
-Black Sea rewards balance. Because the map is 70% land, a pure fleet-first mindset is usually too narrow, but ignoring the sea is equally dangerous because it shortens distances between hostile coasts. The strongest players use the water as a connector for a land empire: secure a coast, build inland depth, then strike across the basin where opponents think distance still protects them.
+Black Sea rewards balance. Because the map is 70.7% land, a pure fleet-first mindset is usually too narrow, but ignoring the sea is equally dangerous because it shortens distances between hostile coasts. The strongest players use the water as a connector for a land empire: secure a coast, build inland depth, then strike across the basin where opponents think distance still protects them.
 
 ## Fun Facts
-- Despite its name, Black Sea is 70% land, making it much more continental in feel than naval maps like Aegean
+- Despite its name, Black Sea is 70.7% land, making it much more continental in feel than naval maps like Aegean
 - Crimea has been strategically central for more than two thousand years, and the map reflects that by placing it near the heart of the action
 - The real Black Sea has only one route to the Mediterranean through the Turkish straits, which is why control of the southwest corner has mattered for empires from Byzantium to today

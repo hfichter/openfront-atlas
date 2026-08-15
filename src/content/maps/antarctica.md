@@ -6,7 +6,7 @@ tagline: "A frozen continent with no easy center"
 
 ## The Geography
 
-Antarctica turns the bottom of the world into a large continental battlefield. The map is a 2000x2000 square with 32% land and 68% water, so the ice sheet is powerful but never isolated from the surrounding ocean. Most of the playable land is a broad polar mass ringed by exposed coasts, shelves, and approaches from every direction.
+Antarctica turns the bottom of the world into a large continental battlefield. The map is a 2212×2212 square with 26.4% land and 73.6% water, so the ice sheet is powerful but never isolated from the surrounding ocean. Most of the playable land is a broad polar mass ringed by exposed coasts, shelves, and approaches from every direction.
 
 The layout makes Antarctica feel different from the northern polar maps. There is no neat east-west corridor or familiar continental neighbor. The important question is always whether a player can hold an icy interior while still contesting the coastlines that let enemies arrive from outside.
 
@@ -24,7 +24,7 @@ The Antarctic Treaty set the continent aside for peaceful scientific use and fro
 ## The Battlefield
 
 ### Terrain Overview
-Antarctica is a cold coastal-control map. Ten nations give the opening room to breathe, but the map's circular geometry creates pressure from every edge once naval movement opens.
+Antarctica is a cold coastal-control map. Thirty nations give the opening room to breathe only briefly, and the map's circular geometry creates pressure from every edge once naval movement opens.
 
 ### Best Spawns
 - **Interior-adjacent claims** - enough land to scale without being pinned immediately to the coast.

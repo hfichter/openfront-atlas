@@ -6,9 +6,9 @@ tagline: "Des amas d’étoiles dérivent dans un vide hostile"
 
 ## La carte
 
-Voie lactée transforme l’espace en terrain naval. Au lieu de continents et d’océans, on y trouve des amas stellaires denses flottant dans un vide presque total. La « terre » représente des systèmes habités, des nœuds nébuleux ou des secteurs reliés par la gravité ; l’« eau », c’est l’espace profond — la distance noire entre des positions réellement utiles. Sur un plateau carré de 1500×1500 avec seulement 20% de terres, la carte paraît équilibrée mais étrangement clairsemée, comme si chaque expansion relevait d’une expédition interstellaire.
+Voie lactée transforme l’espace en terrain naval. Au lieu de continents et d’océans, on y trouve des amas stellaires denses flottant dans un vide presque total. La « terre » représente des systèmes habités, des nœuds nébuleux ou des secteurs reliés par la gravité ; l’« eau », c’est l’espace profond — la distance noire entre des positions réellement utiles. Sur un plateau carré de 1748×1748 avec seulement 14,5% de terres, la carte paraît radicalement clairsemée, comme si chaque expansion relevait d’une expédition interstellaire.
 
-Le faible nombre de nations donne son atmosphère à la carte. Avec seulement 6 nations, l’ouverture n’est pas une mêlée frénétique mais une course mesurée à la colonisation. Chaque joueur a l’espace nécessaire pour revendiquer un amas et décider s’il veut croître vers l’intérieur, vers le centre galactique, ou vers l’extérieur dans des bras périphériques plus sûrs. Comme le plateau est surtout vide, la géométrie compte plus que la taille : un amas compact avec trois sorties peut être plus fort qu’un amas plus grand n’en ayant qu’une seule.
+Le faible nombre de nations donne son atmosphère à la carte. Avec seulement 6 nations, l’ouverture n’est pas une mêlée frénétique mais une course mesurée à la colonisation. Chaque joueur a l’espace nécessaire pour revendiquer un amas et décider s’il veut croître vers l’intérieur, vers le centre galactique, ou vers l’extérieur dans des bras périphériques plus sûrs. Comme le plateau est presque entièrement vide, la géométrie compte plus que la taille : un amas compact avec trois sorties peut être plus fort qu’un amas plus grand n’en ayant qu’une seule.
 
 ## Le champ de bataille
 

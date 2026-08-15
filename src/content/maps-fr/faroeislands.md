@@ -46,4 +46,4 @@ Faroe Islands punit l'excès de confiance plus que l'agression. Comme il n'y a q
 ## Anecdotes
 - Avec seulement 13% de terres, Faroe Islands est la deuxième carte de géographie réelle la plus dominée par l'océan mentionnée dans ce lot
 - Elle ne compte que 6 nations, moins que toute autre carte de cette série, mais sa fragmentation peut la rendre plus délicate que des théâtres beaucoup plus vastes
-- Faroe Islands est encore plus maritime que Falkland Islands (29%) et Gulf of St. Lawrence (40%), ce qui en fait l'une des cartes navales les plus pures de l'atlas
+- Faroe Islands est encore plus maritime que Falkland Islands (25,4 %) et Gulf of St. Lawrence (40%), ce qui en fait l'une des cartes navales les plus pures de l'atlas

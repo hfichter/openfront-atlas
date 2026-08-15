@@ -6,7 +6,7 @@ tagline: Chaque route se divise avant de converger
 
 ## La Carte
 
-Chemins ramifiés est une arène arcade triangulaire construite comme un arbre fractal. Ses 19 royaumes occupent des bastions, des branches agricoles et des extrémités hostiles associées au feu, à la glace ou aux terres stériles. Seulement 39 % du terrain de 2480×2148 est terrestre : les voies jouables sont donc étroites et intentionnelles plutôt qu'ouvertes.
+Chemins ramifiés est une arène arcade triangulaire construite comme un arbre fractal. Ses 19 royaumes occupent des bastions, des branches agricoles et des extrémités hostiles associées au feu, à la glace ou aux terres stériles. Seulement 39,5 % du terrain de 2480×2148 est terrestre : les voies jouables sont donc étroites et intentionnelles plutôt qu'ouvertes.
 
 ## Le Champ de Bataille
 
